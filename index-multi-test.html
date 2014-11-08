@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>dash-radio-min</title>
+
+  <!-- styles -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+  <link href="./jPlayer/2.7.0/skins/blue.monday/jplayer.blue.monday.css" rel="stylesheet">
+
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <h1>Dash Radio</h1>
+      <h2>responsive</h2>
+      <br>
+  <section id="radio-oddfuture">
+    <div id="jquery_jplayer_1" class="jp-jplayer"></div>
+    <div id="jp_container_1" class="jp-audio-stream">
+      <div class="jp-type-single">
+        <div class="jp-gui jp-interface">
+          <ul class="jp-controls">
+            <li><a href="javascript:;" class="jp-play" tabindex="1">play</a></li>
+            <li><a href="javascript:;" class="jp-pause" tabindex="1">pause</a></li>
+            <li><a href="javascript:;" class="jp-mute" tabindex="1" title="mute">mute</a></li>
+            <li><a href="javascript:;" class="jp-unmute" tabindex="1" title="unmute">unmute</a></li>
+          </ul>
+          <div class="jp-volume-bar">
+            <div class="jp-volume-bar-value"></div>
+          </div>
+        </div>
+        <div class="jp-details">
+          <ul>
+            <li><span class="jp-title"></span></li>
+          </ul>
+        </div>
+        <div class="jp-no-solution">
+          <span>Update Required</span>
+          To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+        </div>
+      </div>
+    </div>
+  </section>
+  <br>
+<section id="radio-dash1">
+    <div id="jquery_jplayer_2" class="jp-jplayer"></div>
+    <div id="jp_container_2" class="jp-audio-stream">
+      <div class="jp-type-single">
+        <div class="jp-gui jp-interface">
+          <ul class="jp-controls">
+            <li><a href="javascript:;" class="jp-play" tabindex="1">play</a></li>
+            <li><a href="javascript:;" class="jp-pause" tabindex="1">pause</a></li>
+            <li><a href="javascript:;" class="jp-mute" tabindex="1" title="mute">mute</a></li>
+            <li><a href="javascript:;" class="jp-unmute" tabindex="1" title="unmute">unmute</a></li>
+          </ul>
+          <div class="jp-volume-bar">
+            <div class="jp-volume-bar-value"></div>
+          </div>
+        </div>
+        <div class="jp-details">
+          <ul>
+            <li><span class="jp-title"></span></li>
+          </ul>
+        </div>
+        <div class="jp-no-solution">
+          <span>Update Required</span>
+          To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+        </div>
+      </div>
+    </div>
+  </section>
+
+      <div class="row">
+
+      </div>
+      <hr>
+      <a href="https://dashradio.com">Want the full version?</a><br><p>made by daylo</p>
+      <hr>
+    </div>
+  </div>
+<!-- Scripts -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="./jPlayer/2.7.0/jquery.jplayer.min.js"></script>
+
+<script>
+$(document).ready(function(){
+
+  var streamjplayer1 = {
+    title: "Odd Future Radio",
+    mp3: "http://ice10.securenetsystems.net/DASH56?type=.flv:80/stream?type=.mp3"
+  },
+
+  var streamjplayer2 = {
+    title: "Dash Radio 1",
+    mp3: "http://ice10.securenetsystems.net/DASH38?type=.flv:80/stream?type=.mp3"
+  },
+
+	$("#jquery_jplayer_1").jPlayer({
+		ready: function () {
+			$(this).jPlayer("setMedia", streamjplayer1);
+		},
+		play: function() { // To avoid multiple jPlayers playing together.
+			$(this).jPlayer("pauseOthers");
+		},
+		supplied: "mp3",
+		wmode: "window",
+		globalVolume: true,
+		keyEnabled: true
+	});
+
+$("#jquery_jplayer_2").jPlayer({
+  ready: function () {
+    $(this).jPlayer("setMedia", streamjplayer2);
+  },
+  play: function() { // To avoid multiple jPlayers playing together.
+    $(this).jPlayer("pauseOthers");
+  },
+  supplied: "mp3",
+  wmode: "window",
+  globalVolume: true,
+  keyEnabled: true
+});
+});
+</script>
+</body>
+</html>
