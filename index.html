@@ -1,93 +1,378 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-  <meta charset="utf-8">
-  <title>dash-radio-min</title>
+<!--
+    __                 __            __
+   / /_  __  __   ____/ /___ ___  __/ /___
+  / __ \/ / / /  / __  / __ `/ / / / / __ \ ✓
+ / /_/ / /_/ /  / /_/ / /_/ / /_/ / / /_/ / ✓
+/_.___/\__, /   \__,_/\__,_/\__, /_/\____/  ✓
+      /____/               /____/
 
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+many thanks to dash radio for the streams.
+this website aims to work on any modern device, without stupid apps.
 
-  <!-- styles -->
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
-  <link href="./jPlayer/2.7.0/skins/blue.monday/jplayer.blue.monday.css" rel="stylesheet">
+v2
+mit license - you must include the license located at http://git.io/KjOJmw
+-->
+    <meta charset="utf-8">
+
+    <title>DASH RADIO</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="description" content="listen to dashradio on any device.">
+    <meta name="author" content="daylo">
+
+    <link rel="apple-touch-icon" href="http://dashradio.com/app/wp-content/themes/dash-1.1.7/library/images/apple-icon-touch.png">
+    <link rel="icon" href="http://dashradio.com/app/wp-content/themes/dash-1.1.7/favicon.png">
+
+    <!-- styles -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./jPlayer/2.9.1/skin/blue.monday/jplayer.blue.monday.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="extras.css" rel="stylesheet">
 
 </head>
+
 <body>
-  <div class="container-fluid">
-    <div class="row">
-      <h1>Dash Radio</h1>
-      <h2>responsive</h2>
-      <br>
-  <section id="radio-oddfuture">
-    <div id="jquery_jplayer_oddfuture" class="jp-jplayer"></div>
-		<div id="jp_container_1" class="jp-audio-stream">
-			<div class="jp-type-single">
-				<div class="jp-gui jp-interface">
-					<ul class="jp-controls">
-						<li><a href="javascript:;" class="jp-play" tabindex="1">play</a></li>
-						<li><a href="javascript:;" class="jp-pause" tabindex="1">pause</a></li>
-						<li><a href="javascript:;" class="jp-mute" tabindex="1" title="mute">mute</a></li>
-						<li><a href="javascript:;" class="jp-unmute" tabindex="1" title="unmute">unmute</a></li>
-					</ul>
-					<div class="jp-volume-bar">
-						<div class="jp-volume-bar-value"></div>
-					</div>
-				</div>
-				<div class="jp-details">
-					<ul>
-						<li><span class="jp-title"></span></li>
-					</ul>
-				</div>
-				<div class="jp-no-solution">
-					<span>Update Required</span>
-					To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
-				</div>
-			</div>
-    </div>
-  </section>
 
-      <div class="row">
+    <!-- Navigation -->
+    <nav class="navbar daylo-navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#"><img src="http://dashradio.com/app/wp-content/themes/dash-1.1.7/library/images/design-mark.png" alt="dash radio" style="display: inline;width:auto;height:100%;padding-left:1%;"> Dash Radio Min</a>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
 
+    <!-- Page Content -->
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-lg-12">
+                <h1 class="page-header">All Stations</h1>
+            </div>
+
+<!-- radio element in col -->
+<div class="col-lg-3 col-md-4 col-xs-6 thumb" id="jp_radio_11">
+    <div id="jp_radio_11_player" class="jp-jplayer"></div>
+    <div id="jp_radio_11_container" class="jp-audio-stream">
+      <div class="jp-type-single">
+        <div class="jp-gui jp-interface">
+          <ul class="jp-controls">
+            <li><a href="javascript:;" class="jp-play" tabindex="1">play</a></li>
+            <li><a href="javascript:;" class="jp-pause" tabindex="1">pause</a></li>
+            <li><a href="javascript:;" class="jp-mute" tabindex="1" title="mute">mute</a></li>
+            <li><a href="javascript:;" class="jp-unmute" tabindex="1" title="unmute">unmute</a></li>
+          </ul>
+          <div class="jp-volume-bar">
+            <div class="jp-volume-bar-value"></div>
+          </div>
+        </div>
+        <div class="jp-details">
+          <ul>
+            <li><img src="http://54.191.183.105/~uploads/icon_logos/11Small.png" class="jp-title-img" title="11 - Rock"><span class="jp-title"></span></li>
+          </ul>
+        </div>
+        <div class="jp-no-solution">
+          <span>Update Required</span>
+          To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+        </div>
       </div>
-      <hr>
-      <a href="https://dashradio.com">Want the full version?</a><br><p>made by daylo</p>
-      <hr>
     </div>
-  </div>
-<!-- Scripts -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+</div><!-- /radio element -->
 
+<!-- radio element in col -->
+<div class="col-lg-3 col-md-4 col-xs-6 thumb" id="jp_radio_1580">
+    <div id="jp_radio_1580_player" class="jp-jplayer"></div>
+    <div id="jp_radio_1580_container" class="jp-audio-stream">
+      <div class="jp-type-single">
+        <div class="jp-gui jp-interface">
+          <ul class="jp-controls">
+            <li><a href="javascript:;" class="jp-play" tabindex="1">play</a></li>
+            <li><a href="javascript:;" class="jp-pause" tabindex="1">pause</a></li>
+            <li><a href="javascript:;" class="jp-mute" tabindex="1" title="mute">mute</a></li>
+            <li><a href="javascript:;" class="jp-unmute" tabindex="1" title="unmute">unmute</a></li>
+          </ul>
+          <div class="jp-volume-bar">
+            <div class="jp-volume-bar-value"></div>
+          </div>
+        </div>
+        <div class="jp-details">
+          <ul>
+            <li><img src="http://54.191.183.105/~uploads/icon_logos/1580Small.png" class="jp-title-img" title="1580 - Hip-Hop"><span class="jp-title"></span></li>
+          </ul>
+        </div>
+        <div class="jp-no-solution">
+          <span>Update Required</span>
+          To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+        </div>
+      </div>
+    </div>
+</div><!-- /radio element -->
+
+<!-- radio element in col -->
+<div class="col-lg-3 col-md-4 col-xs-6 thumb" id="jp_radio_70s">
+    <div id="jp_radio_70s_player" class="jp-jplayer"></div>
+    <div id="jp_radio_70s_container" class="jp-audio-stream">
+      <div class="jp-type-single">
+        <div class="jp-gui jp-interface">
+          <ul class="jp-controls">
+            <li><a href="javascript:;" class="jp-play" tabindex="1">play</a></li>
+            <li><a href="javascript:;" class="jp-pause" tabindex="1">pause</a></li>
+            <li><a href="javascript:;" class="jp-mute" tabindex="1" title="mute">mute</a></li>
+            <li><a href="javascript:;" class="jp-unmute" tabindex="1" title="unmute">unmute</a></li>
+          </ul>
+          <div class="jp-volume-bar">
+            <div class="jp-volume-bar-value"></div>
+          </div>
+        </div>
+        <div class="jp-details">
+          <ul>
+            <li><img src="http://54.191.183.105/~uploads/icon_logos/70sSmall.png" class="jp-title-img" title="70s - Decades"><span class="jp-title"></span></li>
+          </ul>
+        </div>
+        <div class="jp-no-solution">
+          <span>Update Required</span>
+          To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+        </div>
+      </div>
+    </div>
+</div><!-- /radio element -->
+
+<!-- radio element in col -->
+<div class="col-lg-3 col-md-4 col-xs-6 thumb" id="jp_radio_80s">
+    <div id="jp_radio_80s_player" class="jp-jplayer"></div>
+    <div id="jp_radio_80s_container" class="jp-audio-stream">
+      <div class="jp-type-single">
+        <div class="jp-gui jp-interface">
+          <ul class="jp-controls">
+            <li><a href="javascript:;" class="jp-play" tabindex="1">play</a></li>
+            <li><a href="javascript:;" class="jp-pause" tabindex="1">pause</a></li>
+            <li><a href="javascript:;" class="jp-mute" tabindex="1" title="mute">mute</a></li>
+            <li><a href="javascript:;" class="jp-unmute" tabindex="1" title="unmute">unmute</a></li>
+          </ul>
+          <div class="jp-volume-bar">
+            <div class="jp-volume-bar-value"></div>
+          </div>
+        </div>
+        <div class="jp-details">
+          <ul>
+            <li><img src="http://54.191.183.105/~uploads/icon_logos/80sSmall.png" class="jp-title-img" title="80s - Decades"><span class="jp-title"></span></li>
+          </ul>
+        </div>
+        <div class="jp-no-solution">
+          <span>Update Required</span>
+          To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+        </div>
+      </div>
+    </div>
+</div><!-- /radio element -->
+
+<!-- radio element in col -->
+<div class="col-lg-3 col-md-4 col-xs-6 thumb" id="jp_radio_90s">
+    <div id="jp_radio_90s_player" class="jp-jplayer"></div>
+    <div id="jp_radio_90s_container" class="jp-audio-stream">
+      <div class="jp-type-single">
+        <div class="jp-gui jp-interface">
+          <ul class="jp-controls">
+            <li><a href="javascript:;" class="jp-play" tabindex="1">play</a></li>
+            <li><a href="javascript:;" class="jp-pause" tabindex="1">pause</a></li>
+            <li><a href="javascript:;" class="jp-mute" tabindex="1" title="mute">mute</a></li>
+            <li><a href="javascript:;" class="jp-unmute" tabindex="1" title="unmute">unmute</a></li>
+          </ul>
+          <div class="jp-volume-bar">
+            <div class="jp-volume-bar-value"></div>
+          </div>
+        </div>
+        <div class="jp-details">
+          <ul>
+            <li><img src="http://54.191.183.105/~uploads/icon_logos/90sSmall.png" class="jp-title-img" title="90s - Decades"><span class="jp-title"></span></li>
+          </ul>
+        </div>
+        <div class="jp-no-solution">
+          <span>Update Required</span>
+          To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+        </div>
+      </div>
+    </div>
+</div><!-- /radio element -->
+
+<!-- radio element in col -->
+<div class="col-lg-3 col-md-4 col-xs-6 thumb" id="jp_radio_british-invasion">
+    <div id="jp_radio_british-invasion_player" class="jp-jplayer"></div>
+    <div id="jp_radio_british-invasion_container" class="jp-audio-stream">
+      <div class="jp-type-single">
+        <div class="jp-gui jp-interface">
+          <ul class="jp-controls">
+            <li><a href="javascript:;" class="jp-play" tabindex="1">play</a></li>
+            <li><a href="javascript:;" class="jp-pause" tabindex="1">pause</a></li>
+            <li><a href="javascript:;" class="jp-mute" tabindex="1" title="mute">mute</a></li>
+            <li><a href="javascript:;" class="jp-unmute" tabindex="1" title="unmute">unmute</a></li>
+          </ul>
+          <div class="jp-volume-bar">
+            <div class="jp-volume-bar-value"></div>
+          </div>
+        </div>
+        <div class="jp-details">
+          <ul>
+            <li><img src="http://54.191.183.105/~uploads/icon_logos/invasiontest2.png" class="jp-title-img" title="British Invasion - Rock"><span class="jp-title"></span></li>
+          </ul>
+        </div>
+        <div class="jp-no-solution">
+          <span>Update Required</span>
+          To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+        </div>
+      </div>
+    </div>
+</div><!-- /radio element -->
+
+
+        </div>
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>design by daylo, based on a design by StartBootstrap, released under MIT License. Uses data from dashradio.com.<br><a href="http://dashradio.com">Full Version</a><br><a href="http://validator.w3.org/check?uri=referer">Valid HTML5</a><br></p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+<!-- Scripts -->
 <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-<script src="./jPlayer/2.7.0/jquery.jplayer.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/jplayer/2.9.1/jquery.jplayer.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 
 <script>
 $(document).ready(function(){
+  var eleven_stream = {
+    title: "11 - Rock",
+    mp3: "http://ice8.securenetsystems.net/DASH21?type=.flv:80"
+  };
 
-	var stream = {
-		title: "Odd Future Radio",
-		mp3: "http://ice10.securenetsystems.net/DASH56?type=.flv:80/stream?type=.mp3"
-	},
-	ready = false;
+  var onefiveeighto_stream = {
+    title: "1580 - Hip-Hop",
+    mp3: "http://ice6.securenetsystems.net/DASH11?type=.flv:80"
+  };
 
-	$("#jquery_jplayer_oddfuture").jPlayer({
-		ready: function (event) {
-			ready = true;
-			$(this).jPlayer("setMedia", stream);
-		},
-		pause: function() {
-			$(this).jPlayer("clearMedia");
-		},
-		error: function(event) {
-			if(ready && event.jPlayer.error.type === $.jPlayer.error.URL_NOT_SET) {
-				// Setup the media stream again and play it.
-				$(this).jPlayer("setMedia", stream).jPlayer("play");
-			}
-		},
-		supplied: "mp3",
-		preload: "none",
-		wmode: "window",
-		keyEnabled: true
-	});
+  var seventies_stream = {
+    title: "70s - Decades",
+    mp3: "http://ice23.securenetsystems.net/DASH26?type=.flv:80"
+  };
+
+  var eighties_stream = {
+    title: "80s - Decades",
+    mp3: "http://ice5.securenetsystems.net/DASH7?type=.flv:80"
+  };
+
+  var nineties_stream = {
+    title: "90s - Decades",
+    mp3: "http://ice5.securenetsystems.net/DASH1?type=.flv:80"
+  };
+
+  var british_invasion_stream = {
+    title: "British Invasion - Rock",
+    mp3: "http://ice10.securenetsystems.net/DASH49?type=.flv:80"
+  };
+
+  // radio element code
+  $("#jp_radio_11_player").jPlayer({
+    ready: function () {
+      $(this).jPlayer("setMedia", eleven_stream);
+    },
+     play: function() {
+       $(this).jPlayer("pauseOthers");
+    },
+    supplied: "mp3",
+    cssSelectorAncestor: "#jp_radio_11_container",
+    globalVolume: true,
+    keyEnabled: true
+  }); // /radio element code
+
+  // radio element code
+  $("#jp_radio_1580_player").jPlayer({
+    ready: function () {
+      $(this).jPlayer("setMedia", onefiveeighto_stream);
+    },
+     play: function() {
+       $(this).jPlayer("pauseOthers");
+    },
+    supplied: "mp3",
+    cssSelectorAncestor: "#jp_radio_1580_container",
+    globalVolume: true,
+    keyEnabled: true
+  }); // /radio element code
+
+  // radio element code
+  $("#jp_radio_70s_player").jPlayer({
+    ready: function () {
+      $(this).jPlayer("setMedia", seventies_stream);
+    },
+     play: function() {
+       $(this).jPlayer("pauseOthers");
+    },
+    supplied: "mp3",
+    cssSelectorAncestor: "#jp_radio_70s_container",
+    globalVolume: true,
+    keyEnabled: true
+  }); // /radio element code
+
+  // radio element code
+  $("#jp_radio_80s_player").jPlayer({
+    ready: function () {
+      $(this).jPlayer("setMedia", eighties_stream);
+    },
+     play: function() {
+       $(this).jPlayer("pauseOthers");
+    },
+    supplied: "mp3",
+    cssSelectorAncestor: "#jp_radio_80s_container",
+    globalVolume: true,
+    keyEnabled: true
+  }); // /radio element code
+
+  // radio element code
+  $("#jp_radio_90s_player").jPlayer({
+    ready: function () {
+      $(this).jPlayer("setMedia", nineties_stream);
+    },
+     play: function() {
+       $(this).jPlayer("pauseOthers");
+    },
+    supplied: "mp3",
+    cssSelectorAncestor: "#jp_radio_90s_container",
+    globalVolume: true,
+    keyEnabled: true
+  }); // /radio element code
+
+  // radio element code
+  $("#jp_radio_british-invasion_player").jPlayer({
+    ready: function () {
+      $(this).jPlayer("setMedia", british_invasion_stream);
+    },
+     play: function() {
+       $(this).jPlayer("pauseOthers");
+    },
+    supplied: "mp3",
+    cssSelectorAncestor: "#jp_radio_british-invasion_container",
+    globalVolume: true,
+    keyEnabled: true
+  }); // /radio element code
+
 });
-  </script>
+</script>
+
 </body>
+
 </html>
