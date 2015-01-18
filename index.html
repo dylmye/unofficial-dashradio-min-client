@@ -57,7 +57,7 @@
 $(document).ready(function(){
   $.ajax({
     type: "GET",
-    url: "AllStations.xml",
+    url: "allStations.xml",
     dataType: "xml",
     success: function(xml) {
       $(xml).find('station-object').each(function(){
