@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<!--
+    __                 __            __
+   / /_  __  __   ____/ /___ ___  __/ /___
+  / __ \/ / / /  / __  / __ `/ / / / / __ \ ✓
+ / /_/ / /_/ /  / /_/ / /_/ / /_/ / / /_/ / ✓
+/_.___/\__, /   \__,_/\__,_/\__, /_/\____/  ✓
+      /____/               /____/
+
+many thanks to dash radio for the streams.
+this website aims to work on any modern device, without stupid apps.
+
+v2.3
+mit license - you must include the license located at http://git.io/KjOJmw
+-->
+    <meta charset="utf-8">
+
+    <title>&#9654; DASH RADIO</title>
+    <meta name="application-name" content="DASH Radio (Min Client)" />
+    <meta name="description" content="listen to next gen radio from DASH, on any device.">
+    <meta name="author" content="daylo">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon.png">
+    <meta name="apple-mobile-web-app-title" content="DASH">
+    <meta name="HandheldFriendly" content="True">
+
+    <link rel="icon" href="img/favicon.png">
+    <meta name="msapplication-TileColor" content="#39c">
+    <meta name="msapplication-TileImage" content="img/win8-tile-icon.png">
+
+    <!-- styles -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pure/0.5.0/pure-min.css" rel="stylesheet">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css" rel="stylesheet">
+    <link href="./css/custom.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="header">
+      <div class="home-menu pure-menu pure-menu-open pure-menu-horizontal pure-menu-fixed">
+          <a class="pure-menu-heading" href="index.html"><img src="./img/nav-back.svg"></a><a class="pure-menu-heading" href="#"><img src="./img/logo.png" alt="dash radio" style="display: inline;width:5%;height:5%;padding-left:1%;padding-right:3%;">DASH Radio Min</a>
+          <ul>
+                <li><a href="http://dashradio.com"><img src="./img/desktop.svg" title="View the full version" alt="View the full version"></a></li>
+                <li><a href="http://hyperurl.co/dash-radio-app"><img src="./img/phone.svg" title="Download the Apps" alt="Download the Apps"></a></li>
+                <li><a href="https://github.com/dylmye/dash-radio-client-min"><img src="./img/github.svg" title="Fork on Github" alt="Fork on Github"></a></li>
+          </ul>
+      </div>
+  </div>
+  <div class="pure-g">
+    <div class="pure-u-1-2" id="CoverBG"><!-- COVER ART -->
+      <div id="loadspin"></div>
+      <section id="Cover">
+      </section>
+    </div>
+    <div class="pure-u-1-2"><!-- NOWPLAYING -->
+      <section id="PlayingData"></section>
+      <audio controls id="Player">
+        <source id="PlayerMP3" type="audio/mpeg" />
+        <em>Sorry, your browser doesn't support HTML5 audio. Upgrade your browser, it's 2015!</em>
+      </audio>
+      <section id="PlayingHistory" style="display:none">
+      <h4>Recent History</h4>
+      </section>
+    </div>
+  </div>
+  <!-- scripts -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script><!-- jQuery -->
+
+  <script src="./js/jQuery.rss.js"></script><!-- RSS Parser and PrettyPrint -->
+
+  <script>
+  function GetQueryStringParams(sParam) {
+  var sPageURL = window.location.search.substring(1);
+  var sURLVariables = sPageURL.split('&');
+  for (var i = 0; i < sURLVariables.length; i++)
+  {
+    var sParameterName = sURLVariables[i].split('=');
+    if (sParameterName[0] == sParam)
+    {
+      return sParameterName[1];
+    }
+  }
+}
+var STATID = GetQueryStringParams('statid');
+var STATSRV = GetQueryStringParams('server');
+var AUTH = GetQueryStringParams('auth');
+var DEFCOV = "http://placehold.it/500/39c/fff&text=No+Cover";
+  // Radio URLS
+  $("#PlayerMP3").attr("src", 'http://' + STATSRV + '.securenetsystems.net/' + STATID + '?type=.mp3:80').detach().appendTo("#Player");
+  </script>
+
+  <script src="./js/jQuery.DASH.js"></script><!-- DIY Dash Script -->
+
+</body>
+</html>
