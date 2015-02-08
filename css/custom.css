@@ -1,154 +1,148 @@
 /*
-     __                 __            __
-    / /_  __  __   ____/ /___ ___  __/ /___
-   / __ \/ / / /  / __  / __ `/ / / / / __ \ ✓
-  / /_/ / /_/ /  / /_/ / /_/ / /_/ / / /_/ / ✓
- /_.___/\__, /   \__,_/\__,_/\__, /_/\____/  ✓
-      /____/               /____/
-many thanks to dash radio for the streams.
-this website aims to work on any modern device, without stupid apps.
+      __                 __            __
+     / /_  __  __   ____/ /___ ___  __/ /___
+    / __ \/ / / /  / __  / __ `/ / / / / __ \ ✓
+   / /_/ / /_/ /  / /_/ / /_/ / /_/ / / /_/ / ✓
+  /_.___/\__, /   \__,_/\__,_/\__, /_/\____/  ✓
+        /____/               /____/
 
-v2.1
-mit license - you must include the license located at http://git.io/KjOJmw
+  many thanks to dash radio for the streams.
+  this website aims to work on any modern device, without stupid apps.
 
-CUSTOM CSS FOR PURE
+  v3.0.1
+  mit license - you must include the license located at http://git.io/KjOJmw
 */
-body {
-  overflow: hidden;
-}
-/* NAVBAR (HOME-MENU) */
-.header {
-  display: block;
-}
-.home-menu {
-  padding: 0.5em;
-}
-.home-menu.pure-menu-open {
-  background-color: rgba(54, 164, 212, 1);
-  border-bottom: none;
-}
-.home-menu .pure-menu-heading, .home-menu a {
-  color: rgba(255, 255, 255, 1);
-  font-size: 120%;
-}
-.home-menu ul {
-  float: right;
-}
-/* LOAD SPIN */
-@-webkit-keyframes rotate-forever {
-  0% {
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    -ms-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
-}
-@-moz-keyframes rotate-forever {
-  0% {
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    -ms-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
-}
-@keyframes rotate-forever {
-  0% {
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    -ms-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
-}
-#loadspin {
-  -webkit-animation-duration: 0.75s;
-  -moz-animation-duration: 0.75s;
-  animation-duration: 0.75s;
-  -webkit-animation-iteration-count: infinite;
-  -moz-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
-  -webkit-animation-name: rotate-forever;
-  -moz-animation-name: rotate-forever;
-  animation-name: rotate-forever;
-  -webkit-animation-timing-function: linear;
-  -moz-animation-timing-function: linear;
-  animation-timing-function: linear;
-  height: 30px;
-  width: 30px;
-  border: 8px solid #39c;
-  border-right-color: transparent;
-  border-radius: 50%;
-  display: inline-block;
-}
-
-#loadspin {
-  position: absolute;
-  top: 50%;
-  right: 0;
-  bottom: 0;
-  left: 50%;
-}
-
-/* pure-g */
-.pure-g {
-  width: 100%;
-  position: absolute;
-  display: inline;
-  height: 90%;
-  margin-top: 4.5%;
-}
-.pure-u-1-2 {
-  height: 100%;
-}
-.pure-u-1-2:nth-child(2) {
-  background-color: #333;
-  color: #fff;
-}
-/* left-col */
 #Cover {
-  height: 100%;
-  width: 100%;
+  height: 500px;
+  width: 500px;
 }
-#CoverIMG {
-  width: 80%;
-  height: auto;
-  margin: auto;
-  display: block;
-  z-index: 100;
+@media (max-width: 767px) {
+  #Cover, #Player {
+    margin-left: auto;
+    margin-right: auto;
+    }
+    #Cover {
+      height: 250px;
+      width: 250px;
+    }
+    #Player {
+      width: 100%;
+    }
+  }
+.daylo-mobile-only {
+  display: none;
 }
-/* right-col */
-#PlayingData {
-  height: 60%;
-  font-size: 3.5em;
+@media only screen and (max-width: 768px) {
+  .daylo-mobile-only {
+    display: inline;
+    padding-left: 5%;
+    text-align: center;
+  }
+  ul.navbar-nav {
+    text-align: center;
+  }
+  }
+  .navbar-default {
+    background-color: #3399cc;
+    border-color: #2d88b5;
+  }
+  .navbar-default .navbar-brand {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-text {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav > li > .dropdown-menu {
+    background-color: #3399cc;
+  }
+  .navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
+    color: #ffffff;
+    background-color: #2d88b5;
+  }
+  .navbar-default .navbar-nav > li > .dropdown-menu > li > .divider {
+    background-color: #3399cc;
+  }
+  .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #ffffff;
+    background-color: #2d88b5;
+  }
+  .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    color: #ffffff;
+    background-color: #2d88b5;
+  }
+  .navbar-default .navbar-toggle {
+    border-color: #2d88b5;
+  }
+  .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #2d88b5;
+  }
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+  }
+  .navbar-default .navbar-collapse,
+  .navbar-default .navbar-form {
+    border-color: #ffffff;
+  }
+  .navbar-default .navbar-link {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-link:hover {
+    color: #ffffff;
+  }
+
+  @media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+      color: #ffffff;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+      color: #ffffff;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+      color: #ffffff;
+      background-color: #2d88b5;
+    }
+  }
+
+  ::-webkit-scrollbar {
+      width: 8px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+      background: #f2f2f2;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+      background: #39c;
+  }
+
+.fa {
+  font-size: 130%;
 }
-#PlayingHistory {
-  height: 40%;
-  overflow-y: scroll;
+
+.row {
+  padding-top: 5%;
 }
-#Player {
-  width: 90%;
-  margin-left: 5%;
+
+.stat-desc {
+  height: 100px;
+  overflow-y: auto;
+}
+section {
+  max-height: 400px;
+  margin-bottom: 15px;
 }

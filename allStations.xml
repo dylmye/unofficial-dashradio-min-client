@@ -570,8 +570,41 @@
       <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/GrammyIconB.png</square_logo_url>
       <server>ice10</server>
       <default_cover_url>http://54.191.183.105/~uploads/artwork/iphone6plus/Grammy/GRAMMYRadioA.png</default_cover_url>
-      <description>Dash\'s GRAMMY Radio On Dash was created in order to give the public and the GRAMMY voters the simplest way to listen to the music from each of this year's nominees. This station also creates a new platform that not only promote the awards, but the artists, songwriters, producers, and musicians themselves behind them. GRAMMY Radio On Dash was designed to showcase the full spectrum of nominees from all 30 genres and 83 individual awards.</description>
+      <description>Dash's GRAMMY Radio On Dash was created in order to give the public and the GRAMMY voters the simplest way to listen to the music from each of this year's nominees. This station also creates a new platform that not only promote the awards, but the artists, songwriters, producers, and musicians themselves behind them. GRAMMY Radio On Dash was designed to showcase the full spectrum of nominees from all 30 genres and 83 individual awards.</description>
       <auth>BA0FB8CC-0DA7-4795-A355-01D0AEB3247A</auth>
+    </station-object>
+    <station-object>
+      <statid>DASH52</statid>
+      <genre>Talk</genre>
+      <id>98</id>
+      <name>The Shane Show</name>
+      <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/TheShaneShow/TheShaneShowIcon.png</square_logo_url>
+      <server>ice9</server>
+      <default_cover_url>http://54.191.183.105/~uploads/artwork/iphone6plus/TheShaneShow/TheShaneShowC copy.png</default_cover_url>
+      <description>The Shane Show. Live every weekday @ 7am ET / 4am PT and reairing all day on The Shane Show channel.</description>
+      <auth>74BB7A57-E9E3-4818-9388-E80C9836759A</auth>
+    </station-object>
+    <station-object>
+      <statid>DASH40</statid>
+      <genre>Talk</genre>
+      <id>99</id>
+      <name>Beat Junkie Radio</name>
+      <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/BeatJunkieRadio/BeatJunkieRadioBBBIcon.png</square_logo_url>
+      <server>ice9</server>
+      <default_cover_url>http://54.191.183.105/~uploads/artwork/iphone6plus/BeatJunkieRadio/BeatJunkieRadioArt.png</default_cover_url>
+      <description>The World Famous Beat Junkies has their very own official Radio Channel. You can listen to DJ Mixes &amp; Music such as Hip Hop, Soul, Funk, Breaks &amp; many more 24/7, programmed personally by The Beat Junkies.</description>
+      <auth>3859A5C5-136B-4E1B-8131-D02836445AF2</auth>
+    </station-object>
+    <station-object>
+      <statid>DASH50</statid>
+      <genre>Top 40</genre>
+      <id>100</id>
+      <name>Stevie Wonder Salute</name>
+      <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/StevieWonderSalute/StevieWonderSaluteIcon.png</square_logo_url>
+      <server>ice10</server>
+      <default_cover_url>http://54.191.183.105/~uploads/artwork/iphone6plus/StevieWonderSalute/StevieWonderSaluteArt.jpg</default_cover_url>
+      <description>Dash Radio pays tribute to one of music history's most prolific artist / songwriters, Stevie Wonder. Stevie Wonder Salute celebrates the 40th anniversary of Stevie's game-changing album "Songs In The Key Of Life."</description>
+      <auth>D059B11A-4F7D-4D54-9D4D-507BC2A05A91</auth>
     </station-object>
   </stations>
 </dash>

@@ -1,7 +1,40 @@
-// v2.3
+// DASHRADIO-MIN-CLIENT
+// jQuery.DASH
+// v3.0.1
+// mit license - you must
+// include the license located
+// at http://git.io/KjOJmw
+
+
 $(document).ready(function(){
-  $("#loadspin").show().delay(3500).fadeOut();
-  $("#"+ STATID).append('<div id="ImageHolder"></div>');
+  if(STATID == '') { // if user just visited w/o params
+    window.location.href("index.html");
+  }
+
+  // pull params for data entry
+  function GetQueryStringParams(sParam) {
+    var sPageURL = window.location.search.substring(1);
+    var sURLVariables = sPageURL.split('&');
+    for (var i = 0; i < sURLVariables.length; i++)
+    {
+      var sParameterName = sURLVariables[i].split('=');
+      if (sParameterName[0] == sParam)
+      {
+        return sParameterName[1];
+      }
+    }
+  }
+
+  $.expr[':'].textEquals = function(a, i, m) {
+    return $(a).text().match("^" + m[3] + "$");
+};
+
+  var STATID = GetQueryStringParams('statid'); // station ident
+  var STATSRV = GetQueryStringParams('server'); // station server
+  var AUTH = GetQueryStringParams('auth'); // history auth key
+  $("#PlayerMP3").attr("src", 'http://' + STATSRV + '.securenetsystems.net/' + STATID + '?type=.mp3:80'); // player
+
+  // main function: player_status_update poller
   var refInterval = window.setInterval(function() {
     $.ajax({
       type: "GET",
@@ -9,29 +42,45 @@ $(document).ready(function(){
       dataType: "xml",
       success: function(xml) {
         $(xml).find('playlist').each(function(){
-          var SCS = $(this).find('stationCallSign').text();
-          var NowPlayingTitle = $(this).find('title').text();
-          var NowPlayingArtist = $(this).find('artist').text();
-          var NowPlayingArtwork = $(this).find('cover').text();
+          var NowPlayingTitle = $(this).find('title').text(); // title of current song
+          var NowPlayingArtist = $(this).find('artist').text(); // artist of current song
+          var NowPlayingArtwork = $(this).find('cover').text(); // album cover of current song
 
-          if(NowPlayingArtwork !== ""){
-
-            $('#Cover').html('<img id="CoverIMG" src="' + NowPlayingArtwork + '" />');
+          if(NowPlayingArtwork !== ""){ // sometimes no art is provided;
+            $('#Cover').attr('src', NowPlayingArtwork); // if there is art, report it;
           }
           else {
-            $('#Cover').html('<img id="CoverIMG" src="' + STATCOVER + '" />');
-            var NowPlayingArtwork = STATCOVER;
+            $('#Cover').attr('src', "./img/fallbackcover.png"); // otherwise use a placeholder
           }
-          console.log('Updated at' + jQuery.now());
-        $("#PlayingData").html('<span>Now Playing on ' + STATID + '<br><strong>' + NowPlayingTitle + '</strong><br>By ' + NowPlayingArtist + '</span>');
+        // debug only -- console.log('Updated at ' + jQuery.now() + ' using key ' + AUTH + STATID);
+        $('#Cover').attr('alt', NowPlayingTitle); // accessibility - put title in cover tags
+        $('#Cover').attr('title', NowPlayingTitle);
+        // get human name for station: fn poller
+        $.ajax({
+          url:'allStations.xml',
+          success:function(xml) {
+            var STATFN = $(xml).find(":contains(" + STATID + ") > name").text(); // get fn from id - uses contain however :'(
+            $("#PlayingFN").html('Now Playing on ' + STATFN); // report fn
+            $(document).prop('title', '▶ ' + STATFN + ' - DASH Radio');
+          }
+        });
+        $("#PlayingData").html('<strong>' + NowPlayingTitle + '</strong><br>By ' + NowPlayingArtist); // report song data
+        // sharing stuff
+        var currURL = window.location.href;
+        var shareText = "#NowPlaying " + NowPlayingTitle + " By " + NowPlayingArtist + " - ";
+
+        $("#ShareTweet").attr("href", "https://twitter.com/intent/tweet?text=" + encodeURIComponent(shareText) + "&url=" + encodeURIComponent(currURL) + "&via=" + encodeURIComponent("dash_radio")); // share to Twitter
+        $("#ShareFB").attr("href", "http://www.facebook.com/sharer/sharer.php?t=" + encodeURIComponent(shareText) + "&u=" + encodeURIComponent(currURL)); // share to Facebook
+
         });
       }
     });
-    //remove the ()?
-  }, 4000); // 4 seconds
-$("#PlayingHistory").rss("https://radio.securenetsystems.net/dx/get_playlist_history.cfm?stationCallSign="+ STATID +"&authTokenWeb=" + AUTH + "&rss=true", {
-  limit: 10,
-  layoutTemplate: '<dl class="dl-horizontal">{entries}</dl>',
-  entryTemplate: '<dt><span>{title} by {body}</span></dt>'
+  }, 4000); // poll every 4 seconds
+
+  // Playing History
+$("#PlayingHistory").rss("https://radio.securenetsystems.net/dx/get_playlist_history.cfm?stationCallSign=" + STATID + "&authTokenWeb=" + AUTH + "&rss=true", {
+  limit: 5, // only top 5
+  layoutTemplate: '<p class="dl-horizontal">{entries}</p>',
+  entryTemplate: '<p><span>{title} by {body}</span></p>'
 }).show();
 });
