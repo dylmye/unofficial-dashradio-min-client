@@ -32,7 +32,7 @@ $(document).ready(function(){
   var STATID = GetQueryStringParams('statid'); // station ident
   var STATSRV = GetQueryStringParams('server'); // station server
   var AUTH = GetQueryStringParams('auth'); // history auth key
-  $("#PlayerMP3").attr("src", 'http://' + STATSRV + '.securenetsystems.net/' + STATID + '?type=.mp3:80'); // player
+  $("#PlayerMP3").attr("src", 'http://' + STATSRV + '.securenetsystems.net/' + STATID + '?type=.flv:80'); // player
 
   // main function: player_status_update poller
   var refInterval = window.setInterval(function() {
