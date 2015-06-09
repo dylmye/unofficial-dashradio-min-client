@@ -10,7 +10,7 @@
          <name>Skee 24/7</name>
          <statid>DASH37</statid>
          <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/SKEETV247Icon.png</square_logo_url>
-         <sever>ice9</server>
+         <server>ice9</server>
       </station-object>
       <station-object>
          <statid>DASH34</statid>
@@ -21,7 +21,7 @@
          <id>2</id>
          <name>The Oldies</name>
          <square_logo_url>http://54.191.183.105/~uploads/icon_logos/theoldiesicon.png</square_logo_url>
-         <sever>ice9</server>
+         <server>ice9</server>
       </station-object>
       <station-object>
         <statid>DASH38</statid>
@@ -32,7 +32,7 @@
          <id>3</id>
          <name>Dash 1</name>
          <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/Dash1NewIcon2.png</square_logo_url>
-         <sever>ice9</server>
+         <server>ice9</server>
       </station-object>
       <station-object>
         <statid>DASH36</statid>
@@ -44,7 +44,7 @@
          <id>4</id>
          <name>Pure Soul Powered By Isaac Hayes</name>
          <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/PureSoulPoweredByIsaacHayesIcon.png</square_logo_url>
-         <sever>ice9</server>
+         <server>ice9</server>
       </station-object>
       <station-object>
         <statid>DASH29</statid>
@@ -55,7 +55,7 @@
          <id>6</id>
          <name>Cinescore</name>
          <square_logo_url>http://54.191.183.105/~uploads/icon_logos/cinescoreicon.png</square_logo_url>
-         <sever>ice23</server>
+         <server>ice23</server>
       </station-object>
       <station-object>
         <statid>DASH15</statid>
@@ -66,7 +66,7 @@
          <id>9</id>
          <name>LOUD</name>
          <square_logo_url>http://54.191.183.105/~uploads/icon_logos/loudicon.png</square_logo_url>
-         <sever>ice6</server>
+         <server>ice6</server>
       </station-object>
       <station-object>
         <statid>DASH18</statid>
@@ -77,7 +77,7 @@
          <id>10</id>
          <name>Native Rhymes</name>
          <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/nativerhymesbicon.png</square_logo_url>
-         <sever>ice7</server>
+         <server>ice7</server>
       </station-object>
       <station-object>
         <statid>DASH19</statid>
@@ -88,7 +88,7 @@
          <id>19</id>
          <name>Y2K</name>
          <square_logo_url>http://54.191.183.105/~uploads/icon_logos/y2kicon.png</square_logo_url>
-         <sever>ice7</server>
+         <server>ice7</server>
       </station-object>
       <station-object>
         <statid>DASH41</statid>
@@ -99,7 +99,7 @@
          <id>22</id>
          <name>The Cut</name>
          <square_logo_url>http://54.191.183.105/~uploads/icon_logos/thecuticon.png</square_logo_url>
-         <sever>ice10</server>
+         <server>ice10</server>
       </station-object>
       <station-object>
          <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/ElectroCity.jpg</default_cover_url>
@@ -110,7 +110,7 @@
          <id>23</id>
          <name>Electro City</name>
          <square_logo_url>http://54.191.183.105/~uploads/icon_logos/electrocityicon.png</square_logo_url>
-         <sever>ice5</server>
+         <server>ice5</server>
       </station-object>
       <station-object>
         <statid>DASH23</statid>
@@ -121,7 +121,7 @@
          <id>24</id>
          <name>Space Bass</name>
          <square_logo_url>http://54.191.183.105/~uploads/icon_logos/spacebasstest2.png</square_logo_url>
-         <sever>ice8</server>
+         <server>ice8</server>
       </station-object>
       <station-object>
         <statid>DASH25</statid>
@@ -132,7 +132,7 @@
          <id>26</id>
          <name>Subdustrial</name>
          <square_logo_url>http://54.191.183.105/~uploads/icon_logos/subdustrialicon.png</square_logo_url>
-         <sever>ice8</server>
+         <server>ice8</server>
       </station-object>
       <station-object>
         <statid>DASH17</statid>
@@ -143,7 +143,7 @@
          <id>28</id>
          <name>Main Stage</name>
          <square_logo_url>http://54.191.183.105/~uploads/icon_logos/mainstageicon.png</square_logo_url>
-         <sever>ice7</server>
+         <server>ice7</server>
       </station-object>
       <station-object>
         <statid>DASH30</statid>
@@ -154,7 +154,7 @@
          <id>29</id>
          <name>Press Play</name>
          <square_logo_url>http://54.191.183.105/~uploads/icon_logos/pressplayicon.png</square_logo_url>
-         <sever>ice23</server>
+         <server>ice23</server>
       </station-object>
       <station-object>
         <statid>DASH7</statid>
@@ -165,7 +165,7 @@
          <id>31</id>
          <name>80's</name>
          <square_logo_url>http://54.191.183.105/~uploads/icon_logos/80sicon.png</square_logo_url>
-         <sever>ice5</server>
+         <server>ice5</server>
       </station-object>
       <station-object>
         <statid>DASH14</statid>
@@ -176,7 +176,7 @@
          <id>33</id>
          <name>XXL</name>
          <square_logo_url>http://54.191.183.105/~uploads/icon_logos/xxltest4.png</square_logo_url>
-         <sever>ice6</server>
+         <server>ice6</server>
       </station-object>
       <station-object>
         <statid>DASH12</statid>
@@ -187,7 +187,7 @@
          <id>37</id>
          <name>Dash Alternative</name>
          <square_logo_url>http://54.191.183.105/~uploads/icon_logos/alternativeicon.png</square_logo_url>
-         <sever>ice6</server>
+         <server>ice6</server>
       </station-object>
       <station-object>
         <statid>DASH31</statid>
@@ -198,7 +198,7 @@
          <id>38</id>
          <name>The Lab</name>
          <square_logo_url>http://54.191.183.105/~uploads/icon_logos/thelabtest2.png</square_logo_url>
-         <sever>ice9</server>
+         <server>ice9</server>
       </station-object>
       <station-object>
         <statid>DASH32</statid>
@@ -209,7 +209,7 @@
          <id>39</id>
          <name>Dash Indie</name>
          <square_logo_url>http://54.191.183.105/~uploads/icon_logos/indieicon.png</square_logo_url>
-         <sever>ice9</server>
+         <server>ice9</server>
       </station-object>
       <station-object>
         <statid>DASH24</statid>
@@ -220,7 +220,7 @@
          <id>40</id>
          <name>The Strip</name>
          <square_logo_url>http://54.191.183.105/~uploads/icon_logos/thestripicon.png</square_logo_url>
-         <sever>ice8</server>
+         <server>ice8</server>
       </station-object>
       <station-object>
         <statid>DASH21</statid>
@@ -231,7 +231,7 @@
          <id>41</id>
          <name>11</name>
          <square_logo_url>http://54.191.183.105/~uploads/icon_logos/11icon.png</square_logo_url>
-         <sever>ice8</server>
+         <server>ice8</server>
       </station-object>
       <station-object>
         <statid>DASH35</statid>
@@ -242,7 +242,7 @@
          <id>43</id>
          <name>Red Cup</name>
          <square_logo_url>http://54.191.183.105/~uploads/icon_logos/redcupicon.png</square_logo_url>
-         <sever>ice9</server>
+         <server>ice9</server>
       </station-object>
       <station-object>
         <statid>DASH13</statid>
@@ -253,7 +253,7 @@
          <id>44</id>
          <name>The Ranch</name>
          <square_logo_url>http://54.191.183.105/~uploads/icon_logos/theranchicon.png</square_logo_url>
-         <sever>ice6</server>
+         <server>ice6</server>
       </station-object>
       <station-object>
         <statid>DASH2</statid>
@@ -264,7 +264,7 @@
          <id>49</id>
          <name>The City</name>
          <square_logo_url>http://54.191.183.105/~uploads/icon_logos/thecityicon.png</square_logo_url>
-         <sever>ice5</server>
+         <server>ice5</server>
       </station-object>
       <station-object>
         <statid>DASH3</statid>
@@ -276,7 +276,7 @@
          <id>50</id>
          <name>Moonlight</name>
          <square_logo_url>http://54.191.183.105/~uploads/icon_logos/moonlighticon.png</square_logo_url>
-         <sever>ice5</server>
+         <server>ice5</server>
       </station-object>
       <station-object>
         <statid>DASH22</statid>
@@ -287,7 +287,7 @@
          <id>52</id>
          <name>What The Funk</name>
          <square_logo_url>http://54.191.183.105/~uploads/icon_logos/whatthefunkicon.png</square_logo_url>
-         <sever>ice8</server>
+         <server>ice8</server>
       </station-object>
       <station-object>
         <statid>DASH39</statid>
@@ -298,7 +298,7 @@
          <id>53</id>
          <name>Bump &amp; Grind</name>
          <square_logo_url>http://54.191.183.105/~uploads/icon_logos/bumpngrindicon.png</square_logo_url>
-         <sever>ice9</server>
+         <server>ice9</server>
       </station-object>
       <station-object>
         <statid>DASH43</statid>
@@ -309,7 +309,7 @@
          <id>54</id>
          <name>Kingston</name>
          <square_logo_url>http://54.191.183.105/~uploads/icon_logos/kingstonicon.png</square_logo_url>
-         <sever>ice10</server>
+         <server>ice10</server>
       </station-object>
       <station-object>
         <statid>DASH44</statid>
@@ -320,7 +320,7 @@
          <id>55</id>
          <name>The Bridge</name>
          <square_logo_url>http://54.191.183.105/~uploads/icon_logos/thebridgetest1.png</square_logo_url>
-         <sever>ice10</server>
+         <server>ice10</server>
       </station-object>
       <station-object>
         <statid>DASH42</statid>
@@ -331,7 +331,7 @@
          <id>56</id>
          <name>The Cross</name>
          <square_logo_url>http://54.191.183.105/~uploads/icon_logos/thecrossicon.png</square_logo_url>
-         <sever>ice10</server>
+         <server>ice10</server>
       </station-object>
       <station-object>
         <statid>DASH45</statid>
@@ -342,7 +342,7 @@
          <id>57</id>
          <name>Zoetic</name>
          <square_logo_url>http://54.191.183.105/~uploads/icon_logos/zoeticicon.png</square_logo_url>
-         <sever>ice10</server>
+         <server>ice10</server>
       </station-object>
       <station-object>
         <statid>DASH46</statid>
@@ -353,7 +353,7 @@
          <id>59</id>
          <name>Discover</name>
          <square_logo_url>http://54.191.183.105/~uploads/icon_logos/discovericon.png</square_logo_url>
-         <sever>ice10</server>
+         <server>ice10</server>
       </station-object>
       <station-object>
         <statid>DASH48</statid>
@@ -364,7 +364,7 @@
          <id>60</id>
          <name>Fuego</name>
          <square_logo_url>http://54.191.183.105/~uploads/icon_logos/fuegoicon.png</square_logo_url>
-         <sever>ice10</server>
+         <server>ice10</server>
       </station-object>
       <station-object>
         <statid>DASH1</statid>
@@ -375,7 +375,7 @@
          <id>62</id>
          <name>90's</name>
          <square_logo_url>http://54.191.183.105/~uploads/icon_logos/90sicon.png</square_logo_url>
-         <sever>ice5</server>
+         <server>ice5</server>
       </station-object>
       <station-object>
         <statid>DASH8</statid>
@@ -386,7 +386,7 @@
          <id>64</id>
          <name>Independent Grind</name>
          <square_logo_url>http://54.191.183.105/~uploads/icon_logos/independentgrindicon.png</square_logo_url>
-         <sever>ice5</server>
+         <server>ice5</server>
       </station-object>
       <station-object>
         <statid>DASH5</statid>
@@ -397,7 +397,7 @@
          <id>65</id>
          <name>Ratpack</name>
          <square_logo_url>http://54.191.183.105/~uploads/icon_logos/ratpackicon.png</square_logo_url>
-         <sever>ice7</server>
+         <server>ice7</server>
       </station-object>
       <station-object>
         <statid>DASH6</statid>
@@ -408,7 +408,7 @@
          <id>66</id>
          <name>Cool</name>
          <square_logo_url>http://54.191.183.105/~uploads/icon_logos/coolicon.png</square_logo_url>
-         <sever>ice5</server>
+         <server>ice5</server>
       </station-object>
       <station-object>
         <statid>DASH11</statid>
@@ -419,7 +419,7 @@
          <id>68</id>
          <name>1580</name>
          <square_logo_url>http://54.191.183.105/~uploads/icon_logos/1580test1.png</square_logo_url>
-         <sever>ice6</server>
+         <server>ice6</server>
       </station-object>
       <station-object>
         <statid>DASH20</statid>
@@ -430,7 +430,7 @@
          <id>69</id>
          <name>Paradise City</name>
          <square_logo_url>http://54.191.183.105/~uploads/icon_logos/paradisecityicon.png</square_logo_url>
-         <sever>ice7</server>
+         <server>ice7</server>
       </station-object>
       <station-object>
         <statid>DASH26</statid>
@@ -441,7 +441,7 @@
          <id>70</id>
          <name>70's</name>
          <square_logo_url>http://54.191.183.105/~uploads/icon_logos/70sicon2.png</square_logo_url>
-         <sever>ice23</server>
+         <server>ice23</server>
       </station-object>
       <station-object>
         <statid>DASH33</statid>
@@ -452,7 +452,7 @@
          <id>71</id>
          <name>Concerto</name>
          <square_logo_url>http://54.191.183.105/~uploads/icon_logos/concertoicon.png</square_logo_url>
-         <sever>ice9</server>
+         <server>ice9</server>
       </station-object>
       <station-object>
         <statid>DASH51</statid>
@@ -463,7 +463,7 @@
          <id>73</id>
          <name>Multiplayer</name>
          <square_logo_url>http://54.191.183.105/~uploads/icon_logos/multiplayericon.png</square_logo_url>
-         <sever>ice9</server>
+         <server>ice9</server>
       </station-object>
       <station-object>
         <statid>DASH4</statid>
@@ -474,7 +474,7 @@
          <id>76</id>
          <name>Disco Fever</name>
          <square_logo_url>http://54.191.183.105/~uploads/icon_logos/discofevericon3.png</square_logo_url>
-         <sever>ice7</server>
+         <server>ice7</server>
       </station-object>
       <station-object>
         <statid>DASH56</statid>
@@ -485,7 +485,7 @@
          <id>77</id>
          <name>Odd Future Radio</name>
          <square_logo_url>http://54.191.183.105/~uploads/icon_logos/oddfutureicon.png</square_logo_url>
-         <sever>ice10</server>
+         <server>ice10</server>
       </station-object>
       <station-object>
         <statid>DASH59</statid>
@@ -496,7 +496,7 @@
          <id>85</id>
          <name>The Basement</name>
          <square_logo_url>http://54.191.183.105/~uploads/icon_logos/the_basementicon.png</square_logo_url>
-         <sever>ice10</server>
+         <server>ice10</server>
       </station-object>
       <station-object>
         <statid>DASH10</statid>
@@ -507,7 +507,7 @@
          <id>95</id>
          <name>La Isla</name>
          <square_logo_url>http://54.191.183.105/~uploads/icon_logos/laislaicon.png</square_logo_url>
-         <sever>ice5</server>
+         <server>ice5</server>
       </station-object>
       <station-object>
         <statid>DASH58</statid>
@@ -518,7 +518,7 @@
          <id>96</id>
          <name>Community Pool</name>
          <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/communitypoolcaicon2.png</square_logo_url>
-         <sever>ice10</server>
+         <server>ice10</server>
       </station-object>
       <station-object>
         <statid>DASH52</statid>
@@ -529,7 +529,7 @@
          <id>98</id>
          <name>The Shane Show</name>
          <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/TheShaneShowIcon.png</square_logo_url>
-         <sever>ice9</server>
+         <server>ice9</server>
       </station-object>
       <station-object>
         <statid>DASH40</statid>
@@ -540,7 +540,7 @@
          <id>99</id>
          <name>Beat Junkie Radio</name>
          <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/BeatJunkieRadioBBBIcon.png</square_logo_url>
-         <sever>ice9</server>
+         <server>ice9</server>
       </station-object>
       <station-object>
         <statid>DASH66</statid>
@@ -551,7 +551,7 @@
          <id>102</id>
          <name>Love Songs</name>
          <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/LoveIcon2.png</square_logo_url>
-         <sever>ice41</server>
+         <server>ice41</server>
       </station-object>
       <station-object>
         <statid>DASH50</statid>
@@ -562,7 +562,7 @@
          <id>103</id>
          <name>Hot Button Radio</name>
          <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/HotButtonIcon.png</square_logo_url>
-         <sever>ice10</server>
+         <server>ice10</server>
       </station-object>
       <station-object>
         <statid>DASH55</statid>
@@ -573,7 +573,7 @@
          <id>104</id>
          <name>Euphoria</name>
          <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/EuphoriaIcon.png</square_logo_url>
-         <sever>ice9</server>
+         <server>ice9</server>
       </station-object>
       <station-object>
         <statid>DASH54</statid>
@@ -584,7 +584,7 @@
          <id>105</id>
          <name>iCraft Radio</name>
          <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/iCraftRadioIcon.png</square_logo_url>
-         <sever>ice9</server>
+         <server>ice9</server>
       </station-object>
       <station-object>
         <statid>DASH16</statid>
@@ -595,7 +595,7 @@
          <id>107</id>
          <name>Cadillacc Music</name>
          <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/CadillaccMusicIcon.png</square_logo_url>
-         <sever>ice7</server>
+         <server>ice7</server>
       </station-object>
       <station-object>
         <statid>DASH57</statid>
@@ -606,7 +606,7 @@
          <id>108</id>
          <name>Record Store Day Radio</name>
          <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/RSDIcon.png</square_logo_url>
-         <sever>ice10</server>
+         <server>ice10</server>
       </station-object>
       <station-object>
         <statid>DASH70</statid>
@@ -617,7 +617,7 @@
          <id>110</id>
          <name>Rinse FM</name>
          <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/RinseIcon.png</square_logo_url>
-         <sever>ice41</server>
+         <server>ice41</server>
       </station-object>
       <station-object>
         <statid>DASH65</statid>
@@ -628,7 +628,7 @@
          <id>113</id>
          <name>East Village Radio</name>
          <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/EVRIcon.png</square_logo_url>
-         <sever>ice41</server>
+         <server>ice41</server>
       </station-object>
       <station-object>
         <statid>DASH27</statid>
@@ -639,7 +639,7 @@
          <id>114</id>
          <name>Radio Imperio</name>
          <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/RadioImperio2Icon.png</square_logo_url>
-         <sever>ice23</server>
+         <server>ice23</server>
       </station-object>
       <station-object>
         <statid>DASH67</statid>
@@ -650,7 +650,7 @@
          <id>115</id>
          <name>Remember</name>
          <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/rememberdicon.png</square_logo_url>
-         <sever>ice41</server>
+         <server>ice41</server>
       </station-object>
       <station-object>
         <statid>DASH62</statid>
@@ -661,7 +661,7 @@
          <id>116</id>
          <name>G Pen Radio</name>
          <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/GPenRadio2Icon.png</square_logo_url>
-         <sever>ice41</server>
+         <server>ice41</server>
       </station-object>
       <station-object>
         <statid>DASH28</statid>
@@ -672,7 +672,7 @@
          <id>117</id>
          <name>Entourage Radio</name>
          <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/EntourageIcon.png</square_logo_url>
-         <sever>ice23</server>
+         <server>ice23</server>
       </station-object>
       <station-object>
         <statid>DASH64</statid>
@@ -683,7 +683,7 @@
          <id>118</id>
          <name>Island Block</name>
          <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/IslandBlockIcon.png</square_logo_url>
-         <sever>ice41</server>
+         <server>ice41</server>
       </station-object>
    </stations>
 </dash>
