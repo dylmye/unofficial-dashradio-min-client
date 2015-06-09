@@ -146,3 +146,10 @@ section {
   max-height: 400px;
   margin-bottom: 15px;
 }
+
+.thumbnail {
+  padding: 0;
+  margin-bottom: 0;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+}
