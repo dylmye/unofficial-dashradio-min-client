@@ -1,6 +1,6 @@
 // DASHRADIO-MIN-CLIENT
 // jQuery.DASH
-// v3.0.1
+// v3.2.1
 // mit license - you must
 // include the license located
 // at http://git.io/KjOJmw
@@ -55,16 +55,20 @@ $(document).ready(function(){
         // debug only -- console.log('Updated at ' + jQuery.now() + ' using key ' + AUTH + STATID);
         $('#Cover').attr('alt', NowPlayingTitle); // accessibility - put title in cover tags
         $('#Cover').attr('title', NowPlayingTitle);
+        document.title = "▶ " + NowPlayingTitle + " - " + NowPlayingArtist + " | Playing on DASH Radio";
+        $('#BuyiTunes').attr("href", "https://itunes.apple.com/search?term=" + encodeURIComponent(NowPlayingTitle)); // iTunes link
+        $('#BuyPlay').attr("href", "https://play.google.com/store/search?c=music&q=" + encodeURIComponent(NowPlayingTitle)); // iTunes link
+
         // get human name for station: fn poller
         $.ajax({
           url:'allStations.xml',
           success:function(xml) {
             var STATFN = $(xml).find(":contains(" + STATID + ") > name").text(); // get fn from id - uses contain however :'(
             $("#PlayingFN").html('Now Playing on ' + STATFN); // report fn
-            $(document).prop('title', '▶ ' + STATFN + ' - DASH Radio');
           }
         });
         $("#PlayingData").html('<strong>' + NowPlayingTitle + '</strong><br>By ' + NowPlayingArtist); // report song data
+
         // sharing stuff
         var currURL = window.location.href;
         var shareText = "#NowPlaying " + NowPlayingTitle + " By " + NowPlayingArtist + " - ";
@@ -81,6 +85,6 @@ $(document).ready(function(){
 $("#PlayingHistory").rss("https://radio.securenetsystems.net/dx/get_playlist_history.cfm?stationCallSign=" + STATID + "&authTokenWeb=" + AUTH + "&rss=true", {
   limit: 5, // only top 5
   layoutTemplate: '<p class="dl-horizontal">{entries}</p>',
-  entryTemplate: '<p><span>{title} by {body}</span></p>'
+  entryTemplate: '<p><span>{title} {body}</span></p> <hr>'
 }).show();
 });

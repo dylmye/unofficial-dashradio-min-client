@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dash>
    <stations>
+     <station-object><!-- this block has been added manually. do not wipe this. -->
+       <statid>DASH68</statid>
+        <default_cover_url>http://i.imgur.com/gVUHzTb.png</default_cover_url>
+        <description>Over 500 songs chosen by Tyler, The Creator for GOLF Media subscribers. Listen for free!</description>
+        <genre>All (Open Format)</genre>
+        <auth>EC8FE9B7-2D2B-427F-9157-64A13B179EDD</auth>
+        <id>0</id>
+        <name>GOLF Radio</name>
+        <square_logo_url>http://i.imgur.com/h0jb4k2.png</square_logo_url>
+        <server>ice41</server>
+     </station-object><!-- /this block has been added manually. do not wipe this. -->
       <station-object>
          <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/SKEE247.jpg</default_cover_url>
          <description>Step into the world of DJ SKEE. His personal playlist: no limits, no genre restrictions.</description>
