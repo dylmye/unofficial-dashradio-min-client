@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dash>
+<dash version="3.2.1">
    <stations>
      <station-object><!-- this block has been added manually. do not wipe this. -->
        <statid>DASH68</statid>

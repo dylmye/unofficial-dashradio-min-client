@@ -1,10 +1,10 @@
-// DASHRADIO-MIN-CLIENT
-// jQuery.DASH
-// v3.2.1
-// mit license - you must
-// include the license located
-// at http://git.io/KjOJmw
-
+/*
+jQuery.DASH
+v3.2.1
+** Pulls data about current station and
+** history to display to users
+**** licensed under ISC *****
+*/
 
 $(document).ready(function(){
   if(STATID == '') { // if user just visited w/o params

@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html lang="en" prefix="og: http://ogp.me/ns#">
 
 <head>
   <!--
@@ -13,7 +13,7 @@
   many thanks to dash radio for the streams.
   this website aims to work on any modern device, without stupid apps.
 
-  v3.0.1
+  v3.2.1
   mit license - you must include the license located at http://git.io/KjOJmw
 -->
 <meta charset="utf-8">
@@ -31,6 +31,24 @@
 <link rel="icon" href="./img/favicon.png">
 <meta name="msapplication-TileColor" content="#39c">
 <meta name="msapplication-square150x150logo" content="./img/win8-tile-icon.png">
+
+<!-- twitter -->
+<meta name="twitter:card" content="photo" />
+<meta name="twitter:site" content="@dash_oddfuture" />
+<meta name="twitter:creator" content="@dashradio" />
+<meta name="twitter:title" content="" />
+<meta name="twitter:image" content="./img/social.png" />
+<meta name="twitter:image:width" content="1000">
+<meta name="twitter:image:width" content="1000">
+<meta name="twitter:url" content="">
+
+<!-- facebook -->
+<meta property="og:title" content="Listen to DASH Radio" />
+<meta property="og:type" content="music.song" />
+<meta property="og:url" content="" />
+<meta property="og:locale" content="en_GB" />
+<meta property="og:image" content="./img/social.png" />
+
 <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
 <link href="./css/custom.css" rel="stylesheet">
@@ -131,6 +149,10 @@
 
   <!-- SCRIPTS -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script>
+  $('meta[property=og\\:url]').attr('content', window.location.href);
+  $('meta[property=twitter\\:url]').attr('content', window.location.href);
+  </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/js/bootstrap.min.js"></script>
 
   <script src="./js/jQuery.rss.js"></script>
