@@ -56,8 +56,8 @@ $(document).ready(function(){
         $('#Cover').attr('alt', NowPlayingTitle); // accessibility - put title in cover tags
         $('#Cover').attr('title', NowPlayingTitle);
         document.title = "▶ " + NowPlayingTitle + " - " + NowPlayingArtist + " | Playing on DASH Radio";
-        $('#BuyiTunes').attr("href", "https://itunes.apple.com/search?term=" + encodeURIComponent(NowPlayingTitle)); // iTunes link
-        $('#BuyPlay').attr("href", "https://play.google.com/store/search?c=music&q=" + encodeURIComponent(NowPlayingTitle)); // iTunes link
+        $('#BuyiTunes').attr("href", "https://itunes.com/" + encodeURIComponent(NowPlayingTitle)); // iTunes link
+        $('#BuyPlay').attr("href", "https://play.google.com/store/search?c=music&q=" + encodeURIComponent(NowPlayingTitle) + encodeURIComponent(" by ") + encodeURIComponent(NowPlayingArtist)); // iTunes link
 
         // get human name for station: fn poller
         $.ajax({
