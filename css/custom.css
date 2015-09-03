@@ -9,9 +9,10 @@
   many thanks to dash radio for the streams.
   this website aims to work on any modern device, without stupid apps.
 
-  v3.2.1
+  v3.2.5
   mit license - you must include the license located at http://git.io/KjOJmw
 */
+
 hr {
   margin-top: 6px;
   margin-bottom: 6px;
@@ -122,6 +123,7 @@ a.buy-gplay {
     padding-left: 5%;
     text-align: center;
   }
+  #Cover { margin-top: 60px; }
   ul.navbar-nav {
     text-align: center;
   }
@@ -217,7 +219,7 @@ a.buy-gplay {
 .fa {
   font-size: 130%;
 }
-
+#toprow { margin-top: 60px; }
 .row:not(#toprow) {
   margin-top: 2%;
 }
@@ -237,44 +239,7 @@ section {
   background-color: #ffffff;
   border: 1px solid #ffffff;
 }
-/* carousel */
-.carousel {
-  margin-top: 50px;
-  height: 100%;
-}
-.carousel-caption {
-  z-index: 10;
-  text-shadow: 0 0 0;
-}
-.carousel-control { height: 400px }
-.carousel .item {
-  background-color: #2d88b5;
-  background-size: cover;
-  height: 100%;
-}
-#slide1, #slide2, #slide3 {
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  height: 400px;
-}
-@media only screen and (max-width: 768px) {
-  #slide1, #slide2, #slide3 {
-    height: 150px;
-  }
-}
-#slide1 {
-  background-image: url("../img/caro/1.png");
-}
-#slide2 {
-  background-image: url("../img/caro/2.png");
-}
-#slide3 {
-  background-image: url("../img/caro/3.png");
-}
-.carousel-control {
-  background: transparent !important;
-  text-shadow: 0 0 0;
-}
+
 #playtain {
   width: 100%;
 }

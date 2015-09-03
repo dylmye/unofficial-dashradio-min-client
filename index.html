@@ -13,7 +13,7 @@
   many thanks to dash radio for the streams.
   this website aims to work on any modern device, without stupid apps.
 
-  v3.2.1
+  v3.2.5
   mit license - you must include the license located at http://git.io/KjOJmw
 -->
 <meta charset="utf-8">
@@ -58,27 +58,11 @@
       </div>
     </div>
   </nav><!-- /navigation -->
-  <div id="featuredCaro" class="carousel slide" data-ride="carousel">
-  		<div class="carousel-inner">
-        <div class="item active" id="slide1">
-		    </div>
-        <div class="item" id="slide2">
-		    </div>
-		    <div class="item" id="slide3">
-		    </div>
-  		</div>
-      <a class="left carousel-control" href="#featuredCaro" role="button" data-slide="prev">
-			     <span class="glyphicon glyphicon-chevron-left"></span>
-      </a>
-      <a class="right carousel-control" href="#featuredCaro" role="button" data-slide="next">
-			     <span class="glyphicon glyphicon-chevron-right"></span>
-      </a>
-  </div>
 
   <div class="container"><!-- .container -->
 
     <div class="row" id="toprow">
-
+        <h2 style="text-align: center">The light player for the Dash Radio group of stations.</h2>
       <div class="col-lg-12"><!-- header -->
         <h1 class="page-header">Most Popular</h1>
       </div><!-- /header -->
@@ -106,6 +90,7 @@
       </div><!-- /#featured -->
 
     </div><!-- /.row -->
+      <p><strong>Go to: </strong><a href="#All">Open Format</a>, <a href="#Pop">Pop</a>, <a href="#Alt">Alternative</a>, <a href="#Rock">Rock</a>, <a href="#Electronic">Electronic</a>, <a href="#Films">Soundtracks</a>, <a href="#Decades">Decades</a>, <a href="#Gaming">Gaming</a>, <a href="#HipHop">Hip Hop</a>, <a href="#Country">Country</a>, <a href="#FaithGosp">Faith &amp; Gospel</a>, <a href="#HHRB">Hip Hop &amp; R&amp;B</a>, <a href="#Holi">Holidays</a>, <a href="#JazzClass">Jazz &amp; Classical</a>, <a href="#Lat">Latin</a>, <a href="#RANDB">R&amp;B</a> or<a href="#Reg">Reggae</a>.</p>
     <div id="STATIONS">
     <div class="row">
       <div class="col-lg-12"><!-- header -->
@@ -209,6 +194,13 @@
       </div><!-- /header -->
         <section id="Reg"></section>
     </div>
+        
+    <div class="row">
+      <div class="col-lg-12"><!-- header -->
+        <h1 class="page-header">Talk</h1>
+      </div><!-- /header -->
+        <section id="Talk"></section>
+    </div>
 
       </div><!-- /#stations -->
 
@@ -268,6 +260,7 @@
             if(STATGEN == "R&B") { $('#RAB').append(toPages); };
             if(STATGEN == "Reggae") { $('#Reg').append(toPages); };
             if(STATGEN == "Rock") { $('#Rock').append(toPages); };
+            if(STATGEN == "Talk") { $('#Talk').append(toPages); };
           });
         });
       }

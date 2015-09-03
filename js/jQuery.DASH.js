@@ -1,6 +1,6 @@
 /*
 jQuery.DASH
-v3.2.1
+v3.2.5
 ** Pulls data about current station and
 ** history to display to users
 **** licensed under ISC *****
@@ -32,7 +32,7 @@ $(document).ready(function(){
   var STATID = GetQueryStringParams('statid'); // station ident
   var STATSRV = GetQueryStringParams('server'); // station server
   var AUTH = GetQueryStringParams('auth'); // history auth key
-  $("#PlayerMP3").attr("src", 'http://' + STATSRV + '.securenetsystems.net/' + STATID + '?type=.flv:80'); // player
+  $("#VLC").attr("href", 'vlc://' + encodeURIComponent('http://' + STATSRV + '.securenetsystems.net/' + STATID + '?type=.flv:80'));
 
   // main function: player_status_update poller
   var refInterval = window.setInterval(function() {
@@ -47,7 +47,10 @@ $(document).ready(function(){
           var NowPlayingArtwork = $(this).find('cover').text(); // album cover of current song
 
           if(NowPlayingArtwork !== ""){ // sometimes no art is provided;
-            $('#Cover').attr('src', NowPlayingArtwork); // if there is art, report it;
+              $('#Cover').attr('src', NowPlayingArtwork); // if there is art, apply it;
+          }
+          else if(NowPlayingTitle == "The Shane Show"){
+              $('#Cover').attr('src', "./img/shaneshowcover.jpg"); // Shane Show is regular enough to give it artwork
           }
           else {
             $('#Cover').attr('src', "./img/fallbackcover.png"); // otherwise use a placeholder
@@ -56,7 +59,7 @@ $(document).ready(function(){
         $('#Cover').attr('alt', NowPlayingTitle); // accessibility - put title in cover tags
         $('#Cover').attr('title', NowPlayingTitle);
         document.title = "▶ " + NowPlayingTitle + " - " + NowPlayingArtist + " | Playing on DASH Radio";
-        $('#BuyiTunes').attr("href", "https://itunes.com/" + encodeURIComponent(NowPlayingTitle)); // iTunes link
+        $('#BuyiTunes').attr("href", "https://itunes.com/" + encodeURIComponent(NowPlayingTitle) + encodeURIComponent(" - ") + encodeURIComponent(NowPlayingArtist)); // iTunes link
         $('#BuyPlay').attr("href", "https://play.google.com/store/search?c=music&q=" + encodeURIComponent(NowPlayingTitle) + encodeURIComponent(" by ") + encodeURIComponent(NowPlayingArtist)); // iTunes link
 
         // get human name for station: fn poller
