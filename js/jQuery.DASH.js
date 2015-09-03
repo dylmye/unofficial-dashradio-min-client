@@ -32,6 +32,7 @@ $(document).ready(function(){
   var STATID = GetQueryStringParams('statid'); // station ident
   var STATSRV = GetQueryStringParams('server'); // station server
   var AUTH = GetQueryStringParams('auth'); // history auth key
+  $("#Player").attr("src", 'http://' + STATSRV + '.securenetsystems.net/' + STATID + '?type=.mp4:80');
   $("#VLC").attr("href", 'vlc://' + 'http://' + STATSRV + '.securenetsystems.net/' + STATID + '?type=.flv:80');
 
   // main function: player_status_update poller
