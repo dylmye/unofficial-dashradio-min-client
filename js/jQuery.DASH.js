@@ -109,7 +109,7 @@ $(document).ready(function(){
     function getAllStations() {
          return $.ajax({
             type: "GET",
-            url: 'http://localhost/dashradio/allStations.xml',
+            url: '../allStations.xml',
             dataType: "xml",
             success: function(xml) {
                 parseStationXml(xml, statid); 
