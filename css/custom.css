@@ -9,7 +9,7 @@
   many thanks to dash radio for the streams.
   this website aims to work on any modern device, without stupid apps.
 
-  v3.2.5
+  v3.3.0
   mit license - you must include the license located at http://git.io/KjOJmw
 */
 
@@ -17,11 +17,30 @@ hr {
   margin-top: 6px;
   margin-bottom: 6px;
 }
+footer { width: 90% }
 #Cover {
   height: 500px;
   width: 500px;
   box-shadow: 0px 0px 5px 0px #333;
+  background-image: url("./img/fallbackcover.png");
 }
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 .page-header {
   border-bottom: transparent;
 }
@@ -112,6 +131,11 @@ a.buy-gplay {
     }
     #Player {
       width: 100%;
+    }
+    audio {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
     }
   }
 .daylo-mobile-only {

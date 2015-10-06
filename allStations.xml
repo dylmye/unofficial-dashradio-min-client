@@ -1,700 +1,714 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<dash version="3.2.1">
-   <stations>
-     <station-object><!-- this block has been added manually. do not wipe this. -->
-       <statid>DASH68</statid>
-        <default_cover_url>http://i.imgur.com/gVUHzTb.png</default_cover_url>
-        <description>Over 500 songs chosen by Tyler, The Creator for GOLF Media subscribers. Listen for free!</description>
-        <genre>All (Open Format)</genre>
-        <auth>EC8FE9B7-2D2B-427F-9157-64A13B179EDD</auth>
-        <id>0</id>
-        <name>GOLF Radio</name>
-        <square_logo_url>http://i.imgur.com/h0jb4k2.png</square_logo_url>
-        <server>ice41</server>
-     </station-object><!-- /this block has been added manually. do not wipe this. -->
-      <station-object>
-         <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/SKEE247.jpg</default_cover_url>
-         <description>Step into the world of DJ SKEE. His personal playlist: no limits, no genre restrictions.</description>
-         <genre>All (Open Format)</genre>
-         <auth>0B2A4043-EA59-487C-AE01-CBF6B812F611</auth>
-         <id>1</id>
-         <name>Skee 24/7</name>
-         <statid>DASH37</statid>
-         <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/SKEETV247Icon.png</square_logo_url>
-         <server>ice9</server>
-      </station-object>
-      <station-object>
-         <statid>DASH34</statid>
-         <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/TheOldies.jpg</default_cover_url>
-         <description>Like fine wine, some music just gets better with age. They may be called Oldies but they sure are Goodies.</description>
-         <genre>Decades</genre>
-         <auth>27127CF2-3C57-4A90-AB67-0C0D83A2B7F0</auth>
-         <id>2</id>
-         <name>The Oldies</name>
-         <square_logo_url>http://54.191.183.105/~uploads/icon_logos/theoldiesicon.png</square_logo_url>
-         <server>ice9</server>
-      </station-object>
-      <station-object>
-        <statid>DASH38</statid>
-         <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/Dash1New.jpg</default_cover_url>
-         <description>All roads lead to Dash 1, the epicenter of Dash Radio. Hear your favorite artists and discover the hottest new talent in music.</description>
-         <genre>All (Open Format)</genre>
-         <auth>39B3C51B-312C-414B-BA67-A3EE450435F7</auth>
-         <id>3</id>
-         <name>Dash 1</name>
-         <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/Dash1NewIcon2.png</square_logo_url>
-         <server>ice9</server>
-      </station-object>
-      <station-object>
-        <statid>DASH36</statid>
-         <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/PureSoulPoweredByIsaacHayes.jpg</default_cover_url>
-         <description>Who knows soul music better than Isaac Hayes? Sit back and let him guide your journey to soulful bliss.</description>
-         <genre>Soul</genre>
-         70
-         <auth>E81FA3CD-B964-45E6-A0B5-7D6A13705EDD</auth>
-         <id>4</id>
-         <name>Pure Soul Powered By Isaac Hayes</name>
-         <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/PureSoulPoweredByIsaacHayesIcon.png</square_logo_url>
-         <server>ice9</server>
-      </station-object>
-      <station-object>
-        <statid>DASH29</statid>
-         <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/Cinescore.jpg</default_cover_url>
-         <description>Get your popcorn ready! Cinescore presents classic film scores and movie soundtracks from your favorite movies.</description>
-         <genre>Movie Music</genre>
-         <auth>F4EF7FAD-658D-4CE8-8E4D-3680D325DC0E</auth>
-         <id>6</id>
-         <name>Cinescore</name>
-         <square_logo_url>http://54.191.183.105/~uploads/icon_logos/cinescoreicon.png</square_logo_url>
-         <server>ice23</server>
-      </station-object>
-      <station-object>
-        <statid>DASH15</statid>
-         <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/Loud.jpg</default_cover_url>
-         <description>The quintessential party station. It is mandatory that this station be played at LOUD volumes.</description>
-         <genre>Pop</genre>
-         <auth>287AB6C1-F316-482E-984D-1EC42F38485C</auth>
-         <id>9</id>
-         <name>LOUD</name>
-         <square_logo_url>http://54.191.183.105/~uploads/icon_logos/loudicon.png</square_logo_url>
-         <server>ice6</server>
-      </station-object>
-      <station-object>
-        <statid>DASH18</statid>
-         <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/NativeRhymes.jpg</default_cover_url>
-         <description>For the hip-hop heads who are all about soulful hip-hop and lyricism. A conscious take on the hip-hop scene.</description>
-         <genre>Hip Hop</genre>
-         <auth>8428564A-E632-4A31-848C-9B4E241EAE03</auth>
-         <id>10</id>
-         <name>Native Rhymes</name>
-         <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/nativerhymesbicon.png</square_logo_url>
-         <server>ice7</server>
-      </station-object>
-      <station-object>
-        <statid>DASH19</statid>
-         <default_cover_url>http://radio.securenetsystems.net/file_radio/stations_large/DASH19/v5/album-art-default.png</default_cover_url>
-         <description>While we were all afraid of the Y2K bug, our favorite artists were still making music, and thankfully so. A diverse mix of your favorite songs from the 2000s.</description>
-         <genre>Decades</genre>
-         <auth>F528BB2E-7412-422D-9AED-05845BC5C24F</auth>
-         <id>19</id>
-         <name>Y2K</name>
-         <square_logo_url>http://54.191.183.105/~uploads/icon_logos/y2kicon.png</square_logo_url>
-         <server>ice7</server>
-      </station-object>
-      <station-object>
-        <statid>DASH41</statid>
-         <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/TheCut.jpg</default_cover_url>
-         <description>Your home for discovering new talent in the world of hip-hop. No more trolling the blogs and mixtape websites.</description>
-         <genre>Hip Hop</genre>
-         <auth>2B789624-27D6-4102-84A8-14C2AB96A4FD</auth>
-         <id>22</id>
-         <name>The Cut</name>
-         <square_logo_url>http://54.191.183.105/~uploads/icon_logos/thecuticon.png</square_logo_url>
-         <server>ice10</server>
-      </station-object>
-      <station-object>
-         <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/ElectroCity.jpg</default_cover_url>
-         <description>Your home for electronic music. The biggest dance records in the world, Top 40 remixes, and shows/mixes curated by world famous DJs.</description>
-         <genre>Electronic</genre>
-         <statid>DASH9</statid>
-         <auth>16CEC0F9-306C-4AB5-832F-0A603F8C4E03</auth>
-         <id>23</id>
-         <name>Electro City</name>
-         <square_logo_url>http://54.191.183.105/~uploads/icon_logos/electrocityicon.png</square_logo_url>
-         <server>ice5</server>
-      </station-object>
-      <station-object>
-        <statid>DASH23</statid>
-         <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/SpaceBass.jpg</default_cover_url>
-         <description>A more eccentric take on electronic music. Drum &amp; Bass, Deep House, Dubstep, Trap, and more.</description>
-         <genre>Electronic/Dance</genre>
-         <auth>5F222FD8-D0DA-4D45-A80B-CDD25586CBCB</auth>
-         <id>24</id>
-         <name>Space Bass</name>
-         <square_logo_url>http://54.191.183.105/~uploads/icon_logos/spacebasstest2.png</square_logo_url>
-         <server>ice8</server>
-      </station-object>
-      <station-object>
-        <statid>DASH25</statid>
-         <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/Subdustrial1.jpg</default_cover_url>
-         <description>It's time to get down and dirty. The world's first industrial house and deep house goth station.</description>
-         <genre>Electronic/Dance</genre>
-         <auth>04F070AE-8FE1-4354-A775-0F3119433EAD</auth>
-         <id>26</id>
-         <name>Subdustrial</name>
-         <square_logo_url>http://54.191.183.105/~uploads/icon_logos/subdustrialicon.png</square_logo_url>
-         <server>ice8</server>
-      </station-object>
-      <station-object>
-        <statid>DASH17</statid>
-         <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/MainStage.jpg</default_cover_url>
-         <description>Sick of the typical Top 40 station? We take your favorite pop songs and add a little extra flavor.</description>
-         <genre>Pop</genre>
-         <auth>60B184F2-9836-4672-B04F-1ECC8D3B714D</auth>
-         <id>28</id>
-         <name>Main Stage</name>
-         <square_logo_url>http://54.191.183.105/~uploads/icon_logos/mainstageicon.png</square_logo_url>
-         <server>ice7</server>
-      </station-object>
-      <station-object>
-        <statid>DASH30</statid>
-         <default_cover_url>http://radio.securenetsystems.net/file_radio/stations_large/DASH30/v5/album-art-default.png</default_cover_url>
-         <description>No one understands the social media generation like we do. Tell your parents to get off your case, it's music time.</description>
-         <genre>Pop</genre>
-         <auth>F975DC91-6028-407D-8178-0FB04E23AF19</auth>
-         <id>29</id>
-         <name>Press Play</name>
-         <square_logo_url>http://54.191.183.105/~uploads/icon_logos/pressplayicon.png</square_logo_url>
-         <server>ice23</server>
-      </station-object>
-      <station-object>
-        <statid>DASH7</statid>
-         <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/80s.jpg</default_cover_url>
-         <description>Hair metal, new wave, pop, electronic. You catch the drift.</description>
-         <genre>Decades</genre>
-         <auth>86D94319-D5D5-44F5-B698-BF6A505F04E9</auth>
-         <id>31</id>
-         <name>80's</name>
-         <square_logo_url>http://54.191.183.105/~uploads/icon_logos/80sicon.png</square_logo_url>
-         <server>ice5</server>
-      </station-object>
-      <station-object>
-        <statid>DASH14</statid>
-         <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/XXLFreshman20151.jpg</default_cover_url>
-         <description>Presented by XXL Magazine, XXL is the home for hip-hop's biggest hits. Find out who's buzzing on the blogs and who's taking over the rap game!</description>
-         <genre>Hip Hop</genre>
-         <auth>84632BF0-6DFC-44F9-99B0-FC68DCE02F0A</auth>
-         <id>33</id>
-         <name>XXL</name>
-         <square_logo_url>http://54.191.183.105/~uploads/icon_logos/xxltest4.png</square_logo_url>
-         <server>ice6</server>
-      </station-object>
-      <station-object>
-        <statid>DASH12</statid>
-         <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/Alternative.jpg</default_cover_url>
-         <description>We leave no subgenre untouched. Alt Rock like you've never heard it before.</description>
-         <genre>Indie/Alternative</genre>
-         <auth>300B1FD6-2263-4D81-A49E-F090C54EAB59</auth>
-         <id>37</id>
-         <name>Dash Alternative</name>
-         <square_logo_url>http://54.191.183.105/~uploads/icon_logos/alternativeicon.png</square_logo_url>
-         <server>ice6</server>
-      </station-object>
-      <station-object>
-        <statid>DASH31</statid>
-         <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/TheLab.jpg</default_cover_url>
-         <description>The love child of alternative and electronic. Nothing like the best of both worlds!</description>
-         <genre>Chill</genre>
-         <auth>EC2FC2F0-C788-4435-BE68-CFA69273E469</auth>
-         <id>38</id>
-         <name>The Lab</name>
-         <square_logo_url>http://54.191.183.105/~uploads/icon_logos/thelabtest2.png</square_logo_url>
-         <server>ice9</server>
-      </station-object>
-      <station-object>
-        <statid>DASH32</statid>
-         <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/DashIndie.jpg</default_cover_url>
-         <description>We are sick of indie rock not getting its proper acknowledgment. Welcome to your new sanctuary, Dash Indie.</description>
-         <genre>Indie/Alternative</genre>
-         <auth>B9EE080F-D2C7-4EB6-B37F-E79B153D3EEE</auth>
-         <id>39</id>
-         <name>Dash Indie</name>
-         <square_logo_url>http://54.191.183.105/~uploads/icon_logos/indieicon.png</square_logo_url>
-         <server>ice9</server>
-      </station-object>
-      <station-object>
-        <statid>DASH24</statid>
-         <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/TheStrip.jpg</default_cover_url>
-         <description>Relive the Sunset Strip circa de 1980. An ode to the hair metal rockstar in all of us.</description>
-         <genre>Rock</genre>
-         <auth>FEC265C7-7617-449F-A972-BA42496CE4E0</auth>
-         <id>40</id>
-         <name>The Strip</name>
-         <square_logo_url>http://54.191.183.105/~uploads/icon_logos/thestripicon.png</square_logo_url>
-         <server>ice8</server>
-      </station-object>
-      <station-object>
-        <statid>DASH21</statid>
-         <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/11.jpg</default_cover_url>
-         <description>Who didn't want to be a rockstar growing up? Pull out that air guitar and jam with the most iconic rockstars of decades past.</description>
-         <genre>Rock</genre>
-         <auth>C55507A9-B852-452B-872A-C819698E6EAE</auth>
-         <id>41</id>
-         <name>11</name>
-         <square_logo_url>http://54.191.183.105/~uploads/icon_logos/11icon.png</square_logo_url>
-         <server>ice8</server>
-      </station-object>
-      <station-object>
-        <statid>DASH35</statid>
-         <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/RedCup.jpg</default_cover_url>
-         <description>You'd swear you were in the heart of Nashville. The home for country music's biggest hits and upcoming superstars.</description>
-         <genre>Country</genre>
-         <auth>DASH350FE9A69A-9F05-47DB-AAE0-CC638977EF9D</auth>
-         <id>43</id>
-         <name>Red Cup</name>
-         <square_logo_url>http://54.191.183.105/~uploads/icon_logos/redcupicon.png</square_logo_url>
-         <server>ice9</server>
-      </station-object>
-      <station-object>
-        <statid>DASH13</statid>
-         <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/TheRanch.jpg</default_cover_url>
-         <description>Hop in the pick up truck and take a ride down memory lane. Country music's greatest hits from years past.</description>
-         <genre>Country</genre>
-         <auth>6B9BE4CD-765F-4B46-AB64-1371C954A2DD</auth>
-         <id>44</id>
-         <name>The Ranch</name>
-         <square_logo_url>http://54.191.183.105/~uploads/icon_logos/theranchicon.png</square_logo_url>
-         <server>ice6</server>
-      </station-object>
-      <station-object>
-        <statid>DASH2</statid>
-         <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/TheCity.jpg</default_cover_url>
-         <description>Work and childproof. The best of hip-hop and R&amp;B censored for play anywhere, anytime.</description>
-         <genre>Hip Hop</genre>
-         <auth>DASH2E98AD336-4559-44C4-BDAB-FFA315298B3F</auth>
-         <id>49</id>
-         <name>The City</name>
-         <square_logo_url>http://54.191.183.105/~uploads/icon_logos/thecityicon.png</square_logo_url>
-         <server>ice5</server>
-      </station-object>
-      <station-object>
-        <statid>DASH3</statid>
-         <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/Moonlight.jpg</default_cover_url>
-         <description>Candle light, check. Bubble bath, check. And maybe a little champagne. R&amp;B love songs to set the mood.</description>
-         Candle light, check. Bubble bath, check. And maybe a little champagne. R&amp;B love songs to set the mood.
-         <genre>R&amp;B</genre>
-         <auth>DASH3DFC734EC-7B2B-4DFA-97CF-B05CB37DD251</auth>
-         <id>50</id>
-         <name>Moonlight</name>
-         <square_logo_url>http://54.191.183.105/~uploads/icon_logos/moonlighticon.png</square_logo_url>
-         <server>ice5</server>
-      </station-object>
-      <station-object>
-        <statid>DASH22</statid>
-         <default_cover_url>http://radio.securenetsystems.net/file_radio/stations_large/DASH22/v5/album-art-default.png</default_cover_url>
-         <description>WE WANT THE FUNK, GOTTA HAVE THAT FUNK! You asked, so we gave it to you.</description>
-         <genre>Funk/Soul</genre>
-         <auth>DASH22C7B843EC-3D7A-417E-9938-2C33D54412CB</auth>
-         <id>52</id>
-         <name>What The Funk</name>
-         <square_logo_url>http://54.191.183.105/~uploads/icon_logos/whatthefunkicon.png</square_logo_url>
-         <server>ice8</server>
-      </station-object>
-      <station-object>
-        <statid>DASH39</statid>
-         <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/BumpGrind.jpg</default_cover_url>
-         <description>Do you see anything wrong with a little Bump N' Grind? Neither do we.</description>
-         <genre>R&amp;B</genre>
-         <auth>D538835C-B00A-417C-92C6-123D3DAD9DDB</auth>
-         <id>53</id>
-         <name>Bump &amp; Grind</name>
-         <square_logo_url>http://54.191.183.105/~uploads/icon_logos/bumpngrindicon.png</square_logo_url>
-         <server>ice9</server>
-      </station-object>
-      <station-object>
-        <statid>DASH43</statid>
-         <default_cover_url>http://radio.securenetsystems.net/file_radio/stations_large/DASH43/v5/album-art-default.png</default_cover_url>
-         <description>Mr. Marley would be proud. The best of Reggae new and old.</description>
-         <genre>Reggae</genre>
-         <auth>2B1FD3C0-011D-4694-AD31-2E7EF5F96160</auth>
-         <id>54</id>
-         <name>Kingston</name>
-         <square_logo_url>http://54.191.183.105/~uploads/icon_logos/kingstonicon.png</square_logo_url>
-         <server>ice10</server>
-      </station-object>
-      <station-object>
-        <statid>DASH44</statid>
-         <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/TheBridge.jpg</default_cover_url>
-         <description>Church comes to your speakers. It's like having your own personal choir.</description>
-         <genre>Gospel</genre>
-         <auth>7EBAEFF0-9CB9-4FD2-A2B4-36508CC26741</auth>
-         <id>55</id>
-         <name>The Bridge</name>
-         <square_logo_url>http://54.191.183.105/~uploads/icon_logos/thebridgetest1.png</square_logo_url>
-         <server>ice10</server>
-      </station-object>
-      <station-object>
-        <statid>DASH42</statid>
-         <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/TheCross.jpg</default_cover_url>
-         <description>Jesus grab the wheel! The best of Christian pop and rock.</description>
-         <genre>Faith &amp; Gospel</genre>
-         <auth>4886D9E9-4B13-4E14-8EF2-8012C59CD8A9</auth>
-         <id>56</id>
-         <name>The Cross</name>
-         <square_logo_url>http://54.191.183.105/~uploads/icon_logos/thecrossicon.png</square_logo_url>
-         <server>ice10</server>
-      </station-object>
-      <station-object>
-        <statid>DASH45</statid>
-         <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/Zoetic.jpg</default_cover_url>
-         <description>Miss a live show from your favorite DJ? Not to worry, we broadcast live shows from the biggest festivals, raves, and nightclubs around the world.</description>
-         <genre>Electronic</genre>
-         <auth>EAD52014-1932-45B8-A1D6-C6321B43F2D8</auth>
-         <id>57</id>
-         <name>Zoetic</name>
-         <square_logo_url>http://54.191.183.105/~uploads/icon_logos/zoeticicon.png</square_logo_url>
-         <server>ice10</server>
-      </station-object>
-      <station-object>
-        <statid>DASH46</statid>
-         <default_cover_url>http://radio.securenetsystems.net/file_radio/stations_large/DASH46/v5/album-art-default.png</default_cover_url>
-         <description>Want to brag to your friends about finding the best new music before everyone else? Discover is updated daily to bring you the latest and greatest from all genres of music!</description>
-         <genre>Discovery</genre>
-         <auth>DASH46EBCED08B-1F42-41FF-B6E9-E8765778A5FD</auth>
-         <id>59</id>
-         <name>Discover</name>
-         <square_logo_url>http://54.191.183.105/~uploads/icon_logos/discovericon.png</square_logo_url>
-         <server>ice10</server>
-      </station-object>
-      <station-object>
-        <statid>DASH48</statid>
-         <default_cover_url>http://radio.securenetsystems.net/file_radio/stations_large/DASH48/v5/album-art-default.png</default_cover_url>
-         <description>Your fix for Latin pop and urban. Estas en Fuego!</description>
-         <genre>Latino</genre>
-         <auth>DASH48197F02EB-5AFE-4772-ACE9-749090674093</auth>
-         <id>60</id>
-         <name>Fuego</name>
-         <square_logo_url>http://54.191.183.105/~uploads/icon_logos/fuegoicon.png</square_logo_url>
-         <server>ice10</server>
-      </station-object>
-      <station-object>
-        <statid>DASH1</statid>
-         <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/90s.jpg</default_cover_url>
-         <description>90s babies are very territorial about the music they grew up on. We don't blame you, it was pretty darn good.</description>
-         <genre>Decades</genre>
-         <auth>DASH1D4D31D58-EF1A-4B19-8273-41C2DFBAAE46</auth>
-         <id>62</id>
-         <name>90's</name>
-         <square_logo_url>http://54.191.183.105/~uploads/icon_logos/90sicon.png</square_logo_url>
-         <server>ice5</server>
-      </station-object>
-      <station-object>
-        <statid>DASH8</statid>
-         <default_cover_url>http://radio.securenetsystems.net/file_radio/stations_large/DASH8/v5/album-art-default.png</default_cover_url>
-         <description>Powered by Tech N9ne and the number one independent rap label, Strange Music, Independent Grind is your source for independent hip-hop. Music, news, and interviews from your favorite do-it-yourself artists.</description>
-         <genre>Hip Hop</genre>
-         <auth>AE47EF5B-A8E1-44FB-AD63-FF634CFB187C</auth>
-         <id>64</id>
-         <name>Independent Grind</name>
-         <square_logo_url>http://54.191.183.105/~uploads/icon_logos/independentgrindicon.png</square_logo_url>
-         <server>ice5</server>
-      </station-object>
-      <station-object>
-        <statid>DASH5</statid>
-         <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/Ratpack.jpg</default_cover_url>
-         <description>Frank, Sammy, Dean, and everything in between. Order another martini, you're going to be here for a while.</description>
-         <genre>Decades</genre>
-         <auth>1C4B78A4-F56A-47D3-BFF1-E0D8AFE5F77E</auth>
-         <id>65</id>
-         <name>Ratpack</name>
-         <square_logo_url>http://54.191.183.105/~uploads/icon_logos/ratpackicon.png</square_logo_url>
-         <server>ice7</server>
-      </station-object>
-      <station-object>
-        <statid>DASH6</statid>
-         <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/Cool.jpg</default_cover_url>
-         <description>The best of jazz from then and now. No one messes with our sax appeal.</description>
-         <genre>Jazz</genre>
-         <auth>BC2CB338-4A63-47FE-8C8B-19DC6F9F77E0</auth>
-         <id>66</id>
-         <name>Cool</name>
-         <square_logo_url>http://54.191.183.105/~uploads/icon_logos/coolicon.png</square_logo_url>
-         <server>ice5</server>
-      </station-object>
-      <station-object>
-        <statid>DASH11</statid>
-         <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/1580.jpg</default_cover_url>
-         <description>Let legendary hip-hop DJ Julio G guide you down memory lane. Throwback interviews, classic records, exclusive mixes, and never heard before records.</description>
-         <genre>Hip Hop</genre>
-         <auth>45949391-35AE-4ACC-B3F9-3C9AA8F675FF</auth>
-         <id>68</id>
-         <name>1580</name>
-         <square_logo_url>http://54.191.183.105/~uploads/icon_logos/1580test1.png</square_logo_url>
-         <server>ice6</server>
-      </station-object>
-      <station-object>
-        <statid>DASH20</statid>
-         <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/ParadiseCity.jpg</default_cover_url>
-         <description>Curated by rock legends Guns N' Roses, Paradise City is your one-stop shop for GNR hits and other rock classics. The grass is always greener and the girls are always prettier on Paradise City.</description>
-         <genre>Rock</genre>
-         <auth>A49769D7-AA91-49DC-A0F0-4559C4AFC31B</auth>
-         <id>69</id>
-         <name>Paradise City</name>
-         <square_logo_url>http://54.191.183.105/~uploads/icon_logos/paradisecityicon.png</square_logo_url>
-         <server>ice7</server>
-      </station-object>
-      <station-object>
-        <statid>DASH26</statid>
-         <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/70s.jpg</default_cover_url>
-         <description>We've all got a little hippy in us. Relive the psychedelic era with 70s on Dash!</description>
-         <genre>Decades</genre>
-         <auth>C113FD6D-4EB7-42A3-A844-5E69EF510434</auth>
-         <id>70</id>
-         <name>70's</name>
-         <square_logo_url>http://54.191.183.105/~uploads/icon_logos/70sicon2.png</square_logo_url>
-         <server>ice23</server>
-      </station-object>
-      <station-object>
-        <statid>DASH33</statid>
-         <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/Concerto.jpg</default_cover_url>
-         <description>Timeless classical pieces performed by the best orchestras in the world. Beethoven would be proud.</description>
-         <genre>Classical</genre>
-         <auth>116B12BA-C58C-4980-B203-E4A0D64DBE72</auth>
-         <id>71</id>
-         <name>Concerto</name>
-         <square_logo_url>http://54.191.183.105/~uploads/icon_logos/concertoicon.png</square_logo_url>
-         <server>ice9</server>
-      </station-object>
-      <station-object>
-        <statid>DASH51</statid>
-         <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/Multiplayer.jpg</default_cover_url>
-         <description>Up, down, circle, R2, down, square. You've just unlocked the code to the only station designed for gamers just like yourself.</description>
-         <genre>Gaming</genre>
-         <auth>04DF03A5-115E-4FEC-9E7E-A9D32D29AA30</auth>
-         <id>73</id>
-         <name>Multiplayer</name>
-         <square_logo_url>http://54.191.183.105/~uploads/icon_logos/multiplayericon.png</square_logo_url>
-         <server>ice9</server>
-      </station-object>
-      <station-object>
-        <statid>DASH4</statid>
-         <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/DiscoFever.jpg</default_cover_url>
-         <description>It's 2015 but we still rock our bell bottoms and platform shoes. Consider us infected because we have Disco Fever!</description>
-         <genre>R&amp;B/Soul</genre>
-         <auth>F37CE6D6-F60D-46ED-8744-0F2449DA36BF</auth>
-         <id>76</id>
-         <name>Disco Fever</name>
-         <square_logo_url>http://54.191.183.105/~uploads/icon_logos/discofevericon3.png</square_logo_url>
-         <server>ice7</server>
-      </station-object>
-      <station-object>
-        <statid>DASH56</statid>
-         <default_cover_url>http://54.191.183.105/~uploads/artwork/iphone6plus/OddFuture/OddFuturePink.png</default_cover_url>
-         <description>Most radio sucks so we're doing it ourselves. We play and do what we want.</description>
-         <genre>All (Open Format)</genre>
-         <auth>AE21238A-FD92-43BE-BA34-BA679008FC5A</auth>
-         <id>77</id>
-         <name>Odd Future Radio</name>
-         <square_logo_url>http://54.191.183.105/~uploads/icon_logos/oddfutureicon.png</square_logo_url>
-         <server>ice10</server>
-      </station-object>
-      <station-object>
-        <statid>DASH59</statid>
-         <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/TheBasement.jpg</default_cover_url>
-         <description>Dedicated to the punk living inside all of us. The Basement plays punk classics, new favorites, and a whole bunch of whatever we want.</description>
-         <genre>Indie/Alternative</genre>
-         <auth>DASH59DE8E5A8E-991A-4778-8A4D-EFEAA82DC0E1</auth>
-         <id>85</id>
-         <name>The Basement</name>
-         <square_logo_url>http://54.191.183.105/~uploads/icon_logos/the_basementicon.png</square_logo_url>
-         <server>ice10</server>
-      </station-object>
-      <station-object>
-        <statid>DASH10</statid>
-         <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/LaIsla.jpg</default_cover_url>
-         <description>Straight from the streets of Santa Domingo. Spice up the romance with a dose of pure Bachata.</description>
-         <genre>Island</genre>
-         <auth>EA6FC790-F8A8-4B1B-BA2C-2060B782A309</auth>
-         <id>95</id>
-         <name>La Isla</name>
-         <square_logo_url>http://54.191.183.105/~uploads/icon_logos/laislaicon.png</square_logo_url>
-         <server>ice5</server>
-      </station-object>
-      <station-object>
-        <statid>DASH58</statid>
-         <default_cover_url>http://54.191.183.105/~uploads/artwork/iphone6plus/CommunityPool/communitypool%20now%20playing.png</default_cover_url>
-         <description>No running by the pool. If you start to drown as a result of musical overload, unfortunately we can't save you.  @communitypoolca</description>
-         <genre>All (Open Format)</genre>
-         <auth>6EC92714-6425-4B58-966A-E703C60EF0BB</auth>
-         <id>96</id>
-         <name>Community Pool</name>
-         <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/communitypoolcaicon2.png</square_logo_url>
-         <server>ice10</server>
-      </station-object>
-      <station-object>
-        <statid>DASH52</statid>
-         <default_cover_url>http://54.191.183.105/~uploads/artwork/iphone6plus/TheShaneShow/TheShaneShowC%20copy.png</default_cover_url>
-         <description>There's no predicting what will come from the mouth of Shane Powers. 24/7 access to radio's most intriguing personality.</description>
-         <genre>Talk</genre>
-         <auth>74BB7A57-E9E3-4818-9388-E80C9836759A</auth>
-         <id>98</id>
-         <name>The Shane Show</name>
-         <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/TheShaneShowIcon.png</square_logo_url>
-         <server>ice9</server>
-      </station-object>
-      <station-object>
-        <statid>DASH40</statid>
-         <default_cover_url>http://54.191.183.105/~uploads/artwork/iphone6plus/BeatJunkieRadio/BeatJunkieDefaultB.png</default_cover_url>
-         <description>The Beat Junkies have been unleashed! Exclusively on Dash Radio, the World Famous DJ crew gives you exclusive mixes from their unprecedented music collection.</description>
-         <genre>Hip Hop</genre>
-         <auth>3859A5C5-136B-4E1B-8131-D02836445AF2</auth>
-         <id>99</id>
-         <name>Beat Junkie Radio</name>
-         <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/BeatJunkieRadioBBBIcon.png</square_logo_url>
-         <server>ice9</server>
-      </station-object>
-      <station-object>
-        <statid>DASH66</statid>
-         <default_cover_url>http://54.191.183.105/~uploads/artwork/iphone6plus/Love/Love.png</default_cover_url>
-         <description>Bow-chicka-wow-wow. Baby making music at its finest.</description>
-         <genre>Romance</genre>
-         <auth>C4E81478-92CE-4F68-A4D6-F16AAB264DA5</auth>
-         <id>102</id>
-         <name>Love Songs</name>
-         <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/LoveIcon2.png</square_logo_url>
-         <server>ice41</server>
-      </station-object>
-      <station-object>
-        <statid>DASH50</statid>
-         <default_cover_url>http://54.191.183.105/~uploads/artwork/iphone6plus/HotButton/HotButtonDefault.png</default_cover_url>
-         <description>24/7 uncensored talk radio. Entertainment, sports, self-help, comedy, and much more.</description>
-         <genre>Talk</genre>
-         <auth>D059B11A-4F7D-4D54-9D4D-507BC2A05A91</auth>
-         <id>103</id>
-         <name>Hot Button Radio</name>
-         <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/HotButtonIcon.png</square_logo_url>
-         <server>ice10</server>
-      </station-object>
-      <station-object>
-        <statid>DASH55</statid>
-         <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/Euphoria.jpg</default_cover_url>
-         <description>You've had a long day, kick back and relax. Let the soothing sounds of Euphoria cleanse your mind and body.</description>
-         <genre>Chill</genre>
-         <auth>8792481C-D48E-43F5-BBE5-1B61CBB345EE</auth>
-         <id>104</id>
-         <name>Euphoria</name>
-         <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/EuphoriaIcon.png</square_logo_url>
-         <server>ice9</server>
-      </station-object>
-      <station-object>
-        <statid>DASH54</statid>
-         <default_cover_url>http://54.191.183.105/~uploads/artwork/iphone6plus/iCraftRadio/iCraftRadio.png</default_cover_url>
-         <description>Don't go chasing waterfalls, or good music. Let TLC's T-Boz guide you through the best of hip-hop and R&amp;B from the 90s to today.</description>
-         <genre>Hip Hop + R&amp;B</genre>
-         <auth>E825828A-0487-4D25-AC33-18B0D8A02F55</auth>
-         <id>105</id>
-         <name>iCraft Radio</name>
-         <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/iCraftRadioIcon.png</square_logo_url>
-         <server>ice9</server>
-      </station-object>
-      <station-object>
-        <statid>DASH16</statid>
-         <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/CadillaccMusic.jpg</default_cover_url>
-         <description>Roll the windows down on the Caddy and crank the music way up. Presented by Snoop Dogg aka DJ Snoopadelic, there's only one way to describe Cadillacc Music: Rhythm &amp; Gangsta.</description>
-         <genre>Rhythm &amp; Gangsta</genre>
-         <auth>9672140F-2747-452D-9235-27920889238F</auth>
-         <id>107</id>
-         <name>Cadillacc Music</name>
-         <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/CadillaccMusicIcon.png</square_logo_url>
-         <server>ice7</server>
-      </station-object>
-      <station-object>
-        <statid>DASH57</statid>
-         <default_cover_url>http://54.191.183.105/~uploads/artwork/iphone6plus/RecordStoreDay/RSDRadio_800x800.jpg</default_cover_url>
-         <description>Celebrate the independent record stores that keep the heart and soul of the music industry alive. On Record Store Day you'll hear rarities, b-sides, classic reissues, demos, and more.</description>
-         <genre>All (Open Format)</genre>
-         <auth>DASH57F45D348D-DDA1-468F-9BE8-DC1C3F74B119</auth>
-         <id>108</id>
-         <name>Record Store Day Radio</name>
-         <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/RSDIcon.png</square_logo_url>
-         <server>ice10</server>
-      </station-object>
-      <station-object>
-        <statid>DASH70</statid>
-         <default_cover_url>http://54.191.183.105/~uploads/artwork/iphone6plus/Rinse/RinseArtworkB.jpg</default_cover_url>
-         <description>Broadcasting live from East London, Rinse remains locked into the pulse of the underground. No genre discrimination, dedicated to all things on the rise.</description>
-         <genre>Electronic/Dance</genre>
-         <auth>C297EEF7-CA0C-46D4-92AC-6F356E0069A9</auth>
-         <id>110</id>
-         <name>Rinse FM</name>
-         <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/RinseIcon.png</square_logo_url>
-         <server>ice41</server>
-      </station-object>
-      <station-object>
-        <statid>DASH65</statid>
-         <default_cover_url>http://54.191.183.105/~uploads/artwork/iphone6plus/EastVillageRadio/EVR_SocialAvatar.jpg</default_cover_url>
-         <description>Live radio from the East Village in New York City</description>
-         <genre>All (Multi-Genre)</genre>
-         <auth>3784FDD2-CED8-4C91-BB7C-EBEB87939A47</auth>
-         <id>113</id>
-         <name>East Village Radio</name>
-         <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/EVRIcon.png</square_logo_url>
-         <server>ice41</server>
-      </station-object>
-      <station-object>
-        <statid>DASH27</statid>
-         <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/RadioImperio.jpg</default_cover_url>
-         <description>Lo mejor de la musica Regional Mexicana. The best of Regional Mexican!</description>
-         <genre>Latino</genre>
-         <auth>DCCB8212-05E9-4EAC-AB78-E9285E2F7048</auth>
-         <id>114</id>
-         <name>Radio Imperio</name>
-         <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/RadioImperio2Icon.png</square_logo_url>
-         <server>ice23</server>
-      </station-object>
-      <station-object>
-        <statid>DASH67</statid>
-         <default_cover_url>http://54.191.183.105/~uploads/artwork/iphone6plus/Remember/REMEMBER_612px.jpg</default_cover_url>
-         <description>Courtesy of Remember Music and Most Dope. Let Mac Miller and friends lead you to their sonic promise land.</description>
-         <genre>All (Open Format)</genre>
-         <auth>4678B329-0D88-4E36-98B1-925AB19A0FD5</auth>
-         <id>115</id>
-         <name>Remember</name>
-         <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/rememberdicon.png</square_logo_url>
-         <server>ice41</server>
-      </station-object>
-      <station-object>
-        <statid>DASH62</statid>
-         <default_cover_url>http://54.191.183.105/~uploads/artwork/iphone6plus/GPen/GPenRadio.jpg</default_cover_url>
-         <description>The Sound of the Counterculture’ is here to bring you groundbreaking hip-hop, electronic, and indie selections, alongside the classic anthems of hazy days gone by. So grab some munchies, pack that G Pen, turn up your speakers, and get ready for the good vibes. This is G Pen Radio, only on DASH!</description>
-         <genre>All (Open Format)</genre>
-         <auth>DASH62D9BB4837-43F9-47FE-ADA5-935493367C64</auth>
-         <id>116</id>
-         <name>G Pen Radio</name>
-         <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/GPenRadio2Icon.png</square_logo_url>
-         <server>ice41</server>
-      </station-object>
-      <station-object>
-        <statid>DASH28</statid>
-         <default_cover_url>http://54.191.183.105/~uploads/artwork/iphone6plus/Entourage/EntourageNowPlaying7.jpg</default_cover_url>
-         <description>Hop in the '66 Continental and take a ride down Sunset Boulevard. Entourage Radio features all the music from eight seasons of the television show plus new music and exclusives from the film hand curated by the team behind the best music selection in television history.</description>
-         <genre>All (Open Format)</genre>
-         <auth>DASH28446BA9CB-A26D-4579-AD5F-D8915F298F5A</auth>
-         <id>117</id>
-         <name>Entourage Radio</name>
-         <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/EntourageIcon.png</square_logo_url>
-         <server>ice23</server>
-      </station-object>
-      <station-object>
-        <statid>DASH64</statid>
-         <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/IslandBlock2.jpg</default_cover_url>
-         <description>The Pulse of the Pacific. Where Paradise lives.</description>
-         <genre>Island</genre>
-         <auth>DBB4283D-0300-41C7-B0EA-C3F80F80A2B3</auth>
-         <id>118</id>
-         <name>Island Block</name>
-         <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/IslandBlockIcon.png</square_logo_url>
-         <server>ice41</server>
-      </station-object>
-   </stations>
+<?xml version="1.0" encoding="UTF-8" ?>
+<dash version="3.3.0">
+    <stations>
+        <station-object statid="1">
+            <id>62</id>
+            <name>90's</name>
+            <genre>Decades</genre>
+            <square_logo_url>http://54.191.183.105/~uploads/icon_logos/90sicon.png</square_logo_url>
+            <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/90s.jpg</default_cover_url>
+            <description>90s babies are very territorial about the music they grew up on. We don't blame you, it was pretty darn good.</description>
+            <server>ice55</server>
+        </station-object>
+        
+        <station-object statid="2">
+            <id>49</id>
+            <name>The City</name>
+            <genre>Hip Hop + R&amp;B</genre>
+            <square_logo_url>http://54.191.183.105/~uploads/icon_logos/thecityicon.png</square_logo_url>
+            <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/TheCity.jpg</default_cover_url>
+            <description>Work and childproof. The best of hip-hop and R&amp;B censored for play anywhere, anytime.</description>
+            <server>ice55</server>
+        </station-object>
+        
+        <station-object statid="3">
+            <id>50</id>
+            <name>Moonlight</name>
+            <genre>R&amp;B</genre>
+            <square_logo_url>http://54.191.183.105/~uploads/icon_logos/moonlighticon.png</square_logo_url>
+            <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/Moonlight.jpg</default_cover_url>
+            <description>Candle light, check. Bubble bath, check. And maybe a little champagne. R&amp;B love songs to set the mood.</description>
+            <server>ice55</server>
+        </station-object>
+        
+        <station-object statid="4">
+            <id>76</id>
+            <name>Disco Fever</name>
+            <genre>Decades</genre>
+            <square_logo_url>http://54.191.183.105/~uploads/icon_logos/discofevericon3.png</square_logo_url>
+            <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/DiscoFever.jpg</default_cover_url>
+            <description>It's 2015 but we still rock our bell bottoms and platform shoes. Consider us infected because we have Disco Fever!</description>
+            <server>ice55</server>
+        </station-object>
+        
+        <station-object statid="5">
+            <id>65</id>
+            <name>Ratpack</name>
+            <genre>Decades</genre>
+            <square_logo_url>http://54.191.183.105/~uploads/icon_logos/ratpackicon.png</square_logo_url>
+            <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/Ratpack.jpg</default_cover_url>
+            <description>Frank, Sammy, Dean, and everything in between. Order another martini, you're going to be here for a while.</description>
+            <server>ice55</server>
+        </station-object>
+        
+        <station-object statid="6">
+            <id>66</id>
+            <name>Cool</name>
+            <genre>Jazz</genre>
+            <square_logo_url>http://54.191.183.105/~uploads/icon_logos/coolicon.png</square_logo_url>
+            <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/Cool.jpg</default_cover_url>
+            <description>The best of jazz from then and now. No one messes with our sax appeal.</description>
+            <server>ice55</server>
+        </station-object>
+        
+        <station-object statid="7">
+            <id>31</id>
+            <name>80&apos;s</name>
+            <genre>Decades</genre>
+            <square_logo_url>http://54.191.183.105/~uploads/icon_logos/80sicon.png</square_logo_url>
+            <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/80s.jpg</default_cover_url>
+            <description>Hair metal, new wave, pop, electronic. You catch the drift.</description>
+            <server>ice55</server>
+        </station-object>
+        
+        <station-object statid="8">
+            <id>64</id>
+            <name>Independent Grind</name>
+            <genre>Hip Hop</genre>
+            <square_logo_url>http://54.191.183.105/~uploads/icon_logos/independentgrindicon.png</square_logo_url>
+            <default_cover_url>http://radio.securenetsystems.net/file_radio/station-object_large/DASH8/v5/album-art-default.png</default_cover_url>
+            <description>Powered by Tech N9ne and the number one independent rap label, Strange Music, Independent Grind is your source for independent hip-hop. Music, news, and interviews from your favorite do-it-yourself artists.</description>
+            <server>ice55</server>
+        </station-object>
+        
+        <station-object statid="9">
+            <id>23</id>
+            <name>Electro City</name>
+            <genre>Electronic</genre>
+            <square_logo_url>http://54.191.183.105/~uploads/icon_logos/electrocityicon.png</square_logo_url>
+            <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/ElectroCity.jpg</default_cover_url>
+            <description>Your home for electronic music. The biggest dance records in the world, Top 40 remixes, and shows/mixes curated by world famous DJs.</description>
+            <server>ice55</server>
+        </station-object>
+        
+        <station-object statid="10">
+            <id>95</id>
+            <name>La Isla</name>
+            <genre>Island</genre>
+            <square_logo_url>http://54.191.183.105/~uploads/icon_logos/laislaicon.png</square_logo_url>
+            <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/LaIsla.jpg</default_cover_url>
+            <description>Straight from the streets of Santa Domingo. Spice up the romance with a dose of pure Bachata.</description>
+            <server>ice55</server>
+        </station-object>
+        
+        <station-object statid="11">
+            <id>68</id>
+            <name>1580</name>
+            <genre>Hip Hop</genre>
+            <square_logo_url>http://54.191.183.105/~uploads/icon_logos/1580test1.png</square_logo_url>
+            <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/1580.jpg</default_cover_url>
+            <description>Let legendary hip-hop DJ Julio G guide you down memory lane. Throwback interviews, classic records, exclusive mixes, and never heard before records. </description>
+            <server>ice55</server>
+        </station-object>
+        
+        <station-object statid="12">
+            <id>37</id>
+            <name>Dash Alternative</name>
+            <genre>Indie/Alternative</genre>
+            <square_logo_url>http://54.191.183.105/~uploads/icon_logos/alternativeicon.png</square_logo_url>
+            <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/Alternative.jpg</default_cover_url>
+            <description>We leave no subgenre untouched. Alt Rock like you've never heard it before. </description>
+            <server>ice55</server>
+        </station-object>
+        
+        <station-object statid="13">
+            <id>44</id>
+            <name>The Ranch</name>
+            <genre>Country</genre>
+            <square_logo_url>http://54.191.183.105/~uploads/icon_logos/theranchicon.png</square_logo_url>
+            <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/TheRanch.jpg</default_cover_url>
+            <description>Hop in the pick up truck and take a ride down memory lane. Country music's greatest hits from years past. 
+    </description>
+            <server>ice55</server>
+        </station-object>
+        
+        <station-object statid="14">
+            <id>33</id>
+            <name>XXL</name>
+            <genre>Hip Hop</genre>
+            <square_logo_url>http://54.191.183.105/~uploads/icon_logos/xxltest4.png</square_logo_url>
+            <default_cover_url>http://54.191.183.105/~uploads/artwork/iphone6plus/XXL/XXLFuture092015.jpg</default_cover_url>
+            <description>Presented by XXL Magazine, XXL is the home for hip-hop's biggest hits. Find out who's buzzing on the blogs and who's taking over the rap game! 
+    </description>
+            <server>ice55</server>
+        </station-object>
+        
+        <station-object statid="15">
+            <id>9</id>
+            <name>LOUD</name>
+            <genre>Pop</genre>
+            <square_logo_url>http://54.191.183.105/~uploads/icon_logos/loudicon.png</square_logo_url>
+            <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/Loud.jpg</default_cover_url>
+            <description>The quintessential party station-object. It is mandatory that this station-object be played at LOUD volumes. 
+    </description>
+            <server>ice55</server>
+        </station-object>
+        
+        <station-object statid="16">
+            <id>107</id>
+            <name>Cadillacc Music</name>
+            <genre>Rhythm &amp; Gangsta</genre>
+            <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/CadillaccMusicIcon.png</square_logo_url>
+            <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/CadillaccMusic.jpg</default_cover_url>
+            <description>Roll the windows down on the Caddy and crank the music way up. Presented by Snoop Dogg aka DJ Snoopadelic, there's only one way to describe Cadillacc Music: Rhythm &amp; Gangsta. </description>
+            <server>ice55</server>
+        </station-object>
+        
+        <station-object statid="17">
+            <id>28</id>
+            <name>Main Stage</name>
+            <genre>Pop</genre>
+            <square_logo_url>http://54.191.183.105/~uploads/icon_logos/mainstageicon.png</square_logo_url>
+            <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/MainStage.jpg</default_cover_url>
+            <description>Sick of the typical Top 40 station-object? We take your favorite pop songs and add a little extra flavor.</description>
+            <server>ice55</server>
+        </station-object>
+        
+        <station-object statid="18">
+            <id>10</id>
+            <name>Native Rhymes</name>
+            <genre>Hip Hop</genre>
+            <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/nativerhymesbicon.png</square_logo_url>
+            <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/NativeRhymes.jpg</default_cover_url>
+            <description>For the hip-hop heads who are all about soulful hip-hop and lyricism. A conscious take on the hip-hop scene.</description>
+            <server>ice55</server>
+        </station-object>
+        
+        <station-object statid="19">
+            <id>19</id>
+            <name>Y2K</name>
+            <genre>Decades</genre>
+            <square_logo_url>http://54.191.183.105/~uploads/icon_logos/y2kicon.png</square_logo_url>
+            <default_cover_url>http://radio.securenetsystems.net/file_radio/station-object_large/DASH19/v5/album-art-default.png</default_cover_url>
+            <description>While we were all afraid of the Y2K bug, our favorite artists were still making music, and thankfully so. A diverse mix of your favorite songs from the 2000s. </description>
+            <server>ice55</server>
+        </station-object>
+        
+        <station-object statid="20">
+            <id>69</id>
+            <name>Paradise City</name>
+            <genre>Rock</genre>
+            <square_logo_url>http://54.191.183.105/~uploads/icon_logos/paradisecityicon.png</square_logo_url>
+            <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/ParadiseCity.jpg</default_cover_url>
+            <description>Curated by rock legends Guns N' Roses, Paradise City is your one-stop shop for GNR hits and other rock classics. The grass is always greener and the girls are always prettier on Paradise City.</description>
+            <server>ice55</server>
+        </station-object>
+        
+        <station-object statid="21">
+            <id>41</id>
+            <name>11</name>
+            <genre>Rock</genre>
+            <square_logo_url>http://54.191.183.105/~uploads/icon_logos/11icon.png</square_logo_url>
+            <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/11.jpg</default_cover_url>
+            <description>Who didn't want to be a rockstar growing up? Pull out that air guitar and jam with the most iconic rockstars of decades past.</description>
+            <server>ice55</server>
+        </station-object>
+        
+        <station-object statid="22">
+            <id>52</id>
+            <name>What The Funk</name>
+            <genre>Funk/Soul</genre>
+            <square_logo_url>http://54.191.183.105/~uploads/icon_logos/whatthefunkicon.png</square_logo_url>
+            <default_cover_url>http://54.191.183.105/~uploads/show_artwork/WhatTheFunk/FunkyFridayWhatTheFunkShowArtwork.jpg</default_cover_url>
+            <description>WE WANT THE FUNK, GOTTA HAVE THAT FUNK! You asked, so we gave it to you.</description>
+            <server>ice55</server>
+        </station-object>
+        
+        <station-object statid="23">
+            <id>24</id>
+            <name>Space Bass</name>
+            <genre>Electronic</genre>
+            <square_logo_url>http://54.191.183.105/~uploads/icon_logos/spacebasstest2.png</square_logo_url>
+            <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/SpaceBass.jpg</default_cover_url>
+            <description>A more eccentric take on electronic music. Drum &amp; Bass, Deep House, Dubstep, Trap, and more. 
+    </description>
+            <server>ice55</server>
+        </station-object>
+        
+        <station-object statid="24">
+            <id>40</id>
+            <name>The Strip</name>
+            <genre>Rock</genre>
+            <square_logo_url>http://54.191.183.105/~uploads/icon_logos/thestripicon.png</square_logo_url>
+            <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/TheStrip.jpg</default_cover_url>
+            <description>Relive the Sunset Strip circa de 1980. An ode to the hair metal rockstar in all of us. </description>
+            <server>ice55</server>
+        </station-object>
+        
+        <station-object statid="25">
+            <id>26</id>
+            <name>Subdustrial</name>
+            <genre>Electronic</genre>
+            <square_logo_url>http://54.191.183.105/~uploads/icon_logos/subdustrialicon.png</square_logo_url>
+            <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/Subdustrial1.jpg</default_cover_url>
+            <description>It's time to get down and dirty. The world's first industrial dance, drum &amp; bass, dirty house &amp; underground station-object.</description>
+            <server>ice55</server>
+        </station-object>
+        
+        <station-object statid="26">
+            <id>70</id>
+            <name>70's</name>
+            <genre>Decades</genre>
+            <square_logo_url>http://54.191.183.105/~uploads/icon_logos/70sicon2.png</square_logo_url>
+            <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/70s.jpg</default_cover_url>
+            <description>We've all got a little hippy in us. Relive the psychedelic era with 70s on Dash!</description>
+            <server>ice55</server>
+        </station-object>
+        
+        <station-object statid="27">
+            <id>114</id>
+            <name>Radio Imperio</name>
+            <genre>Latino</genre>
+            <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/RadioImperio2Icon.png</square_logo_url>
+            <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/RadioImperio.jpg</default_cover_url>
+            <description>Lo mejor de la musica Regional Mexicana. The best of Regional Mexican!</description>
+            <server>ice55</server>
+        </station-object>
+        
+        <station-object statid="28">
+            <id>125</id>
+            <name>YG</name>
+            <genre>K-Pop</genre>
+            <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/YGIcon.png</square_logo_url>
+            <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/YGGeneralArtwork.jpg</default_cover_url>
+            <description>YG Entertainment, Korea's top label, presents you with the hottest tracks from your favorite YG artists. It's like attending your own personal 24/7 YG Family concert.</description>
+            <server>ice55</server>
+        </station-object>
+        
+        <station-object statid="29">
+            <id>6</id>
+            <name>Cinescore</name>
+            <genre>Movie Music</genre>
+            <square_logo_url>http://54.191.183.105/~uploads/icon_logos/cinescoreicon.png</square_logo_url>
+            <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/Cinescore.jpg</default_cover_url>
+            <description>Get your popcorn ready! Cinescore presents classic film scores and movie soundtracks from your favorite movies.</description>
+            <server>ice55</server>
+        </station-object>
+        
+        <station-object statid="30">
+            <id>29</id>
+            <name>Press Play</name>
+            <genre>Pop</genre>
+            <square_logo_url>http://54.191.183.105/~uploads/icon_logos/pressplayicon.png</square_logo_url>
+            <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/PressPlay.jpg</default_cover_url>
+            <description>No one understands the social media generation like we do. Tell your parents to get off your case, it's music time. 
+    </description>
+            <server>ice55</server>
+        </station-object>
+        
+        <station-object statid="31">
+            <id>38</id>
+            <name>The Lab</name>
+            <genre>Chill</genre>
+            <square_logo_url>http://54.191.183.105/~uploads/icon_logos/thelabtest2.png</square_logo_url>
+            <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/TheLab.jpg</default_cover_url>
+            <description>The love child of alternative and electronic. Nothing like the best of both worlds!</description>
+            <server>ice55</server>
+        </station-object>
+        
+        <station-object statid="32">
+            <id>39</id>
+            <name>Dash Indie</name>
+            <genre>Indie/Alternative</genre>
+            <square_logo_url>http://54.191.183.105/~uploads/icon_logos/indieicon.png</square_logo_url>
+            <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/DashIndie.jpg</default_cover_url>
+            <description>We are sick of indie rock not getting its proper acknowledgment. Welcome to your new sanctuary, Dash Indie.</description>
+            <server>ice55</server>
+        </station-object>
+        
+        <station-object statid="33">
+            <id>71</id>
+            <name>Concerto</name>
+            <genre>Classical</genre>
+            <square_logo_url>http://54.191.183.105/~uploads/icon_logos/concertoicon.png</square_logo_url>
+            <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/Concerto.jpg</default_cover_url>
+            <description>Timeless classical pieces performed by the best orchestras in the world. Beethoven would be proud.</description>
+            <server>ice55</server>
+        </station-object>
+        
+        <station-object statid="34">
+            <id>2</id>
+            <name>The Oldies</name>
+            <genre>Decades</genre>
+            <square_logo_url>http://54.191.183.105/~uploads/icon_logos/theoldiesicon.png</square_logo_url>
+            <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/TheOldies.jpg</default_cover_url>
+            <description>Like fine wine, some music just gets better with age. They may be called Oldies but they sure are Goodies. 
+    </description>
+            <server>ice55</server>
+        </station-object>
+        
+        <station-object statid="35">
+            <id>43</id>
+            <name>Red Cup</name>
+            <genre>Country</genre>
+            <square_logo_url>http://54.191.183.105/~uploads/icon_logos/redcupicon.png</square_logo_url>
+            <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/RedCup.jpg</default_cover_url>
+            <description>You'd swear you were in the heart of Nashville. The home for country music's biggest hits and upcoming superstars.</description>
+            <server>ice55</server>
+        </station-object>
+        
+        <station-object statid="36">
+            <id>4</id>
+            <name>Pure Soul Powered By Isaac Hayes</name>
+            <genre>Funk/Soul</genre>
+           <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/PureSoulPoweredByIsaacHayesIcon.png</square_logo_url>
+            <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/PureSoulPoweredByIsaacHayes.jpg</default_cover_url>
+            <description>Who knows soul music better than Isaac Hayes? Sit back and let him guide your journey to soulful bliss.</description>
+            <server>ice55</server>
+        </station-object>
+        
+        <station-object statid="37">
+            <id>1</id>
+            <name>Skee 24/7</name>
+            <genre>All (Open Format)</genre>
+            <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/SKEEIcon.png</square_logo_url>
+            <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/SKEE247_SKEETVReturnsPromo.jpg</default_cover_url>
+            <description>Step into the world of DJ SKEE. His personal playlist: no limits, no genre restrictions.</description>
+            <server>ice55</server>
+        </station-object>
+        
+        <station-object statid="38">
+            <id>3</id>
+            <name>Dash 1</name>
+            <genre>All (Open Format)</genre>
+            <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/Dash1NewIcon2.png</square_logo_url>
+            <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/Dash1New.jpg</default_cover_url>
+            <description>All roads lead to Dash 1, the epicenter of Dash Radio. Hear your favorite artists and discover the hottest new talent in music.</description>
+            <server>ice55</server>
+        </station-object>
+        
+        <station-object statid="39">
+            <id>53</id>
+            <name>Bump &amp; Grind</name>
+            <genre>R&amp;B</genre>
+            <square_logo_url>http://54.191.183.105/~uploads/icon_logos/bumpngrindicon.png</square_logo_url>
+            <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/BumpGrind.jpg</default_cover_url>
+            <description>Do you see anything wrong with a little Bump N&apos; Grind? Neither do we.</description>
+            <server>ice55</server>
+        </station-object>
+        
+        <station-object statid="40">
+            <id>99</id>
+            <name>Beat Junkie Radio</name>
+            <genre>Hip Hop</genre>
+            <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/BeatJunkieRadioBBBIcon.png</square_logo_url>
+            <default_cover_url>http://54.191.183.105/~uploads/artwork/iphone6plus/BeatJunkieRadio/BeatJunkieDefaultB.png</default_cover_url>
+            <description>The Beat Junkies have been unleashed! Exclusively on Dash Radio, the World Famous DJ crew gives you exclusive mixes from their unprecedented music collection. </description>
+            <server>ice55</server>
+        </station-object>
+        
+         <station-object statid="41">
+            <id>22</id>
+            <name>The Cut</name>
+            <genre>Hip Hop</genre>
+            <square_logo_url>http://54.191.183.105/~uploads/icon_logos/thecuticon.png</square_logo_url>
+            <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/TheCut.jpg</default_cover_url>
+            <description>Your home for discovering new talent in the world of hip-hop. No more trolling the blogs and mixtape websites.</description>
+            <server>ice65</server>
+        </station-object>
+        
+        <station-object statid="42">
+            <id>56</id>
+            <name>The Cross</name>
+            <genre>Faith &amp; Gospel</genre>
+            <square_logo_url>http://54.191.183.105/~uploads/icon_logos/thecrossicon.png</square_logo_url>
+            <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/TheCross.jpg</default_cover_url>
+            <description>Jesus grab the wheel! The best of Christian pop and rock.</description>
+            <server>ice65</server>
+        </station-object>
+        
+        <station-object statid="43">
+            <id>000</id>
+            <name>Reventon</name>
+            <genre>Latino</genre>
+            <square_logo_url>http://54.191.183.105/~uploads/icon_logos/thebridgetest1.png</square_logo_url>
+            <default_cover_url>http://54.191.183.105/~uploads/artwork/iphone6plus/Reventon/ReventonB.jpg</default_cover_url>
+            <description>Pop music meets rock alternative with a touch of Latin flavor.</description>
+            <server>ice65</server>
+        </station-object>
+        
+        <station-object statid="44">
+            <id>1290</id>
+            <name>The Bridge</name>
+            <genre>Faith &amp; Gospel</genre>
+            <square_logo_url>http://54.191.183.105/~uploads/icon_logos/thebridgetest1.png</square_logo_url>
+            <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/TheBridge.jpg</default_cover_url>
+            <description>Church comes to your speakers. It's like having your own personal choir.</description>
+            <server>ice65</server>
+        </station-object>
+        
+        <station-object statid="45">
+            <id>57</id>
+            <name>Zoetic</name>
+            <genre>Electronic</genre>
+            <square_logo_url>http://54.191.183.105/~uploads/icon_logos/zoeticicon.png</square_logo_url>
+            <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/Zoetic.jpg</default_cover_url>
+            <description>Miss a live show from your favorite DJ? Not to worry, we broadcast live shows from the biggest festivals, raves, and nightclubs around the world.</description>
+            <server>ice65</server>
+        </station-object>
+        
+        <station-object statid="46">
+            <id>59</id>
+            <name>Discover</name>
+            <genre>Discovery</genre>
+            <square_logo_url>http://54.191.183.105/~uploads/icon_logos/discovericon.png</square_logo_url>
+            <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/Discover.jpg</default_cover_url>
+            <description>Want to brag to your friends about finding the best new music before everyone else? Discover is updated daily to bring you the latest and greatest from all genres of music!</description>
+            <server>ice65</server>
+        </station-object>
+        
+        <station-object statid="47">
+            <id>1890</id>
+            <name>HALO Radio</name>
+            <genre>Soundtrack</genre>
+            <square_logo_url></square_logo_url>
+            <default_cover_url></default_cover_url>
+            <description>We couldn't find artwork for this station as it was formally nonexistent. However, the automated playlist is  running! Last confirmed running 5th Oct 15</description>
+            <server>ice65</server>
+        </station-object>
+        
+        <station-object statid="48">
+            <id>60</id>
+            <name>Fuego</name>
+            <genre>Latino</genre>
+            <square_logo_url>http://54.191.183.105/~uploads/icon_logos/fuegoicon.png</square_logo_url>
+            <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/Fuego2.jpg</default_cover_url>
+            <description>Your fix for Latin pop and urban. ¡Estas en Fuego!</description>
+            <server>ice65</server>
+        </station-object>
+        
+        <station-object statid="49">
+            <id>1930</id>
+            <name>Unknown</name>
+            <genre>Hip-Hop</genre>
+            <square_logo_url></square_logo_url>
+            <default_cover_url></default_cover_url>
+            <description>We couldn't find artwork for this station as it was formally nonexistent. However, the automated playlist is  running! Last confirmed running 5th October 2015.</description>
+            <server>ice65</server>
+        </station-object>
+        
+        <station-object statid="50">
+            <id>103</id>
+            <name>Hot Button Radio</name>
+            <genre>Talk</genre>
+            <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/HotButtonIcon.png</square_logo_url>
+            <default_cover_url>http://54.191.183.105/~uploads/artwork/iphone6plus/HotButton/HotButtonDefault.png</default_cover_url>
+            <description>24/7 uncensored talk radio. Entertainment, sports, self-help, comedy, and much more.</description>
+            <server>ice65</server>
+        </station-object>
+        
+        <station-object statid="51">
+            <id>73</id>
+            <name>Multiplayer</name>
+            <genre>Gaming</genre>
+            <square_logo_url>http://54.191.183.105/~uploads/icon_logos/multiplayericon.png</square_logo_url>
+            <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/Multiplayer.jpg</default_cover_url>
+            <description>Up, down, circle, R2, down, square. You've just unlocked the code to the only station-object designed for gamers just like yourself.</description>
+            <server>ice65</server>
+        </station-object>
+        
+        <station-object statid="52">
+            <id>98</id>
+            <name>The Shane Show</name>
+            <genre>Talk</genre>
+            <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/TheShaneShowIcon.png</square_logo_url>
+            <default_cover_url>http://54.191.183.105/~uploads/artwork/iphone6plus/TheShaneShow/TheShaneShowC%20copy.png</default_cover_url>
+            <description>There's no predicting what will come from the mouth of Shane Powers. 24/7 access to radio's most intriguing personality.</description>
+            <server>ice65</server>
+        </station-object>
+        
+        <!-- no DASH53 -->
+        
+        <station-object statid="54">
+            <id>105</id>
+            <name>iCraft Radio</name>
+            <genre>Hip Hop + R&amp;B</genre>
+            <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/iCraftRadioIcon.png</square_logo_url>
+            <default_cover_url>http://54.191.183.105/~uploads/artwork/iphone6plus/iCraftRadio/iCraftRadio.png</default_cover_url>
+            <description>Don't go chasing waterfalls, or good music. Let TLC's T-Boz guide you through the best of hip-hop and R&amp;B from the 90s to today.</description>
+            <server>ice65</server>
+        </station-object>
+        
+        <station-object statid="55">
+            <id>104</id>
+            <name>Euphoria</name>
+            <genre>Chill</genre>
+            <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/EuphoriaIcon.png</square_logo_url>
+            <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/Euphoria.jpg</default_cover_url>
+            <description>You've had a long day, kick back and relax. Let the soothing sounds of Euphoria cleanse your mind and body.</description>
+            <server>ice65</server>
+        </station-object>
+        
+        <station-object statid="56">
+            <id>77</id>
+            <name>Odd Future Radio</name>
+            <genre>All (Open Format)</genre>
+            <square_logo_url>http://54.191.183.105/~uploads/icon_logos/oddfutureicon.png</square_logo_url>
+            <default_cover_url>http://54.191.183.105/~uploads/artwork/iphone6plus/OddFuture/OddFutureGrey.jpg</default_cover_url>
+            <description>Most radio sucks so we're doing it ourselves. We play and do what we want.</description>
+            <server>ice65</server>
+        </station-object>
+        
+        <station-object statid="57">
+            <id>108</id>
+            <name>Record Store Day Radio</name>
+            <genre>All (Open Format)</genre>
+            <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/RSDIcon.png</square_logo_url>
+            <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/RecordStoreDayRadioNowPlaying.jpg</default_cover_url>
+            <description>Celebrate the independent record stores that keep the heart and soul of the music industry alive. On Record Store Day you'll hear rarities, b-sides, classic reissues, demos, and more. </description>
+            <server>ice65</server>
+        </station-object>
+        
+        <station-object statid="58">
+            <id>96</id>
+            <name>Community Pool</name>
+            <genre>All (Open Format)</genre>
+            <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/communitypoolcaicon2.png</square_logo_url>
+            <default_cover_url>http://54.191.183.105/~uploads/artwork/iphone6plus/CommunityPool/communitypool%20now%20playing.png</default_cover_url>
+            <description>No running by the pool. If you start to drown as a result of musical overload, unfortunately we can't save you. @communitypoolca</description>
+            <server>ice65</server>
+        </station-object>
+        
+        <station-object statid="59">
+            <id>85</id>
+            <name>The Basement</name>
+            <genre>Indie/Alternative</genre>
+            <square_logo_url>http://54.191.183.105/~uploads/icon_logos/the_basementicon.png</square_logo_url>
+            <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/TheBasement.jpg</default_cover_url>
+            <description>Dedicated to the punk living inside all of us. The Basement plays punk classics, new favorites, and a whole bunch of whatever we want. 
+    </description>
+            <server>ice65</server>
+        </station-object>
+        
+        <!-- no DASH60 -->
+        
+        <!-- no DASH61 -->
+        
+        <station-object statid="62">
+            <id>116</id>
+            <name>G Pen Radio</name>
+            <genre>All (Open Format)</genre>
+            <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/GPenRadio2Icon.png</square_logo_url>
+            <default_cover_url>http://54.191.183.105/~uploads/artwork/iphone6plus/GPen/GPenRadioNewNowPlayingImage.jpg</default_cover_url>
+            <description>The Sound of the Counterculture is here to bring you groundbreaking hip-hop, electronic, and indie selections, alongside the classic anthems of hazy days gone by. So grab some munchies, pack that G Pen, turn up your speakers, and get ready for the good vibes. This is G Pen Radio, only on DASH!</description>
+            <server>ice65</server>
+        </station-object>
+        
+        <station-object statid="63">
+            <id>123</id>
+            <name>Monstercat</name>
+            <genre>Electronic</genre>
+            <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/MonstercatIcon.png</square_logo_url>
+            <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/MonstercatAlbumArtworkB.jpg</default_cover_url>
+            <description>Welcome to the Monstercat Family. Hear music from artists such as Krewella, Pegboard Nerds, Project 46, Aero Chord, Haywyre, Tristam, Rogue, Au5, Fractal, Astronaut, Noisestorm + more!</description>
+            <server>ice65</server>
+        </station-object>
+        
+        <station-object statid="64">
+            <id>118</id>
+            <name>Island Block</name>
+            <genre>Island</genre>
+            <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/IslandBlockIcon.png</square_logo_url>
+            <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/IslandBlock2.jpg</default_cover_url>
+            <description>The Pulse of the Pacific. Where Paradise lives.</description>
+            <server>ice65</server>
+        </station-object>
+        
+        <station-object statid="65">
+            <id>113</id>
+            <name>East Village Radio</name>
+            <genre>All (Open Format)</genre>
+            <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/EVRIcon.png</square_logo_url>
+            <default_cover_url>http://54.191.183.105/~uploads/artwork/iphone6plus/EastVillageRadio/EastVillageRadio.png</default_cover_url>
+            <description>Live radio from the East Village in New York City</description>
+            <server>ice65</server>
+        </station-object>
+        
+        <station-object statid="66">
+            <id>102</id>
+            <name>Love Songs</name>
+            <genre>Romance</genre>
+            <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/LoveIcon2.png</square_logo_url>
+            <default_cover_url>http://54.191.183.105/~uploads/artwork/iphone6plus/Love/Love.png</default_cover_url>
+            <description>Bow-chicka-wow-wow. Baby making music at its finest.</description>
+            <server>ice65</server>
+        </station-object>
+        
+        <station-object statid="67">
+            <id>115</id>
+            <name>Remember</name>
+            <genre>All (Open Format)</genre>
+            <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/rememberdicon.png</square_logo_url>
+            <default_cover_url>http://54.191.183.105/~uploads/artwork/iphone6plus/Remember/REMEMBER_612px.jpg</default_cover_url>
+            <description>Courtesy of Remember Music and Most Dope. Let Mac Miller and friends lead you to their sonic promise land.</description>
+            <server>ice65</server>
+        </station-object>
+        
+        <station-object statid="68">
+            <id>3291</id>
+            <name>GOLF Radio</name>
+            <genre>All (Open Format)</genre>
+            <square_logo_url>http://i.imgur.com/h0jb4k2.png</square_logo_url>
+            <default_cover_url>http://i.imgur.com/gVUHzTb.png</default_cover_url>
+            <description>Over 500 songs chosen by Tyler, The Creator for GOLF Media subscribers. Listen for free!</description>
+            <server>ice65</server>
+        </station-object>
+        
+        <!-- no DASH69 -->
+        
+        <!-- no DASH70 - Formerly Rinse FM -->
+        
+        <station-object statid="71">
+            <id>126</id>
+            <name>Halloween</name>
+            <genre>Holidays</genre>
+            <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/halloweenicon3.png</square_logo_url>
+            <default_cover_url>http://54.191.183.105/~uploads/artwork/halloween.png</default_cover_url>
+            <description>Halloween is almost upon us! Get ready for the holiday with this collection of Halloween classics all month long.</description>
+            <server>ice65</server>
+        </station-object>
+        
+        <station-object statid="72">
+            <id>122</id>
+            <name>Los Anarchy</name>
+            <genre>Punk Thrash Metal</genre>
+            <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/LosAnarchyIcon.png</square_logo_url>
+            <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/LosAnarchyAlbumArtwork.jpg</default_cover_url>
+            <description>Welcome to Los Anarchy Radio. Where there are no rules. This is where you come to listen to all the hits in Punk, Thrash and Metal. If you are a fan of these styles, you have finally found your home.</description>
+            <server>ice65</server>
+        </station-object>
+        
+        <!-- no DASH73 -->
+        
+        <!-- no DASH74 -->
+        
+        <!-- no DASH75 -->
+        
+        <!-- no DASH76 -->
+        
+        <!-- no DASH77 -->
+        
+        <!-- no DASH78 -->
+        
+        <station-object statid="79">
+            <id>54</id>
+            <name>Reggae King</name>
+            <genre>Reggae</genre>
+            <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/ReggaeKingIcon.png</square_logo_url>
+            <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/ReggaeKingNowPlayingArtwork.jpg</default_cover_url>
+            <description>VP Records, the worlds biggest Reggae music label, brings you Reggae King, an all-reggae station-object straight from the heart of the Caribbean.</description>
+            <server>ice65</server>
+        </station-object>
+        
+    </stations>
 </dash>

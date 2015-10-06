@@ -1,94 +1,122 @@
-/*
-jQuery.DASH
-v3.2.5
-** Pulls data about current station and
-** history to display to users
-**** licensed under ISC *****
-*/
-
 $(document).ready(function(){
-  if(STATID == '') { // if user just visited w/o params
-    window.location.href("index.html");
-  }
+    /*
+    DASH RADIO MIN CLIENT
+    v3.3.0 # MIT
+    
+    jQuery.Dash
+    grabs data for the current station
+    */
+    /*
+        INTRO - Getting Query Strings and basic information
+    */
+    
 
-  // pull params for data entry
-  function GetQueryStringParams(sParam) {
-    var sPageURL = window.location.search.substring(1);
-    var sURLVariables = sPageURL.split('&');
-    for (var i = 0; i < sURLVariables.length; i++)
-    {
-      var sParameterName = sURLVariables[i].split('=');
-      if (sParameterName[0] == sParam)
-      {
-        return sParameterName[1];
+    var currURL = window.location.href;
+    
+    // funct GetQueryStringParams - get value for specified qs, returns empty if doesn't exist
+      function GetQueryStringParams(sParam) {
+        var sPageURL = window.location.search.substring(1);
+        var sURLVariables = sPageURL.split('&');
+        for (var i = 0; i < sURLVariables.length; i++)
+        {
+          var sParameterName = sURLVariables[i].split('=');
+          if (sParameterName[0] == sParam)
+          {
+            return sParameterName[1];
+          }
+        }
       }
+    
+    var statid = GetQueryStringParams("statid"); // get station identifier
+    
+    if(! statid) { window.location.replace("index.html"); }
+    else { console.log("statid fine: " + statid); }
+    
+    /*
+        PARSING
+    */
+    
+    // funct parseStationXml - use for loadStation
+    function parseStationXml(xml, statid) {
+        var thexml = $(xml).find( 'station-object[statid="' + statid + '"]' );
+
+        station = {
+            name : $(thexml).find('name').text(),
+            genre : $(thexml).find('genre').text(),
+            logo : $(thexml).find('square_logo_url').text(),
+            cover : $(thexml).find('default_cover_url').text(),
+            description : $(thexml).find('description').text(),
+            server : $(thexml).find('server').text(),
+
+            stream : 'http://' + $(thexml).find('server').text() + '.securenetsystems.net/DASH' + statid,
+            history : 'http://streamdb5web.securenetsystems.net/player_status_update/DASH' + statid + '_history_rss.xml',
+            nowPlaying : 'http://streamdb5web.securenetsystems.net/player_status_update/DASH' + statid + '.xml'
+        };
+        $("#Player").html('<audio controls autoplay><source type="audio/mpeg" src="' + station.stream + '"><em>Sorry, your browser doesn&apos;t support this stream. Upgrade your browser, it&apos;s 2015!</em></audio>');
+        $("#PlayingHistory").rss(station.history, {
+          limit: 5, // only top 5
+          layoutTemplate: '<p class="dl-horizontal">{entries}</p>',
+          entryTemplate: '<p><span>{title} {body}</span></p> <hr>'
+        }).show();    
     }
-  }
-
-  $.expr[':'].textEquals = function(a, i, m) {
-    return $(a).text().match("^" + m[3] + "$");
-};
-
-  var STATID = GetQueryStringParams('statid'); // station ident
-  var STATSRV = GetQueryStringParams('server'); // station server
-  var AUTH = GetQueryStringParams('auth'); // history auth key
-  $("#Player").attr("src", 'http://' + STATSRV + '.securenetsystems.net/' + STATID + '?type=.mp4:80');
-  $("#VLC").attr("href", 'vlc://' + 'http://' + STATSRV + '.securenetsystems.net/' + STATID + '?type=.flv:80');
-
-  // main function: player_status_update poller
-  var refInterval = window.setInterval(function() {
-    $.ajax({
-      type: "GET",
-      url: "http://streamdb5web.securenetsystems.net/player_status_update/"+ STATID +".xml",
-      dataType: "xml",
-      success: function(xml) {
-        $(xml).find('playlist').each(function(){
-          var NowPlayingTitle = $(this).find('title').text(); // title of current song
-          var NowPlayingArtist = $(this).find('artist').text(); // artist of current song
-          var NowPlayingArtwork = $(this).find('cover').text(); // album cover of current song
-
-          if(NowPlayingArtwork !== ""){ // sometimes no art is provided;
-              $('#Cover').attr('src', NowPlayingArtwork); // if there is art, apply it;
-          }
-          else if(NowPlayingTitle == "The Shane Show"){
-              $('#Cover').attr('src', "./img/shaneshowcover.jpg"); // Shane Show is regular enough to give it artwork
-          }
-          else {
-            $('#Cover').attr('src', "./img/fallbackcover.png"); // otherwise use a placeholder
-          }
-        // debug only -- console.log('Updated at ' + jQuery.now() + ' using key ' + AUTH + STATID);
-        $('#Cover').attr('alt', NowPlayingTitle); // accessibility - put title in cover tags
-        $('#Cover').attr('title', NowPlayingTitle);
-        document.title = "▶ " + NowPlayingTitle + " - " + NowPlayingArtist + " | Playing on DASH Radio";
-        $('#BuyiTunes').attr("href", "https://itunes.com/" + encodeURIComponent(NowPlayingTitle) + encodeURIComponent(" - ") + encodeURIComponent(NowPlayingArtist)); // iTunes link
-        $('#BuyPlay').attr("href", "https://play.google.com/store/search?c=music&q=" + encodeURIComponent(NowPlayingTitle) + encodeURIComponent(" by ") + encodeURIComponent(NowPlayingArtist)); // iTunes link
-
-        // get human name for station: fn poller
-        $.ajax({
-          url:'allStations.xml',
-          success:function(xml) {
-            var STATFN = $(xml).find(":contains(" + STATID + ") > name").text(); // get fn from id - uses contain however :'(
-            $("#PlayingFN").html('Now Playing on ' + STATFN); // report fn
-          }
+    
+    // funct getNowPlaying - uses player_status_update to get current info.
+    function getNowPlaying(statid) {
+        return $.ajax({
+            type: "GET",
+            url: station.nowPlaying,
+            dataType: "xml",
+            success: function(xml) {
+                var songxml = $(xml).find( 'playlist' );
+                var currentSong = {
+                    title : $(songxml).find('title').text(),
+                    artist : $(songxml).find('artist').text(),
+                    album : $(songxml).find('album').text(),
+                    art : $(songxml).find('cover').text(),
+                    buy : {
+                        itunes : "https://fnd.io/#/search?mediaType=music&term=" + encodeURIComponent($(songxml).find('title').text()),
+                        playMusic : "https://play.google.com/store/search?c=music&q=" + encodeURIComponent($(songxml).find('title').text() + " - " + $(songxml).find('artist').text()) 
+                    },
+                    share : encodeURIComponent("#NowPlaying " + $(songxml).find('title').text() + " by " + $(songxml).find('artist').text() + " - "),
+                    cover : $(songxml).find('cover').text()
+                };
+                var twittershare = "https://twitter.com/intent/tweet?text=" + currentSong.share + "&url=" + encodeURIComponent(currURL) + "&via=" + encodeURIComponent("dash_radio");
+                var facebookshare = "http://www.facebook.com/sharer/sharer.php?t=" + currentSong.share + "&u=" + encodeURIComponent(currURL);
+                $("#Cover").attr("src", currentSong.art);
+                $("#Cover").attr("alt", currentSong.title);
+                $("#Cover").attr("title", currentSong.title);
+                
+                // buy links
+                $('#BuyiTunes').attr("href", currentSong.buy.itunes);
+                $('#BuyPlay').attr("href", currentSong.buy.playMusic);
+                
+                // share links
+                $("#ShareTweet").attr("href", currentSong.share.twitter);
+                $("#ShareFB").attr("href", currentSong.share.facebook);
+                
+                // now playing
+                $("#PlayingData").html("<strong>" + currentSong.title + "</strong><br>By " + currentSong.artist);
+                $("#PlayingFN").html("Now Playing on " + station.name);
+            }
         });
-        $("#PlayingData").html('<strong>' + NowPlayingTitle + '</strong><br>By ' + NowPlayingArtist); // report song data
+    }
+    
+    /*
+        GATHERING
+    */
 
-        // sharing stuff
-        var currURL = window.location.href;
-        var shareText = "#NowPlaying " + NowPlayingTitle + " By " + NowPlayingArtist + " - ";
-
-        $("#ShareTweet").attr("href", "https://twitter.com/intent/tweet?text=" + encodeURIComponent(shareText) + "&url=" + encodeURIComponent(currURL) + "&via=" + encodeURIComponent("dash_radio")); // share to Twitter
-        $("#ShareFB").attr("href", "http://www.facebook.com/sharer/sharer.php?t=" + encodeURIComponent(shareText) + "&u=" + encodeURIComponent(currURL)); // share to Facebook
-
-        });
-      }
-    });
-  }, 4000); // poll every 4 seconds
-
-  // Playing History
-$("#PlayingHistory").rss("https://radio.securenetsystems.net/dx/get_playlist_history.cfm?stationCallSign=" + STATID + "&authTokenWeb=" + AUTH + "&rss=true", {
-  limit: 5, // only top 5
-  layoutTemplate: '<p class="dl-horizontal">{entries}</p>',
-  entryTemplate: '<p><span>{title} {body}</span></p> <hr>'
-}).show();
-});
+    // funct getAllStations - AJAX decoupling
+    function getAllStations() {
+         return $.ajax({
+            type: "GET",
+            url: 'http://localhost/dashradio/allStations.xml',
+            dataType: "xml",
+            success: function(xml) {
+                parseStationXml(xml, statid); 
+                
+                setInterval(function updateNowPlaying(){ getNowPlaying(statid) }, 10000); // update every 10 seconds
+            }
+         });
+    }
+    getAllStations();
+}); // end of on doc.ready

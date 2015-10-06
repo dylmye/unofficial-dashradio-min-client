@@ -1,57 +1,52 @@
 <!DOCTYPE html>
-<html lang="en" prefix="og: http://ogp.me/ns#">
+<html lang="en">
 
 <head>
-  <!--
-      __                 __            __
-     / /_  __  __   ____/ /___ ___  __/ /___
-    / __ \/ / / /  / __  / __ `/ / / / / __ \ ✓
-   / /_/ / /_/ /  / /_/ / /_/ / /_/ / / /_/ / ✓
-  /_.___/\__, /   \__,_/\__,_/\__, /_/\____/  ✓
-        /____/               /____/
+    <!--
+        DYLMYE
+        DASHRADIO-MIN-CLIENT
 
-  many thanks to dash radio for the streams.
-  this website aims to work on any modern device, without stupid apps.
+      many thanks to dash radio for the streams.
+      this website aims to work on any modern device, without stupid apps, in any country.
 
-  v3.2.5
-  mit license - you must include the license located at http://git.io/KjOJmw
--->
-<meta charset="utf-8">
+      v3.3.0
+      mit license
+    -->
+    <meta charset="utf-8">
 
-<title>DASH RADIO</title>
-<meta name="application-name" content="DASH Radio (Min Client)" />
-<meta name="description" content="listen to next gen radio from DASH, on any device.">
-<meta name="author" content="daylo">
+    <title>DASH RADIO</title>
+    <meta name="application-name" content="DASH Radio Min Client">
+    <meta name="description" content="listen to next gen radio from DASH, on any device.">
+    <meta name="author" content="dylmye">
 
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon.png">
-<meta name="apple-mobile-web-app-title" content="DASH">
-<meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="apple-touch-icon-precomposed" href="./img/apple-touch-icon.png">
+    <meta name="apple-mobile-web-app-title" content="DASH">
+    <meta name="HandheldFriendly" content="True">
 
-<link rel="icon" href="./img/favicon.png">
-<meta name="msapplication-TileColor" content="#39c">
-<meta name="msapplication-square150x150logo" content="./img/win8-tile-icon.png">
+    <link rel="icon" href="./img/favicon.png">
+    <meta name="msapplication-TileColor" content="#39c">
+    <meta name="msapplication-square150x150logo" content="./img/win8-tile-icon.png">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="./css/custom.min.css" rel="stylesheet">
+    
+    <!-- twitter -->
+    <meta name="twitter:card" content="photo" />
+    <meta name="twitter:site" content="@dash_oddfuture" />
+    <meta name="twitter:creator" content="@dash_radio" />
+    <meta name="twitter:title" content="" />
+    <meta name="twitter:image" content="http://dylmye.me/dashradio-min-client/img/social.png" />
+    <meta name="twitter:image:width" content="1000">
+    <meta name="twitter:image:width" content="1000">
+    <meta name="twitter:url" content="">
 
-<!-- twitter -->
-<meta name="twitter:card" content="photo" />
-<meta name="twitter:site" content="@dash_oddfuture" />
-<meta name="twitter:creator" content="@dash_radio" />
-<meta name="twitter:title" content="" />
-<meta name="twitter:image" content="http://dylmye.me/dashradio-min-client/img/social.png" />
-<meta name="twitter:image:width" content="1000">
-<meta name="twitter:image:width" content="1000">
-<meta name="twitter:url" content="">
-
-<!-- facebook -->
-<meta property="og:title" content="Listen to DASH Radio" />
-<meta property="og:type" content="music.song" />
-<meta property="og:url" content="" />
-<meta property="og:locale" content="en_GB" />
-<meta property="og:image" content="http://dylmye.me/dashradio-min-client/img/social.png" />
-
-<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
-<link href="./css/custom.css" rel="stylesheet">
+    <!-- facebook -->
+    <meta property="og:title" content="Listen to DASH Radio" />
+    <meta property="og:type" content="music.song" />
+    <meta property="og:url" content="" />
+    <meta property="og:locale" content="en_GB" />
+    <meta property="og:image" content="http://dylmye.me/dashradio-min-client/img/social.png" />
 </head>
 
 <body>
@@ -65,8 +60,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="./index.html"><i class="fa fa-angle-left"></i></a>
-        <a class="navbar-brand" href="#">DASH</a>
+        <a class="navbar-brand" href="./index.html">DASH</a>
       </div>
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav"><!-- menu -->
@@ -87,11 +81,7 @@
 
       <div class="col-md-6"><!-- data -->
         <h3 id="PlayingFN">Loading...</h3>
-        <audio controls>
-              <source type="audio/mp4" src="" id="Player">
-              <em>Sorry, your browser doesn't support this stream. Upgrade your browser, it's 2015! <br> (Tech details: Most browsers don't support the AAC-ADTS format+wrapper but that's what Icecast serves this as (Flash recognises it, but it's Flash). Only IE and Microsoft Edge seem to properly support it. If you find a fix, <a href="https://github.com/dylmye/dashradio-min-client/issues/1">please inform!</a>)</em>
-        </audio> 
-        <h4><a href="" id="VLC">Play in VLC [Android+iOS Only, requires VLC app]</a></h4>
+        <div id="Player"></div>
         <h4 id="PlayingData">Loading...</h4>
         <p id="Description"></p>
         <a class="buy-itunes" id="BuyiTunes" href="#"><span class="buy-itunes-icon"></span><span class="share-itunes-text">Buy</span></a>
@@ -108,40 +98,12 @@
 
     </div><!-- /.row -->
 
-    <div class="row" id="bottomfeats"><!-- .row -->
-      <div class="col-lg-12"><!-- header -->
-        <h1 class="page-header">Most Popular</h1>
-      </div><!-- /header -->
-      <div id="FeaturedBottom"><!-- #featured -->
-        <section class="col-lg-3 col-md-4 col-xs-6 thumb">
-          <a class="thumbnail" href="./radio.html?statid=DASH56&server=ice10&auth=AE21238A-FD92-43BE-BA34-BA679008FC5A"><img class="img-responsive" src="http://54.191.183.105/~uploads/artwork/OddFutureBlue.jpg" alt="Odd Future Radio" title="Odd Future Radio"></a>
-            <a href="./radio.html?statid=DASH56&server=ice10&auth=AE21238A-FD92-43BE-BA34-BA679008FC5A"><h4>Odd Future Radio</h4></a>
-            <p class="stat-desc">Most radio sucks so we're doing it ourselves. We play and do what we want.</p>
-          </section>
-          <section class="col-lg-3 col-md-4 col-xs-6 thumb">
-            <a class="thumbnail" href="./radio.html?statid=DASH38&server=ice9&auth=39B3C51B-312C-414B-BA67-A3EE450435F7"><img class="img-responsive" src="http://54.191.183.105/~uploads/now_playing_artwork/Dash1New.jpg" alt="Dash 1" title="Dash 1"></a>
-              <a href="./radio.html?statid=DASH38&server=ice9&auth=39B3C51B-312C-414B-BA67-A3EE450435F7"><h4>Dash 1</h4></a>
-              <p class="stat-desc">DASH 1 brings you the best of DASH. If you're into a variety of new sounds and discovering new things, this is the place for you.</p>
-          </section>
-          <section class="col-lg-3 col-md-4 col-xs-6 thumb">
-            <a class="thumbnail" href="./radio.html?statid=DASH11&server=ice6&auth=45949391-35AE-4ACC-B3F9-3C9AA8F675FF"><img class="img-responsive" src="http://54.191.183.105/~uploads/now_playing_artwork/1580.jpg" alt="1580" title="1580"></a>
-              <a href="./radio.html?statid=DASH11&server=ice6&auth=45949391-35AE-4ACC-B3F9-3C9AA8F675FF"><h4>1580</h4></a>
-              <p class="stat-desc">Taking it back in the day as Julio G presents 1580.</p>
-          </section>
-          <section class="col-lg-3 col-md-4 col-xs-6 thumb">
-            <a class="thumbnail" href="./radio.html?statid=DASH40&server=ice9&auth=3859A5C5-136B-4E1B-8131-D02836445AF2"><img class="img-responsive" src="http://54.191.183.105/~uploads/artwork/iphone6plus/BeatJunkieRadio/BeatJunkieDefaultB.png" alt="Beat Junkie Radio" title="Beat Junkie Radio"></a>
-              <a href="./radio.html?statid=DASH40&server=ice9&auth=3859A5C5-136B-4E1B-8131-D02836445AF2"><h4>Beat Junkie Radio</h4></a>
-              <p class="stat-desc">The World Famous Beat Junkies has their very own official Radio Channel. </p>
-          </section>
-      </div><!-- /#featured -->
-    </div><!-- /.row -->
-
     <hr>
 
     <footer><!-- footer -->
       <div class="row">
         <div class="col-lg-12">
-          <p>Designed by dylmye under teamdaylo, released under MIT license. Uses data from DASH Radio LLC. teamdaylo is not responsible for any external data linked and the inclusion of this data on this site does not imply ownership from teamdaylo.<br><small>ver 3.2.1</small></p>
+          <p>Designed by dylmye under teamdaylo, released under MIT license. Uses data from DASH Radio LLC. teamdaylo is not responsible for any external data linked and the inclusion of this data on this site does not imply ownership from teamdaylo.<br><small>ver 3.3.0</small></p>
         </div>
       </div>
     </footer><!-- /footer -->
@@ -157,6 +119,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/js/bootstrap.min.js"></script>
 
   <script src="./js/jQuery.rss.js"></script>
-  <script src="./js/jQuery.DASH.js"></script>
+  <script src="./js/jQuery.DASH.min.js"></script>
 </body>
 </html>
