@@ -222,7 +222,7 @@
   $(document).ready(function(){
     $.ajax({
       type: "GET",
-      url: "./allStations.xml",
+      url: "./allStations.xml", 
       dataType: "xml",
       success: function(xml) {
           $(xml).find('station-object').each(function(){
