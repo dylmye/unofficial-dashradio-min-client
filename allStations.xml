@@ -83,7 +83,7 @@
             <name>Independent Grind</name>
             <genre>Hip Hop</genre>
             <square_logo_url>http://54.191.183.105/~uploads/icon_logos/independentgrindicon.png</square_logo_url>
-            <default_cover_url>http://radio.securenetsystems.net/file_radio/station-object_large/DASH8/v5/album-art-default.png</default_cover_url>
+            <default_cover_url>http://radio.securenetsystems.net/file_radio/stations_large/DASH8/v5/album-art-default.png</default_cover_url>
             <description>Powered by Tech N9ne and the number one independent rap label, Strange Music, Independent Grind is your source for independent hip-hop. Music, news, and interviews from your favorite do-it-yourself artists.</description>
             <server>ice55</server>
             <found>2015-10-05</found>
@@ -150,7 +150,7 @@
             <name>XXL</name>
             <genre>Hip Hop</genre>
             <square_logo_url>http://54.191.183.105/~uploads/icon_logos/xxltest4.png</square_logo_url>
-            <default_cover_url>http://54.191.183.105/~uploads/artwork/iphone6plus/XXL/XXLFuture092015.jpg</default_cover_url>
+            <default_cover_url>http://54.191.183.105/~uploads/artwork/iphone6plus/XXL/XXLWinter2016CoverArtwork%20copy.jpg</default_cover_url>
             <description>Presented by XXL Magazine, XXL is the home for hip-hop's biggest hits. Find out who's buzzing on the blogs and who's taking over the rap game! 
     </description>
             <server>ice55</server>
@@ -207,7 +207,7 @@
             <name>Y2K</name>
             <genre>Decades</genre>
             <square_logo_url>http://54.191.183.105/~uploads/icon_logos/y2kicon.png</square_logo_url>
-            <default_cover_url>http://radio.securenetsystems.net/file_radio/station-object_large/DASH19/v5/album-art-default.png</default_cover_url>
+            <default_cover_url>http://radio.securenetsystems.net/file_radio/stations_large/DASH19/v5/album-art-default.png</default_cover_url>
             <description>While we were all afraid of the Y2K bug, our favorite artists were still making music, and thankfully so. A diverse mix of your favorite songs from the 2000s. </description>
             <server>ice55</server>
             <found>2015-10-05</found>
@@ -275,7 +275,7 @@
             <genre>Electronic</genre>
             <square_logo_url>http://54.191.183.105/~uploads/icon_logos/subdustrialicon.png</square_logo_url>
             <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/Subdustrial1.jpg</default_cover_url>
-            <description>It's time to get down and dirty. The world's first industrial dance, drum &amp; bass, dirty house &amp; underground station-object.</description>
+            <description>It's time to get down and dirty. The world's first industrial dance, drum &amp; bass, dirty house &amp; underground station-object. [Station not listed - last check 2015-12-29]</description>
             <server>ice55</server>
             <found>2015-10-05</found>
         </station-object>
@@ -408,7 +408,7 @@
             <name>Skee 24/7</name>
             <genre>All (Open Format)</genre>
             <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/SKEEIcon.png</square_logo_url>
-            <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/SKEE247_SKEETVReturnsPromo.jpg</default_cover_url>
+            <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/SKEE247_SKEETVPromoB.jpg</default_cover_url>
             <description>Step into the world of DJ SKEE. His personal playlist: no limits, no genre restrictions.</description>
             <server>ice55</server>
             <found>2015-10-05</found>
@@ -513,7 +513,7 @@
             <found>2015-10-05</found>
         </station-object>
         
-        <!-- no DASH47 -->
+        <!-- no DASH47 - last check 2015-12-29 -->
         
         <station-object statid="48">
             <id>60</id>
@@ -528,11 +528,11 @@
         
         <station-object statid="49">
             <id>1930</id>
-            <name>Unknown</name>
+            <name>The Karlie Redd Show</name>
             <genre>Hip-Hop</genre>
             <square_logo_url></square_logo_url>
             <default_cover_url></default_cover_url>
-            <description>[Found 2015-10-05 unlisted. Information may be incorrect.] Coastal hip-hop.</description>
+            <description>[Found 2015-10-05 unlisted. Information may be incorrect.] [Update 2015-12-29 - Name + More info] Songs heard include West Coast Hip-Hop and London Grime. It's possible Karlie Redd (@KARLIEREDD) is moving from Playboy Radio.</description>
             <server>ice55</server>
             <found>2015-10-05</found>
         </station-object>
@@ -554,7 +554,7 @@
             <genre>Gaming</genre>
             <square_logo_url>http://54.191.183.105/~uploads/icon_logos/multiplayericon.png</square_logo_url>
             <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/Multiplayer.jpg</default_cover_url>
-            <description>Up, down, circle, R2, down, square. You've just unlocked the code to the only station-object designed for gamers just like yourself.</description>
+            <description>Up, down, circle, R2, down, square. You've just unlocked the code to the only station designed for gamers just like yourself.</description>
             <server>ice55</server>
             <found>2015-10-05</found>
         </station-object>
@@ -564,13 +564,22 @@
             <name>The Shane Show</name>
             <genre>Talk</genre>
             <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/TheShaneShowIcon.png</square_logo_url>
-            <default_cover_url>http://54.191.183.105/~uploads/artwork/iphone6plus/TheShaneShow/TheShaneShowC%20copy.png</default_cover_url>
+            <default_cover_url>http:///54.191.183.105/~uploads/show_artwork/TheShaneShow/ShaneShowArtwork%20copy.jpg</default_cover_url>
             <description>There's no predicting what will come from the mouth of Shane Powers. 24/7 access to radio's most intriguing personality.</description>
             <server>ice55</server>
             <found>2015-10-05</found>
         </station-object>
         
-        <!-- no DASH53 -->
+        <station-object statid="53">
+            <id>2848</id>
+            <name>Playboy Radio</name>
+            <genre>Hip Hop + R&amp;B</genre>
+            <square_logo_url></square_logo_url>
+            <default_cover_url></default_cover_url>
+            <description>[Found 2015-12-29 unlisted. Information may be incorrect.] IT'S PLAYBOY RADIO! Hosts include Karlie Redd</description>
+            <server>ice55</server>
+            <found>2015-12-29</found>
+        </station-object>
         
         <station-object statid="54">
             <id>105</id>
@@ -599,7 +608,7 @@
             <name>Odd Future Radio</name>
             <genre>All (Open Format)</genre>
             <square_logo_url>http://54.191.183.105/~uploads/icon_logos/oddfutureicon.png</square_logo_url>
-            <default_cover_url>http://54.191.183.105/~uploads/artwork/iphone6plus/OddFuture/OddFutureGrey.jpg</default_cover_url>
+            <default_cover_url>http://54.191.183.105/~uploads/artwork/iphone6plus/OddFuture/OddFutureRedGreen.jpg</default_cover_url>
             <description>Most radio sucks so we're doing it ourselves. We play and do what we want.</description>
             <server>ice55</server>
             <found>2015-10-05</found>
@@ -616,7 +625,17 @@
             <found>2015-10-05</found>
         </station-object>
         
-        <!-- no DASH58 -->
+        <station-object statid="58">
+            <id>00001</id>
+            <name>Christmas In The City</name>
+            <genre>Holidays</genre>
+            <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/ChristmasInTheCityIconC.png</square_logo_url>
+            <default_cover_url>http://54.191.183.105/~uploads/artwork/iphone6plus/ChristmasInTheCity.png</default_cover_url>
+            <description>There's nothing quite like the vibe of the holidays in the big city. All the latest Christmas hits, with some of your all-time favorites sprinkled in. It's Christmas In The City!
+    </description>
+            <server>ice55</server>
+            <found>2015-12-29</found>
+        </station-object>
         
         <station-object statid="59">
             <id>85</id>
@@ -624,7 +643,7 @@
             <genre>Indie/Alternative</genre>
             <square_logo_url>http://54.191.183.105/~uploads/icon_logos/the_basementicon.png</square_logo_url>
             <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/TheBasement.jpg</default_cover_url>
-            <description>Dedicated to the punk living inside all of us. The Basement plays punk classics, new favorites, and a whole bunch of whatever we want. 
+            <description>Dedicated to the punk living inside all of us. The Basement plays punk classics, new favorites, and a whole bunch of whatever we want. [Deactivated - last checked 2015-12-29] 
     </description>
             <server>ice55</server>
             <found>2015-10-05</found>
@@ -636,7 +655,7 @@
             <genre>Soundtrack</genre>
             <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/Halo5Icon.png</square_logo_url>
             <default_cover_url>http://54.191.183.105/~uploads/artwork/iphone6plus/Halo5/Halo5GuardiansAlbumArtworkB.jpg</default_cover_url>
-            <description>[Found 2015-10-05 unlisted. Information may be incorrect.] [Updated - now official] Halo 5: Guardians Radio is centered around the release of Halo 5: Guardians for Xbox One featuring music from the Halo franchise including official remixes. Programming includes the main characters of the Halo franchise as guest DJs. In conjunction with the launch of the station DASH will be giving away Halo 5: Guardians games and limited edition consoles to contest winners.</description>
+            <description>[Found 2015-10-05 unlisted. Information may be incorrect.] [Updated - now official] Halo 5: Guardians Radio is centered around the release of Halo 5: Guardians for Xbox One featuring music from the Halo franchise including official remixes. Programming includes the main characters of the Halo franchise as guest DJs. [Deactivated - last check 2015-12-29]</description>
             <server>ice55</server>
             <found>2015-10-05</found>
         </station-object>
@@ -647,7 +666,7 @@
             <genre>Soul</genre>
             <square_logo_url></square_logo_url>
             <default_cover_url></default_cover_url>
-            <description>[Found 2015-10-29 unlisted. Information may be incorrect.] Seems to be a soul radio station. Unknown title as there are no idents.</description>
+            <description>[Found 2015-10-29 unlisted. Information may be incorrect.] Seems to be a soul radio station. Unknown title as there are no idents. [Deactivated - last check 2015-12-29]</description>
             <server>ice55</server>
             <found>2015-10-29</found>
         </station-object>
@@ -668,7 +687,7 @@
             <name>Monstercat</name>
             <genre>Electronic</genre>
             <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/MonstercatIcon.png</square_logo_url>
-            <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/MonstercatAlbumArtworkB.jpg</default_cover_url>
+            <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/MonsterCat_2.jpg</default_cover_url>
             <description>Welcome to the Monstercat Family. Hear music from artists such as Krewella, Pegboard Nerds, Project 46, Aero Chord, Haywyre, Tristam, Rogue, Au5, Fractal, Astronaut, Noisestorm + more!</description>
             <server>ice55</server>
             <found>2015-10-05</found>
@@ -691,7 +710,7 @@
             <genre>All (Open Format)</genre>
             <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/EVRIcon.png</square_logo_url>
             <default_cover_url>http://54.191.183.105/~uploads/artwork/iphone6plus/EastVillageRadio/EastVillageRadio.png</default_cover_url>
-            <description>Live radio from the East Village in New York City</description>
+            <description>Live radio from the East Village in New York City.</description>
             <server>ice55</server>
             <found>2015-10-05</found>
         </station-object>
@@ -729,20 +748,11 @@
             <found>2015-06-28</found>
         </station-object>
         
-        <!-- no DASH69 -->
+        <!-- no DASH69 - last check 2015-12-29  -->
         
-        <!-- no DASH70 - Formerly Rinse FM -->
+        <!-- no DASH70 - Formerly Rinse FM - last check 2015-12-29  -->
         
-        <station-object statid="71">
-            <id>126</id>
-            <name>Halloween</name>
-            <genre>Holidays</genre>
-            <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/halloweenicon3.png</square_logo_url>
-            <default_cover_url>http://54.191.183.105/~uploads/artwork/halloween.png</default_cover_url>
-            <description>Halloween is almost upon us! Get ready for the holiday with this collection of Halloween classics all month long.</description>
-            <server>ice55</server>
-            <found>2015-10-05</found>
-        </station-object>
+        <!-- no DASH69 - last check 2015-12-29 -->
         
         <station-object statid="72">
             <id>122</id>
@@ -755,15 +765,51 @@
             <found>2015-10-29</found>
         </station-object>
         
-        <!-- no DASH73 -->
+        <station-object statid="73">
+            <id>136</id>
+            <name>Best of Dash</name>
+            <genre>All (Open Format)</genre>
+            <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/BestOfDashIcon.png</square_logo_url>
+            <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/BestOfDash_CoverArtwork.jpg</default_cover_url>
+            <description>Some of our best shows from all across our channels, all in one place, 24 hours a day.</description>
+            <server>ice55</server>
+            <found>2015-12-29</found>
+        </station-object>
         
         <!-- no DASH74 -->
         
-        <!-- no DASH75 -->
+        <station-object statid="75">
+            <id>134</id>
+            <name>Country Christmas</name>
+            <genre>Holidays</genre>
+            <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/CountryChristmasIconC.png</square_logo_url>
+            <default_cover_url>http://54.191.183.105/~uploads/artwork/iphone6plus/CountryChristmasArt.png</default_cover_url>
+            <description>Fill your holidays with cheer! From modern country hits, to some of the all-time country classic Christmas songs, spend the holidays with Country Christmas.</description>
+            <server>ice55</server>
+            <found>2015-12-29</found>
+        </station-object>
         
-        <!-- no DASH76 -->
+        <station-object statid="76">
+            <id>135</id>
+            <name>Quiet Melon</name>
+            <genre>Meditation</genre>
+            <square_logo_url>http://54.191.183.105/~uploads/icon_logos/colored_light/QuietMelonIcon.png</square_logo_url>
+            <default_cover_url>http://54.191.183.105/~uploads/now_playing_artwork/QuietMelonCoverArtworkB.jpg</default_cover_url>
+            <description>Meditation, Music, and Mindful Chats.</description>
+            <server>ice55</server>
+            <found>2015-12-29</found>
+        </station-object>
         
-        <!-- no DASH77 -->
+        <station-object statid="77">
+            <id>134</id>
+            <name>Christmas Lane</name>
+            <genre>Holidays</genre>
+            <square_logo_url>http://54.191.183.105/~uploads/icon_logos/iphone6plus/ChristmasLaneIconC.png</square_logo_url>
+            <default_cover_url>http://54.191.183.105/~uploads/artwork/iphone6plus/ChristmasLane.png</default_cover_url>
+            <description>Like a musical trip to Grandma's house--re-live the holiday memories of your childhood, with all-time Christmas classics, here on Christmas Lane.</description>
+            <server>ice55</server>
+            <found>2015-12-29</found>
+        </station-object>
         
         <station-object statid="78">
             <id>129</id>
