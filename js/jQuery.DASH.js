@@ -1,7 +1,7 @@
 $(document).ready(function(){
     /*
     DASH RADIO MIN CLIENT
-    v3.3.0 # MIT
+    v3.4.0 # MIT
     
     jQuery.Dash
     grabs data for the current station
@@ -43,8 +43,8 @@ $(document).ready(function(){
         station = {
             name : $(thexml).find('name').text(),
             genre : $(thexml).find('genre').text(),
-            logo : $(thexml).find('square_logo_url').text(),
-            cover : $(thexml).find('default_cover_url').text(),
+            logo : $(thexml).find('icon').text(),
+            cover : $(thexml).find('cover').text(),
             description : $(thexml).find('description').text(),
             server : $(thexml).find('server').text(),
 

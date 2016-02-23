@@ -9,7 +9,7 @@
   many thanks to dash radio for the streams.
   this website aims to work on any modern device, without stupid apps.
 
-  v3.3.0
+  v3.4.0
   mit license - you must include the license located at http://git.io/KjOJmw
 */
 
@@ -273,4 +273,8 @@ section {
 #bottomfeats {
   background-image: url("../img/bg.jpg");
   background-size: 80% auto;
+}
+
+.jumper {
+    background: #eee;
 }
