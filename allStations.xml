@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<dash version="3.4.0">
+<dash version="3.4.1">
     <stations>
         <!--
         Genre ID Guide
@@ -36,7 +36,7 @@
             <genre>2</genre>
             <icon>http://54.191.183.105/~uploads/icon_logos/colored_light/90s.png</icon>
             <cover>http://54.191.183.105/~uploads/now_playing_artwork/90s.jpg</cover>
-            <description>90s babies are very territorial about the music they grew up on. We don't blame you, it was pretty darn good.</description>
+            <description>90s babies are very territorial about the music they grew up on. We don&apos;t blame you, it was pretty darn good.</description>
             <server>ice55</server>
             <found>2015-10-05</found>
         </station-object>
@@ -69,7 +69,7 @@
             <genre>2</genre>
             <icon>http://54.191.183.105/~uploads/icon_logos/colored_light/DiscoFever.png</icon>
             <cover>http://54.191.183.105/~uploads/now_playing_artwork/DiscoFever.jpg</cover>
-            <description>It's 2015 but we still rock our bell bottoms and platform shoes. Consider us infected because we have Disco Fever!</description>
+            <description>It&apos;s 2015 but we still rock our bell bottoms and platform shoes. Consider us infected because we have Disco Fever!</description>
             <server>ice55</server>
             <found>2015-10-05</found>
         </station-object>
@@ -80,7 +80,7 @@
             <genre>2</genre>
             <icon>http://54.191.183.105/~uploads/icon_logos/colored_light/Ratpack.png</icon>
             <cover>http://54.191.183.105/~uploads/now_playing_artwork/Ratpack.jpg</cover>
-            <description>Frank, Sammy, Dean, and everything in between. Order another martini, you're going to be here for a while.</description>
+            <description>Frank, Sammy, Dean, and everything in between. Order another martini, you&apos;re going to be here for a while.</description>
             <server>ice55</server>
             <found>2015-10-05</found>
         </station-object>
@@ -157,7 +157,7 @@
             <genre>10</genre>
             <icon>http://54.191.183.105/~uploads/icon_logos/colored_light/DashAlternative.png</icon>
             <cover>http://54.191.183.105/~uploads/now_playing_artwork/Alternative.jpg</cover>
-            <description>We leave no subgenre untouched. Alt Rock like you've never heard it before.</description>
+            <description>We leave no subgenre untouched. Alt Rock like you&apos;ve never heard it before.</description>
             <server>ice55</server>
             <found>2015-10-05</found>
         </station-object>
@@ -168,7 +168,7 @@
             <genre>12</genre>
             <icon>http://54.191.183.105/~uploads/icon_logos/colored_light/TheRanch.png</icon>
             <cover>http://54.191.183.105/~uploads/now_playing_artwork/TheRanch.jpg</cover>
-            <description>Hop in the pick up truck and take a ride down memory lane. Country music's greatest hits from years past.</description>
+            <description>Hop in the pick up truck and take a ride down memory lane. Country music&apos;s greatest hits from years past.</description>
             <server>ice55</server>
             <found>2015-10-05</found>
         </station-object>
@@ -179,7 +179,7 @@
             <genre>3</genre>
             <icon>http://54.191.183.105/~uploads/icon_logos/colored_light/XXL.png</icon>
             <cover>http://54.191.183.105/~uploads/artwork/iphone6plus/XXL/XXLWinter2016CoverArtwork%20copy.jpg</cover>
-            <description>Presented by XXL Magazine, XXL is the home for hip-hop&apos;s biggest hits. Find out who's buzzing on the blogs and who&apos;s taking over the rap game!</description>
+            <description>Presented by XXL Magazine, XXL is the home for hip-hop&apos;s biggest hits. Find out who&apos;s buzzing on the blogs and who&apos;s taking over the rap game!</description>
             <server>ice55</server>
             <found>2015-10-05</found>
         </station-object>
@@ -201,7 +201,7 @@
             <genre>14</genre>
             <icon>http://54.191.183.105/~uploads/icon_logos/colored_light/CadilaccMusic.png</icon>
             <cover>http://54.191.183.105/~uploads/now_playing_artwork/CadillaccMusic.jpg</cover>
-            <description>Roll the windows down on the Caddy and crank the music way up. Presented by Snoop Dogg aka DJ Snoopadelic, there's only one way to describe Cadillacc Music: Rhythm &amp; Gangsta.</description>
+            <description>Roll the windows down on the Caddy and crank the music way up. Presented by Snoop Dogg aka DJ Snoopadelic, there&apos;s only one way to describe Cadillacc Music: Rhythm &amp; Gangsta.</description>
             <server>ice55</server>
             <found>2015-10-05</found>
         </station-object>
@@ -245,7 +245,7 @@
             <genre>11</genre>
             <icon>http://54.191.183.105/~uploads/icon_logos/colored_light/ParadiseCity.png</icon>
             <cover>http://54.191.183.105/~uploads/now_playing_artwork/ParadiseCity.jpg</cover>
-            <description>Curated by rock legends Guns N' Roses, Paradise City is your one-stop shop for GNR hits and other rock classics. The grass is always greener and the girls are always prettier on Paradise City.</description>
+            <description>Curated by rock legends Guns N&apos; Roses, Paradise City is your one-stop shop for GNR hits and other rock classics. The grass is always greener and the girls are always prettier on Paradise City.</description>
             <server>ice55</server>
             <found>2015-10-05</found>
         </station-object>
@@ -256,7 +256,7 @@
             <genre>11</genre>
             <icon>http://54.191.183.105/~uploads/icon_logos/colored_light/11.png</icon>
             <cover>http://54.191.183.105/~uploads/now_playing_artwork/11.jpg</cover>
-            <description>Who didn't want to be a rockstar growing up? Pull out that air guitar and jam with the most iconic rockstars of decades past.</description>
+            <description>Who didn&apos;t want to be a rockstar growing up? Pull out that air guitar and jam with the most iconic rockstars of decades past.</description>
             <server>ice55</server>
             <found>2015-10-05</found>
         </station-object>
@@ -311,7 +311,7 @@
             <genre>2</genre>
             <icon>http://54.191.183.105/~uploads/icon_logos/colored_light/70s.png</icon>
             <cover>http://54.191.183.105/~uploads/now_playing_artwork/70s.jpg</cover>
-            <description>We've all got a little hippy in us. Relive the psychedelic era with 70s on Dash!</description>
+            <description>We&apos;ve all got a little hippy in us. Relive the psychedelic era with 70s on Dash!</description>
             <server>ice55</server>
             <found>2015-10-05</found>
         </station-object>
@@ -333,7 +333,7 @@
             <genre>15</genre>
             <icon>http://54.191.183.105/~uploads/icon_logos/colored_light/YG.png</icon>
             <cover>http://54.191.183.105/~uploads/now_playing_artwork/YGGeneralArtwork.jpg</cover>
-            <description>YG Entertainment, Korea's top label, presents you with the hottest tracks from your favorite YG artists. It's like attending your own personal 24/7 YG Family concert.</description>
+            <description>YG Entertainment, Korea&apos;s top label, presents you with the hottest tracks from your favorite YG artists. It&apos;s like attending your own personal 24/7 YG Family concert.</description>
             <server>ice55</server>
             <found>2015-10-05</found>
         </station-object>
@@ -346,6 +346,7 @@
             <cover>http://54.191.183.105/~uploads/now_playing_artwork/Cinescore.jpg</cover>
             <description>Get your popcorn ready! Cinescore presents classic film scores and movie soundtracks from your favorite movies.</description>
             <server>ice55</server>
+            <streamdb>6</streamdb>
             <found>2015-10-05</found>
         </station-object>
         
@@ -355,7 +356,7 @@
             <genre>13</genre>
             <icon>http://54.191.183.105/~uploads/icon_logos/colored_light/PressPlay.png</icon>
             <cover>http://54.191.183.105/~uploads/now_playing_artwork/PressPlay.jpg</cover>
-            <description>No one understands the social media generation like we do. Tell your parents to get off your case, it's music time. </description>
+            <description>No one understands the social media generation like we do. Tell your parents to get off your case, it&apos;s music time. </description>
             <server>ice55</server>
             <found>2015-10-05</found>
         </station-object>
@@ -411,7 +412,7 @@
             <genre>12</genre>
             <icon>http://54.191.183.105/~uploads/icon_logos/colored_light/RedCup.png</icon>
             <cover>http://54.191.183.105/~uploads/now_playing_artwork/RedCup.jpg</cover>
-            <description>You'd swear you were in the heart of Nashville. The home for country music's biggest hits and upcoming superstars.</description>
+            <description>You&apos;d swear you were in the heart of Nashville. The home for country music&apos;s biggest hits and upcoming superstars.</description>
             <server>ice55</server>
             <found>2015-10-05</found>
         </station-object>
@@ -510,7 +511,7 @@
             <genre>19</genre>
             <icon>http://54.191.183.105/~uploads/icon_logos/colored_light/TheBridge.png</icon>
             <cover>http://54.191.183.105/~uploads/now_playing_artwork/TheBridge.jpg</cover>
-            <description>Church comes to your speakers. It's like having your own personal choir.</description>
+            <description>Church comes to your speakers. It&apos;s like having your own personal choir.</description>
             <server>ice55</server>
             <found>2015-10-05</found>
         </station-object>
@@ -565,7 +566,7 @@
             <genre>3</genre>
             <icon>http://54.191.183.105/~uploads/icon_logos/colored_light/BestOfDash_ColorB.png</icon>
             <cover>http://54.191.183.105/~uploads/now_playing_artwork/BestOfDash_CoverArtwork.jpg</cover>
-            <description>[Found 2015-10-05 unlisted. Information may be incorrect.] [Update 2015-12-29 - Name + More info] Songs heard include West Coast Hip-Hop and London Grime. It's possible Karlie Redd (@KARLIEREDD) is moving from Playboy Radio. Plays different music to DASH 53 / Playboy Radio.</description>
+            <description>[Found 2015-10-05 unlisted. Information may be incorrect.] [Update 2015-12-29 - Name + More info] Songs heard include West Coast Hip-Hop and London Grime. It&apos;s possible Karlie Redd (@KARLIEREDD) is moving from Playboy Radio. Plays different music to DASH 53 / Playboy Radio.</description>
             <server>ice55</server>
             <found>2015-10-05</found>
         </station-object>
@@ -587,7 +588,7 @@
             <genre>21</genre>
             <icon>http://54.191.183.105/~uploads/icon_logos/colored_light/Multiplayer.png</icon>
             <cover>http://54.191.183.105/~uploads/now_playing_artwork/Multiplayer.jpg</cover>
-            <description>Up, down, circle, R2, down, square. You've just unlocked the code to the only station designed for gamers just like yourself.</description>
+            <description>Up, down, circle, R2, down, square. You&apos;ve just unlocked the code to the only station designed for gamers just like yourself.</description>
             <server>ice55</server>
             <found>2015-10-05</found>
         </station-object>
@@ -598,7 +599,7 @@
             <genre>20</genre>
             <icon>http://54.191.183.105/~uploads/icon_logos/colored_light/TheShaneShow.png</icon>
             <cover>http:///54.191.183.105/~uploads/show_artwork/TheShaneShow/ShaneShowArtwork%20copy.jpg</cover>
-            <description>There's no predicting what will come from the mouth of Shane Powers. 24/7 access to radio's most intriguing personality.</description>
+            <description>There&apos;s no predicting what will come from the mouth of Shane Powers. 24/7 access to radio&apos;s most intriguing personality.</description>
             <server>ice55</server>
             <found>2015-10-05</found>
         </station-object>
@@ -609,7 +610,7 @@
             <genre>4</genre>
             <icon>http://54.191.183.105/~uploads/icon_logos/colored_light/BestOfDash_ColorB.png</icon>
             <cover>http://54.191.183.105/~uploads/now_playing_artwork/BestOfDash_CoverArtwork.jpg</cover>
-            <description>[Found 2015-12-29 unlisted. Information may be incorrect.] IT'S PLAYBOY RADIO! Hosts include Karlie Redd.</description>
+            <description>[Found 2015-12-29 unlisted. Information may be incorrect.] IT&apos;S PLAYBOY RADIO! Hosts include Karlie Redd.</description>
             <server>ice55</server>
             <found>2015-12-29</found>
         </station-object>
@@ -620,7 +621,7 @@
             <genre>4</genre>
             <icon>http://54.191.183.105/~uploads/icon_logos/colored_light/iCraft.png</icon>
             <cover>http://54.191.183.105/~uploads/artwork/iphone6plus/iCraftRadio/iCraftRadio.png</cover>
-            <description>Don't go chasing waterfalls, or good music. Let TLC's T-Boz guide you through the best of hip-hop and R&amp;B from the 90s to today.</description>
+            <description>Don&apos;t go chasing waterfalls, or good music. Let TLC&apos;s T-Boz guide you through the best of hip-hop and R&amp;B from the 90s to today.</description>
             <server>ice55</server>
             <found>2015-10-05</found>
         </station-object>
@@ -631,7 +632,7 @@
             <genre>17</genre>
             <icon>http://54.191.183.105/~uploads/icon_logos/colored_light/Euphoria.png</icon>
             <cover>http://54.191.183.105/~uploads/now_playing_artwork/Euphoria.jpg</cover>
-            <description>You've had a long day, kick back and relax. Let the soothing sounds of Euphoria cleanse your mind and body.</description>
+            <description>You&apos;ve had a long day, kick back and relax. Let the soothing sounds of Euphoria cleanse your mind and body.</description>
             <server>ice55</server>
             <found>2015-10-05</found>
         </station-object>
@@ -642,7 +643,7 @@
             <genre>1</genre>
             <icon>http://54.191.183.105/~uploads/icon_logos/colored_light/OddFutureRadio.png</icon>
             <cover>http://54.191.183.105/~uploads/artwork/iphone6plus/OddFuture/OddFuturePink.png</cover>
-            <description>Most radio sucks so we're doing it ourselves. We play and do what we want.</description>
+            <description>Most radio sucks so we&apos;re doing it ourselves. We play and do what we want.</description>
             <server>ice55</server>
             <found>2015-10-05</found>
         </station-object>
@@ -668,7 +669,7 @@
             <genre>3</genre>
             <icon>http://54.191.183.105/~uploads/icon_logos/colored_light/BREALTVColor.png</icon>
             <cover>http://54.191.183.105/~uploads/now_playing_artwork/BREALTVStationDefaultCover%20copy.jpg</cover>
-            <description>[Previously HALO 5: Guardians Radio - Updated 2016-02-22] MUSIC &bull; NEWS &bull; CANNABIS &bull; CULTURE</description>
+            <description>[Previously HALO 5: Guardians Radio - Updated 2016-02-22] MUSIC / NEWS / CANNABIS / CULTURE</description>
             <server>ice55</server>
             <found>2016-02-22</found>
         </station-object>
@@ -802,17 +803,19 @@
             <cover>http://54.191.183.105/~uploads/now_playing_artwork/LosAnarchyAlbumArtwork.jpg</cover>
             <description>Welcome to Los Anarchy Radio. Where there are no rules. This is where you come to listen to all the hits in Punk, Thrash and Metal. If you are a fan of these styles, you have finally found your home.</description>
             <server>ice55</server>
+            <streamdb>6</streamdb>
             <found>2015-10-29</found>
         </station-object>
         
         <station-object statid="73">
             <id>136</id>
-            <name>Best of Dash</name>
+            <name>Best of DASH</name>
             <genre>1</genre>
             <icon>http://54.191.183.105/~uploads/icon_logos/colored_light/BestOfDash_ColorB.png</icon>
             <cover>http://54.191.183.105/~uploads/now_playing_artwork/BestOfDash_CoverArtwork.jpg</cover>
             <description>Some of our best shows from all across our channels, all in one place, 24 hours a day.</description>
             <server>ice55</server>
+            <streamdb>6</streamdb>
             <found>2015-12-29</found>
         </station-object>
         
@@ -828,6 +831,7 @@
             <cover>http://54.191.183.105/~uploads/now_playing_artwork/QuietMelonCoverArtworkB.jpg</cover>
             <description>Meditation, Music, and Mindful Chats.</description>
             <server>ice55</server>
+            <streamdb>6</streamdb>
             <found>2015-12-29</found>
         </station-object>
         
@@ -835,12 +839,13 @@
         
         <station-object statid="78">
             <id>129</id>
-            <name>Fade 100</name>
+            <name>Fader 100</name>
             <genre>1</genre>
             <icon>http://54.191.183.105/~uploads/icon_logos/colored_light/Fader.png</icon>
             <cover>http://54.191.183.105/~uploads/now_playing_artwork/Fader100Cover.jpg</cover>
-            <description>Celebrate music and lifestyle publication The FADER's 100th issue on Dash Radio! Enjoy music hand picked by the cultural tastemakers at The FADER as well as interviews from the founders, editor-in-chief, and other staff members.</description>
+            <description>Celebrate music and lifestyle publication The FADER&apos;s 100th issue on Dash Radio! Enjoy music hand picked by the cultural tastemakers at The FADER as well as interviews from the founders, editor-in-chief, and other staff members.</description>
             <server>ice55</server>
+            <streamdb>6</streamdb>
             <found>2015-10-29</found>
         </station-object>
         
@@ -852,6 +857,7 @@
             <cover>http://54.191.183.105/~uploads/now_playing_artwork/ReggaeKingNowPlayingArtwork.jpg</cover>
             <description>VP Records, the worlds biggest Reggae music label, brings you Reggae King, an all-reggae station-object straight from the heart of the Caribbean.</description>
             <server>ice55</server>
+            <streamdb>6</streamdb>
             <found>2015-10-05</found>
         </station-object>
         
@@ -863,6 +869,7 @@
             <cover>http://54.191.183.105/~uploads/artwork/iphone6plus/Manhattan/ManhattanArtworkDefault.jpg</cover>
             <description>Manhattan will transport listeners back in time to the 40&apos;s where jazz and big band style music dominated the airwaves. The station is based on the second season of the Emmy-winning show Manh(a)ttan on WGN America, which is set during the race to build the atomic bomb. The station plays a mix of soul, jazz, and rhythm and blues featuring talent of atomic proportions like Count Basie and Jimmy Davis to Amy Winehouse and Lana Del Rey.</description>
             <server>ice55</server>
+            <streamdb>6</streamdb>
             <found>2015-10-29</found>
         </station-object>
         
@@ -872,8 +879,9 @@
             <genre>1</genre>
             <icon>http://54.191.183.105/~uploads/icon_logos/colored_light\/CommunityPool.png</icon>
             <cover>http://54.191.183.105/~uploads/artwork/iphone6plus/CommunityPool/communitypool%20now%20playing.png</cover>
-            <description>No running by the pool. If you start to drown as a result of musical overload, unfortunately we can't save you.</description>
+            <description>No running by the pool. If you start to drown as a result of musical overload, unfortunately we can&apos;t save you.</description>
             <server>ice55</server>
+            <streamdb>6</streamdb>
             <found>2015-10-29</found>
         </station-object>
         

@@ -277,4 +277,10 @@ section {
 
 .jumper {
     background: #eee;
+    padding: 5px;
+}
+
+section > a > h4 {
+    font-size: 20px;
+    text-align: center;
 }

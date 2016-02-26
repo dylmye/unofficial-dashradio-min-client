@@ -1,7 +1,7 @@
 $(document).ready(function(){
     /*
     DASH RADIO MIN CLIENT
-    v3.4.0 # MIT
+    v3.4.1 # MIT
     
     jQuery.Dash
     grabs data for the current station
@@ -39,7 +39,9 @@ $(document).ready(function(){
     // funct parseStationXml - use for loadStation
     function parseStationXml(xml, statid) {
         var thexml = $(xml).find( 'station-object[statid="' + statid + '"]' );
-
+        
+        var dbtype = ($(thexml).find('streamdb').text()) ? "db6web" : "db5web";
+        
         station = {
             name : $(thexml).find('name').text(),
             genre : $(thexml).find('genre').text(),
@@ -47,17 +49,26 @@ $(document).ready(function(){
             cover : $(thexml).find('cover').text(),
             description : $(thexml).find('description').text(),
             server : $(thexml).find('server').text(),
-
+            
             stream : 'http://' + $(thexml).find('server').text() + '.securenetsystems.net/DASH' + statid,
-            history : 'http://streamdb5web.securenetsystems.net/player_status_update/DASH' + statid + '_history_rss.xml',
-            nowPlaying : 'http://streamdb5web.securenetsystems.net/player_status_update/DASH' + statid + '.xml'
+            history : 'http://stream' + dbtype + '.securenetsystems.net/player_status_update/DASH' + statid + '_history_rss.xml',
+            nowPlaying : 'http://stream' + dbtype + '.securenetsystems.net/player_status_update/DASH' + statid + '.xml'
         };
-        $("#Player").html('<audio controls autoplay><source type="audio/mpeg" src="' + station.stream + '"><em>Sorry, your browser doesn&apos;t support this stream. Upgrade your browser, it&apos;s 2015!</em></audio>');
+        console.log(station);
+        
+        // set player
+        $("#Player").html('<audio controls autoplay><source type="audio/mpeg" src="' + station.stream + '"><em>Sorry, your browser doesn&apos;t support this stream. Upgrade your browser, it&apos;s 2016!</em></audio>');
+        
+        // set play history
         $("#PlayingHistory").rss(station.history, {
           limit: 5, // only top 5
           layoutTemplate: '<p class="dl-horizontal">{entries}</p>',
           entryTemplate: '<p><span>{title} {body}</span></p> <hr>'
-        }).show();    
+        }).show();
+        
+        // title changing
+        $("#favicon").attr("href", station.logo);
+        $(document).prop('title', station.name + " on DASH");
     }
     
     // funct getNowPlaying - uses player_status_update to get current info.
