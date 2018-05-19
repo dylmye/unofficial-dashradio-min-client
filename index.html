@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--
+        DYLMYE
+        DASHRADIO-MIN-CLIENT
+
+      listen to dash radio in any country, from any device
+      props to dash for not sueing and providing great streams
+
+      v3.4.1
+      mit license
+    -->
+    <meta charset="utf-8">
+
+    <title>DASH RADIO</title>
+    <meta name="application-name" content="DASH Radio Min Client">
+    <meta name="description" content="listen to next gen radio from DASH, on any device.">
+    <meta name="author" content="dylmye">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-title" content="DASH">
+    <meta name="HandheldFriendly" content="True">
+
+    <link rel="shortcut icon" href="./img/icons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="./img/icons/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="./img/icons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./img/icons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./img/icons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./img/icons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./img/icons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./img/icons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./img/icons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/icons/apple-touch-icon-180x180.png">
+    <meta name="msapplication-TileColor" content="#39c">
+    <meta name="msapplication-square150x150logo" content="./img/icons/win8-tile-icon.png">
+    
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="./css/custom.min.css" rel="stylesheet">
+    
+    <!-- twitter -->
+    <meta name="twitter:card" content="photo">
+    <meta name="twitter:site" content="@dash_oddfuture">
+    <meta name="twitter:creator" content="@dash_radio">
+    <meta name="twitter:title" content="Listen to DASH Radio">
+    <meta name="twitter:image" content="http://dylmye.me/dashradio-min-client/img/social.png">
+    <meta name="twitter:image:width" content="1000">
+    <meta name="twitter:image:width" content="1000">
+    <meta name="twitter:url" content="http://dylmye.me/dashradio-min-client">
+
+    <!-- facebook -->
+    <meta property="og:title" content="Listen to DASH Radio">
+    <meta property="og:type" content="music.song">
+    <meta property="og:url" content="http://dylmye.me/dashradio-min-client">
+    <meta property="og:locale" content="en_GB">
+    <meta property="og:image" content="http://dylmye.me/dashradio-min-client/img/social.png">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation"><!-- navigation -->
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navlinks">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">DASH</a>
+      </div>
+      <div class="collapse navbar-collapse" id="navlinks">
+        <ul class="nav navbar-nav"><!-- menu -->
+          <li><a href="http://dashradio.com" title="Full Site"><i class="fa fa-desktop"></i><span class="daylo-mobile-only">Full Site</span></a></li>
+          <li><a href="http://hyperurl.co/dash-radio-app" title="Get the App"><i class="fa fa-mobile"></i><span class="daylo-mobile-only">Get the App</span></a></li>
+          <li><a href="https://github.com/dylmye/dashradio-min-client/tree/gh-pages" title="Fork on Github"><i class="fa fa-github"></i><span class="daylo-mobile-only">Fork on Github</span></a></li>
+        </ul><!-- /menu -->
+      </div>
+    </div>
+  </nav><!-- /navigation -->
+
+  <div class="container"><!-- .container -->
+
+    <div class="row" id="toprow">
+        <h2 style="text-align: center">The light player for the Dash Radio group of stations.</h2>
+        <div class="video-container"><iframe width="480" height="270" src="https://www.youtube.com/embed/KZcp4XzEyx4" frameborder="0" allowfullscreen></iframe></div>
+      <div class="col-lg-12"><!-- header -->
+        <h1 class="page-header">Most Popular</h1>
+      </div><!-- /header -->
+        
+      <div id="Featured"><!-- #featured -->
+          
+        <section class="col-lg-3 col-md-4 col-xs-6 thumb">
+          <a class="thumbnail" href="./radio.html?statid=56"><img class="img-responsive" src="http://54.191.183.105/~uploads/artwork/OddFutureBlue.jpg" alt="Odd Future Radio" title="Odd Future Radio"></a>
+            <a href="./radio.html?statid=56"><h4>Odd Future Radio</h4></a>
+            <p class="stat-desc">Most radio sucks so we're doing it ourselves. We play and do what we want.</p>
+          </section>
+          
+          <section class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <a class="thumbnail" href="./radio.html?statid=38"><img class="img-responsive" src="http://54.191.183.105/~uploads/now_playing_artwork/Dash1New.jpg" alt="Dash 1" title="Dash 1"></a>
+              <a href="./radio.html?statid=38"><h4>Dash 1</h4></a>
+              <p class="stat-desc">DASH 1 brings you the best of DASH. All the latest music, in-studio events, biggest DJ's, and highlights from the entire DASH network converge here. If you're into a variety of new sounds and discovering new things, this is the place for you.</p>
+          </section>
+          
+          <section class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <a class="thumbnail" href="./radio.html?statid=11"><img class="img-responsive" src="http://54.191.183.105/~uploads/now_playing_artwork/1580.jpg" alt="1580" title="1580"></a>
+              <a href="./radio.html?statid=11"><h4>1580</h4></a>
+              <p class="stat-desc">Taking it back in the day as Julio G presents 1580.</p>
+          </section>
+          
+          <section class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <a class="thumbnail" href="./radio.html?statid=40"><img class="img-responsive" src="http://54.191.183.105/~uploads/artwork/iphone6plus/BeatJunkieRadio/BeatJunkieDefaultB.png" alt="Beat Junkie Radio" title="Beat Junkie Radio"></a>
+              <a href="./radio.html?statid=40"><h4>Beat Junkie Radio</h4></a>
+              <p class="stat-desc">The World Famous Beat Junkies has their very own official Radio Channel. You can listen to DJ Mixes & Music such as Hip Hop, Soul, Funk, Breaks & many more 24/7, programmed personally by The Beat Junkies.</p>
+          </section>
+      </div><!-- /#featured -->
+
+    </div><!-- /.row -->
+
+      <h4 class="jumper"><strong>Go to: </strong><a href="#Gen-All">Open Format</a>, <a href="#Gen-Decades">Decades</a>, <a href="#Gen-HipHop">Hip Hop</a>, <a href="#Gen-HipHopRAB">Hip Hop + R&amp;B</a>, <a href="#Gen-RAB">R&amp;B</a>, <a href="#Gen-Jazz">Jazz</a>, <a href="#Gen-Island">Island</a>, <a href="#Gen-FunkSoul">Funk &amp; Soul</a>, <a href="#Gen-Electronic">Electronic</a>, <a href="#Gen-IndieAlt">Indie/Alternative</a>, <a href="#Gen-Rock">Rock</a>, <a href="#Gen-Country">Country</a>, <a href="#Gen-Pop">Pop</a>, <a href="#Gen-RhythmAGangsta">Rhythm &amp; Gangsta</a>, <a href="#Gen-World">World</a>, <a href="#Gen-Soundtrack">Soundtrack</a>, <a href="#Gen-Chill">Chill</a>, <a href="#Gen-Classical">Classical</a>, <a href="#Gen-FaithAGospel">Faith &amp; Gospel</a>, <a href="#Gen-Talk">Talk</a>, <a href="#Gen-Gaming">Gaming</a>, <a href="#Gen-Romance">Romance</a>, <a href="#Gen-Holiday">Holiday</a>, <a href="#Gen-PTM">Punk Thrash Metal</a>, and <a href="#Gen-Reggae">Reggae</a>.</h4>
+      
+    <div id="STATIONS">
+    <div class="row"> <!-- All (Open Format) -->
+      <div class="col-lg-12"> 
+          <h1 class="page-header">Open Format</h1>
+      </div>
+        <section id="Gen-All"></section>
+    </div> <!--/All (Open Format) -->
+        
+    <div class="row"> <!-- Decades -->
+      <div class="col-lg-12"> 
+          <h1 class="page-header">Decades</h1>
+      </div>
+        <section id="Gen-Decades"></section>
+    </div> <!--/Decades -->
+        
+    <div class="row"> <!-- Hip-Hop -->
+      <div class="col-lg-12"> 
+          <h1 class="page-header">Hip-Hop</h1>
+      </div>
+        <section id="Gen-HipHop"></section>
+    </div> <!--/Hip-Hop -->
+        
+    <div class="row"> <!-- Hip-Hop + R&B -->
+      <div class="col-lg-12"> 
+          <h1 class="page-header">Hip-Hop + R&amp;B</h1>
+      </div>
+        <section id="Gen-HipHopRAB"></section>
+    </div> <!--/Hip-Hop + R&B -->
+        
+    <div class="row"> <!-- R&B -->
+      <div class="col-lg-12"> 
+          <h1 class="page-header">R&amp;B</h1>
+      </div>
+        <section id="Gen-RAB"></section>
+    </div> <!--/R&B -->
+        
+    <div class="row"> <!-- Jazz -->
+      <div class="col-lg-12"> 
+          <h1 class="page-header">Jazz</h1>
+      </div>
+        <section id="Gen-Jazz"></section>
+    </div> <!--/Jazz -->
+        
+    <div class="row"> <!-- Island -->
+      <div class="col-lg-12"> 
+          <h1 class="page-header">Island</h1>
+      </div>
+        <section id="Gen-Island"></section>
+    </div> <!--/Island -->
+        
+    <div class="row"> <!-- Funk & Soul -->
+      <div class="col-lg-12"> 
+          <h1 class="page-header">Fuck &amp; Soul</h1>
+      </div>
+        <section id="Gen-FunkSoul"></section>
+    </div> <!--/Funk & Soul -->
+        
+    <div class="row"> <!-- Electronic -->
+      <div class="col-lg-12"> 
+          <h1 class="page-header">Electronic</h1>
+      </div>
+        <section id="Gen-Electronic"></section>
+    </div> <!--/Electronic -->
+        
+    <div class="row"> <!-- Indie/Alternative -->
+      <div class="col-lg-12"> 
+          <h1 class="page-header">Indie &amp; Alternative</h1>
+      </div>
+        <section id="Gen-IndieAlt"></section>
+    </div> <!--/Indie/Alternative -->
+        
+    <div class="row"> <!-- Rock -->
+      <div class="col-lg-12"> 
+          <h1 class="page-header">Rock</h1>
+      </div>
+        <section id="Gen-Rock"></section>
+    </div> <!--/Rock -->
+        
+    <div class="row"> <!-- Pop -->
+      <div class="col-lg-12"> 
+          <h1 class="page-header">Pop</h1>
+      </div>
+        <section id="Gen-Pop"></section>
+    </div> <!--/Pop -->
+        
+    <div class="row"> <!-- Rhythm & Gangsta -->
+      <div class="col-lg-12"> 
+          <h1 class="page-header">Rhythm &amp; Gangsta</h1>
+      </div>
+        <section id="Gen-RhythmAGangsta"></section>
+    </div> <!--/Rhythm & Gangsta -->
+        
+    <div class="row"> <!-- World -->
+      <div class="col-lg-12"> 
+          <h1 class="page-header">World</h1>
+      </div>
+        <section id="Gen-World"></section>
+    </div> <!--/World -->
+        
+    <div class="row"> <!-- Soundtrack -->
+      <div class="col-lg-12"> 
+          <h1 class="page-header">Soundtrack</h1>
+      </div>
+        <section id="Gen-Soundtrack"></section>
+    </div> <!--/Soundtrack -->
+    
+    <div class="row"> <!-- Chill -->
+      <div class="col-lg-12"> 
+          <h1 class="page-header">Chill</h1>
+      </div>
+        <section id="Gen-Chill"></section>
+    </div> <!--/Chill -->
+        
+    <div class="row"> <!-- Classical -->
+      <div class="col-lg-12"> 
+          <h1 class="page-header">Classical</h1>
+      </div>
+        <section id="Gen-Classical"></section>
+    </div> <!--/Classical -->
+        
+    <div class="row"> <!-- Faith & Gospel -->
+      <div class="col-lg-12"> 
+          <h1 class="page-header">Faith &amp; Gospel</h1>
+      </div>
+        <section id="Gen-FaithAGospel"></section>
+    </div> <!--/Faith & Gospel -->
+        
+    <div class="row"> <!-- Talk -->
+      <div class="col-lg-12"> 
+          <h1 class="page-header">Talk</h1>
+      </div>
+        <section id="Gen-Talk"></section>
+    </div> <!--/Talk -->
+        
+    <div class="row"> <!-- Gaming -->
+      <div class="col-lg-12"> 
+          <h1 class="page-header">Gaming</h1>
+      </div>
+        <section id="Gen-Gaming"></section>
+    </div> <!--/Gaming -->
+        
+    <div class="row"> <!-- Romance -->
+      <div class="col-lg-12"> 
+          <h1 class="page-header">Romance</h1>
+      </div>
+        <section id="Gen-Romance"></section>
+    </div> <!--/Romance -->
+        
+    <div class="row"> <!-- Holiday -->
+      <div class="col-lg-12"> 
+          <h1 class="page-header">Holiday</h1>
+      </div>
+        <section id="Gen-Holiday"></section>
+    </div> <!--/Holiday -->
+        
+    <div class="row"> <!-- Punk Thrash Metal -->
+      <div class="col-lg-12"> 
+          <h1 class="page-header">Punk Thrash Metal</h1>
+      </div>
+        <section id="Gen-PTM"></section>
+    </div> <!--/Punk Thrash Metal -->
+        
+    <div class="row"> <!-- Reggae -->
+      <div class="col-lg-12"> 
+          <h1 class="page-header">Reggae</h1>
+      </div>
+        <section id="Gen-Reggae"></section>
+    </div> <!--/Reggae -->
+
+      </div><!-- /#stations -->
+
+    </div><!-- /.row -->
+
+    <hr>
+
+    <footer><!-- footer -->
+      <div class="row">
+        <div class="col-lg-12">
+          <p>Designed by dylmye under teamdaylo, released under MIT license. Uses data from DASH Radio LLC. teamdaylo is not responsible for any external data linked and the inclusion of this data on this site does not imply ownership from teamdaylo.<br><small>ver 3.4.1</small></p>
+        </div>
+      </div>
+    </footer><!-- /footer -->
+
+  </div><!-- /.container -->
+
+  <!-- SCRIPTS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script> // Each station
+  $(document).ready(function(){
+      $('meta[property=og\\:url]').attr('content', window.location.href);
+      $('meta[property=twitter\\:url]').attr('content', window.location.href);
+      console.log("it's debug time! doc ready");
+      grab_and_display();
+  });
+      
+    function grab_and_display() {
+        console.log("debug: g_a_d deployed");
+        $.ajax({
+        type: "GET",
+        url: "./allStations.xml", 
+        dataType: "xml",
+        success: function(xml) {
+            
+            console.log("debug: xml-success");
+
+            var stations = {
+                "all": ["#Gen-All"],
+                "decades": ["#Gen-Decades"],
+                "hiphop": ["#Gen-HipHop"],
+                "hiphop_r_b": ["#Gen-HipHopRAB"],
+                "r_b": ["#Gen-RAB"],
+                "jazz": ["#Gen-Jazz"],
+                "island": ["#Gen-Island"],
+                "funk_soul": ["#Gen-FunkSoul"],
+                "electronic": ["#Gen-Electronic"],
+                "indie_alt": ["#Gen-IndieAlt"],
+                "rock": ["#Gen-Rock"],
+                "country": ["#Gen-Country"],
+                "pop": ["#Gen-Pop"],
+                "rhythm_gangsta": ["#Gen-RhythmAGangsta"],
+                "world": ["#Gen-World"],
+                "soundtrack": ["#Gen-Soundtrack"],
+                "chill": ["#Gen-Chill"],
+                "classical": ["#Gen-Classical"],
+                "faith_gospel": ["#Gen-FaithAGospel"],
+                "talk": ["#Gen-Talk"],
+                "gaming": ["#Gen-Gaming"],
+                "romance": ["#Gen-Romance"],
+                "holiday": ["#Gen-Holiday"],
+                "punk_thrash_metal": ["#Gen-PTM"],
+                "reggae": ["#Gen-Reggae"]
+            };
+            
+            console.log("debug: commence s-o eaching");
+            $(xml).find('station-object').each(function(){
+                var parsed_station = {
+                    id: $(this).attr("statid"),
+                    name: $(this).find('name').text(),
+                    genre: $(this).find('genre').text(),
+                    icon: $(this).find('icon').text(),
+                    cover: $(this).find('cover').text(),
+                    description: $(this).find('description').text()
+                };
+                console.log("debug: station-object loaded");
+                
+                if(parsed_station.genre == "1") { stations["all"].push(parsed_station) };
+                if(parsed_station.genre == "2") { stations["decades"].push(parsed_station) };
+                if(parsed_station.genre == "3") { stations["hiphop"].push(parsed_station) };
+                if(parsed_station.genre == "4") { stations["hiphop_r_b"].push(parsed_station) };
+                if(parsed_station.genre == "5") { stations["r_b"].push(parsed_station) };
+                if(parsed_station.genre == "6") { stations["jazz"].push(parsed_station) };
+                if(parsed_station.genre == "7") { stations["island"].push(parsed_station) };
+                if(parsed_station.genre == "8") { stations["funk_soul"].push(parsed_station) };
+                if(parsed_station.genre == "9") { stations["electronic"].push(parsed_station) };
+                if(parsed_station.genre == "10") { stations["indie_alt"].push(parsed_station) };
+                if(parsed_station.genre == "11") { stations["rock"].push(parsed_station) };
+                if(parsed_station.genre == "12") { stations["country"].push(parsed_station) };
+                if(parsed_station.genre == "13") { stations["pop"].push(parsed_station) };
+                if(parsed_station.genre == "14") { stations["rhythm_gangsta"].push(parsed_station) };
+                if(parsed_station.genre == "15") { stations["world"].push(parsed_station) };
+                if(parsed_station.genre == "16") { stations["soundtrack"].push(parsed_station) };
+                if(parsed_station.genre == "17") { stations["chill"].push(parsed_station) };
+                if(parsed_station.genre == "18") { stations["classical"].push(parsed_station) };
+                if(parsed_station.genre == "19") { stations["faith_gospel"].push(parsed_station) };
+                if(parsed_station.genre == "20") { stations["talk"].push(parsed_station) };
+                if(parsed_station.genre == "21") { stations["gaming"].push(parsed_station) };
+                if(parsed_station.genre == "22") { stations["romance"].push(parsed_station) };
+                if(parsed_station.genre == "23") { stations["holiday"].push(parsed_station) };
+                if(parsed_station.genre == "24") { stations["punk_thrash_metal"].push(parsed_station) };
+                if(parsed_station.genre == "25") { stations["reggae"].push(parsed_station) };
+            });
+                // all stations now in parsed_station.GENRE
+            $.each(stations, function(i){
+                $.each(stations[i], function(key, val){
+                    if(jQuery.type(val) != "object") { // not a station
+                        current_tag = val;
+                    };
+                    if(jQuery.type(val) != "string") { // this is pretty safe as each station's first 
+                        $(current_tag).append('<section class="col-lg-3 col-md-4 col-xs-6 thumb" id="' + val.id + '"> <a class="thumbnail" href="./radio.html?statid=' + val.id + '"> <img class="img-responsive" src="' + val.cover + '" alt="' + val.name + '" title="' + val.name + '"></a> <a href="./radio.html?statid=' + val.id + '"> <h4>' + val.name + '</h4></a> <p class="stat-desc">' + val.description + '</p></section>');
+                    };
+                    
+                });
+            });
+        }
+        });
+    };
+  </script>
+</body>
+</html>

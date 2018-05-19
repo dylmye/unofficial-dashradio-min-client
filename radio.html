@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--
+        DYLMYE
+        DASHRADIO-MIN-CLIENT
+
+      listen to dash radio in any country, from any device
+      props to dash for not sueing and providing great streams
+
+      v3.4.1
+      mit license
+    -->
+    <meta charset="utf-8">
+
+    <title>DASH RADIO</title>
+    <meta name="application-name" content="DASH Radio Min Client">
+    <meta name="description" content="listen to next gen radio from DASH, on any device.">
+    <meta name="author" content="dylmye">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-title" content="DASH">
+    <meta name="HandheldFriendly" content="True">
+
+    <link rel="shortcut icon" href="./img/icons/favicon.ico" type="image/x-icon" id="favicon">
+    <link rel="apple-touch-icon" href="./img/icons/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="./img/icons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./img/icons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./img/icons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./img/icons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./img/icons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./img/icons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./img/icons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/icons/apple-touch-icon-180x180.png">
+    <meta name="msapplication-TileColor" content="#39c">
+    <meta name="msapplication-square150x150logo" content="./img/icons/win8-tile-icon.png">
+    
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="./css/custom.min.css" rel="stylesheet">
+    
+    <!-- twitter -->
+    <meta name="twitter:card" content="photo">
+    <meta name="twitter:site" content="@dash_oddfuture">
+    <meta name="twitter:creator" content="@dash_radio">
+    <meta name="twitter:title" content="">
+    <meta name="twitter:image" content="http://dylmye.me/dashradio-min-client/img/social.png">
+    <meta name="twitter:image:width" content="1000">
+    <meta name="twitter:image:width" content="1000">
+    <meta name="twitter:url" content="">
+
+    <!-- facebook -->
+    <meta property="og:title" content="Listen to DASH Radio">
+    <meta property="og:type" content="music.song">
+    <meta property="og:url" content="">
+    <meta property="og:locale" content="en_GB">
+    <meta property="og:image" content="http://dylmye.me/dashradio-min-client/img/social.png">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation"><!-- navigation -->
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navlinks">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="./">DASH</a>
+      </div>
+      <div class="collapse navbar-collapse" id="navlinks">
+        <ul class="nav navbar-nav"><!-- menu -->
+          <li><a href="http://dashradio.com" title="Full Site"><i class="fa fa-desktop"></i><span class="daylo-mobile-only">Full Site</span></a></li>
+          <li><a href="http://hyperurl.co/dash-radio-app" title="Get the App"><i class="fa fa-mobile"></i><span class="daylo-mobile-only">Get the App</span></a></li>
+          <li><a href="https://github.com/dylmye/dashradio-min-client/tree/gh-pages" title="Fork on Github"><i class="fa fa-github"></i><span class="daylo-mobile-only">Fork on Github</span></a></li>
+        </ul><!-- /menu -->
+      </div>
+    </div>
+  </nav><!-- /navigation -->
+
+  <div class="container" id="playtain"><!-- .container -->
+    <div class="row" style="margin-top: 5%;"><!-- .row -->
+
+      <div class="col-md-6">
+        <img class="img-responsive" src="./img/loading.png" alt="" title="" id="Cover">
+      </div>
+
+      <div class="col-md-6"><!-- data -->
+        <h3 id="PlayingFN">Loading...</h3>
+        <div id="Player"></div>
+        <h4 id="PlayingData">Loading...</h4>
+        <p id="Description"></p>
+        <a class="buy-itunes" id="BuyiTunes" href="#"><span class="buy-itunes-icon"></span><span class="share-itunes-text">Buy</span></a>
+        <a class="buy-gplay" id="BuyPlay" href="#"><span class="buy-gplay-icon"></span><span class="share-gplay-text">Buy</span></a>
+        <section id="PlayingHistory">
+          <h3>Last 5 Played</h4>
+        </section>
+        <footer>
+          <h3>Share</h3>
+          <a class="share-facebook" id="ShareFB" href="#"><span class="share-facebook-icon"></span><span class="share-facebook-text">Share</span></a>
+          <a class="share-twitter" id="ShareTweet" href="#"><span class="share-twitter-icon"></span><span class="share-twitter-text">Tweet</span></a>
+        </footer>
+      </div><!-- /data -->
+
+    </div><!-- /.row -->
+
+    <hr>
+
+    <footer><!-- footer -->
+      <div class="row">
+        <div class="col-lg-12">
+          <p>Designed by dylmye under teamdaylo, released under MIT license. Uses data from DASH Radio LLC. teamdaylo is not responsible for any external data linked and the inclusion of this data on this site does not imply ownership from teamdaylo.<br><small>ver 3.4.1</small></p>
+        </div>
+      </div>
+    </footer><!-- /footer -->
+
+  </div><!-- /.container -->
+
+  <!-- SCRIPTS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script>
+  $('meta[property=og\\:url]').attr('content', window.location.href);
+  $('meta[property=twitter\\:url]').attr('content', window.location.href);
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+  <script src="./js/jQuery.rss.js"></script>
+  <script src="./js/jQuery.DASH.min.js"></script>
+</body>
+</html>
